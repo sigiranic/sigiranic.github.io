@@ -1,0 +1,89 @@
+{
+  "total": 12,
+  "description": "Complete list of writing systems used for Iranian languages (modern and historical)",
+
+  "modern_scripts": {
+    "count": 5,
+    "scripts": [
+      {
+        "name": "Arabic / Perso-Arabic",
+        "variants": ["Standard Arabic", "Nastaliq", "Extended (with additional letters)"],
+        "languages": ["Persian", "Dari", "Kurdish Sorani", "Pashto", "Balochi", "Luri", "Gilaki", "Mazanderani", "Talysh"],
+        "description": "Most widely used script for Iranian languages"
+      },
+      {
+        "name": "Cyrillic",
+        "languages": ["Tajik", "Ossetic", "Yaghnobi", "Pamiri languages (Shughni, Wakhi, Yazgulyam, etc.)"],
+        "description": "Used in former Soviet republics"
+      },
+      {
+        "name": "Latin",
+        "languages": ["Kurdish Kurmanji (Turkey, Syria)", "Zazaki", "Talysh (Azerbaijan)", "Gilaki (informal)", "Mazanderani (informal)"],
+        "description": "Used in Turkey and informally elsewhere"
+      },
+      {
+        "name": "Hebrew",
+        "languages": ["Judeo-Persian", "Judeo-Tat", "Bukhori"],
+        "description": "Used by Jewish communities"
+      }
+    ]
+  },
+
+  "historical_scripts": {
+    "count": 7,
+    "scripts": [
+      {
+        "name": "Avestan",
+        "characters": 53,
+        "languages": ["Avestan"],
+        "period": "~500 BCE - present (liturgical)",
+        "description": "Created specifically for Zoroastrian religious texts"
+      },
+      {
+        "name": "Old Persian Cuneiform",
+        "languages": ["Old Persian"],
+        "period": "~525-330 BCE",
+        "description": "Cuneiform adapted for Old Persian under Achaemenid Empire"
+      },
+      {
+        "name": "Pahlavi",
+        "variants": ["Inscriptional Pahlavi", "Book Pahlavi", "Psalter Pahlavi"],
+        "languages": ["Middle Persian", "Parthian"],
+        "period": "~200 BCE - 900 CE",
+        "description": "Abjad script derived from Aramaic"
+      },
+      {
+        "name": "Manichaean",
+        "languages": ["Middle Persian", "Parthian", "Sogdian"],
+        "period": "~3rd-10th century CE",
+        "description": "Used for Manichaean religious texts"
+      },
+      {
+        "name": "Sogdian",
+        "languages": ["Sogdian"],
+        "period": "~2nd century BCE - 10th century CE",
+        "description": "Derived from Syriac script"
+      },
+      {
+        "name": "Kharosthi",
+        "languages": ["Gandhari and related languages"],
+        "period": "~3rd century BCE - 3rd century CE",
+        "description": "Used in ancient northwestern regions"
+      },
+      {
+        "name": "Inscriptional Parthian",
+        "languages": ["Parthian"],
+        "period": "~247 BCE - 224 CE",
+        "description": "Monumental script of Parthian Empire"
+      }
+    ]
+  },
+
+  "summary": {
+    "modern_in_use": 5,
+    "historical_extinct": 7,
+    "total": 12,
+    "most_common": "Perso-Arabic (various forms)",
+    "note": "Some languages use multiple scripts depending on region (e.g., Kurdish uses Arabic, Latin, and Cyrillic)"
+  }
+}

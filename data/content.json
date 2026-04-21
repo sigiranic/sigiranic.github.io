@@ -1,0 +1,128 @@
+{
+  "navigation": {
+    "brand": {
+      "strong": "SIG Iranic",
+      "subtitle": "Special Interest Group"
+    },
+    "links": [
+      { "text": "Languages", "href": "#languages" },
+      { "text": "Resources", "href": "#resources" },
+      { "text": "Research", "href": "#research" },
+      { "text": "Community", "href": "#community" }
+    ],
+    "externalLinks": [
+      { "text": "GitHub ↗", "href": "https://github.com/sigiranic" },
+      { "text": "HF ↗", "href": "https://huggingface.co/sigiranic" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Special Interest Group · Iranian Languages",
+    "title": "Iranic",
+    "titleEmphasis": "Languages",
+    "subtitle": "Research, Resources & Community",
+    "body": "A special interest group dedicated to NLP research and language technology for the Iranian language family — from Persian and Pashto to Shughni, Wakhi, and hundreds of endangered varieties across Central Asia and the Caucasus.",
+    "stats": [
+      { "number": "70", "label": "ISO 639-3 codes" },
+      { "number": "~210M", "label": "Total speakers" },
+      { "number": "12", "label": "Writing systems" },
+      { "number": "3,500+", "label": "Years attested" }
+    ],
+    "buttons": [
+      { "text": "Explore Languages", "href": "#languages", "type": "primary" },
+      { "text": "View Research", "href": "#research", "type": "secondary" }
+    ]
+  },
+  "sections": {
+    "languages": {
+      "eyebrow": "The Family",
+      "title": "Iranian",
+      "titleEmphasis": "Languages",
+      "body": "Select a branch to filter, then click any language for details and geographic context.",
+      "tabs": [
+        { "id": "all", "label": "All", "default": true },
+        { "id": "southwestern", "label": "Southwestern" },
+        { "id": "northwestern", "label": "Northwestern" },
+        { "id": "eastern", "label": "Eastern" },
+        { "id": "scythian", "label": "Scythian / Historical" }
+      ],
+      "mapHint": "Click a language to explore →"
+    },
+    "research": {
+      "eyebrow": "Research",
+      "title": "",
+      "titleEmphasis": "Publications",
+      "body": "Community publications organized by research area — select any entry to view details.",
+      "tabs": [
+        { "id": "all", "label": "All", "default": true },
+        { "id": "dataset", "label": "Datasets & Resources" },
+        { "id": "question-answering", "label": "Question Answering" },
+        { "id": "text-understanding", "label": "Text Understanding", "includes": ["sentiment-analysis", "classification", "emotion-detection", "named-entity-recognition"] },
+        { "id": "machine-translation", "label": "Machine Translation" },
+        { "id": "text-generation", "label": "Text Generation", "includes": ["text-generation", "instruction-following"] },
+        { "id": "language-models", "label": "Language Models" },
+        { "id": "multimodal", "label": "Speech & Vision", "includes": ["vision-language", "speech-recognition"] },
+        { "id": "other", "label": "Other Tasks", "includes": ["language-identification", "spell-checking", "ocr", "parsing", "other"] }
+      ],
+      "emptyStates": {
+        "papers": {
+          "icon": "◎",
+          "text": "Select a publication"
+        }
+      },
+      "paperFilters": {
+        "searchPlaceholder": "Search publications…",
+        "languageOptions": [
+          { "value": "all", "label": "All languages" },
+          { "value": "english", "label": "English" },
+          { "value": "persian", "label": "Persian" },
+          { "value": "dari", "label": "Dari" },
+          { "value": "tajik", "label": "Tajik" },
+          { "value": "pashto", "label": "Pashto" },
+          { "value": "kurdish", "label": "Kurdish (all varieties)" },
+          { "value": "kurmanji", "label": "Kurmanji" },
+          { "value": "sorani", "label": "Sorani" },
+          { "value": "balochi", "label": "Balochi" },
+          { "value": "gilaki", "label": "Gilaki" },
+          { "value": "mazanderani", "label": "Mazanderani" },
+          { "value": "talysh", "label": "Talysh" },
+          { "value": "tati", "label": "Tati" },
+          { "value": "tat-caucasus", "label": "Tat (Caucasus)" },
+          { "value": "zaza", "label": "Zaza" },
+          { "value": "gorani", "label": "Gorani" },
+          { "value": "luri", "label": "Luri" },
+          { "value": "laki", "label": "Laki" },
+          { "value": "ossetic", "label": "Ossetian" },
+          { "value": "shughni", "label": "Shughni" },
+          { "value": "wakhi", "label": "Wakhi" },
+          { "value": "yazghulami", "label": "Yazghulami" },
+          { "value": "ishkashimi", "label": "Ishkashimi" },
+          { "value": "sanglechi", "label": "Sanglechi" },
+          { "value": "yagnobi", "label": "Yagnobi" },
+          { "value": "pamiri", "label": "Pamiri languages" },
+          { "value": "middle-persian", "label": "Middle Persian" },
+          { "value": "parthian", "label": "Parthian" },
+          { "value": "old-persian", "label": "Old Persian" },
+          { "value": "avestan", "label": "Avestan" },
+          { "value": "low-resource", "label": "Other Low-resource" }
+        ]
+      }
+    },
+    "community": {
+      "eyebrow": "Join Us",
+      "title": "The",
+      "titleEmphasis": "Community",
+      "body": "We welcome researchers, engineers, and language enthusiasts. Find us where the work happens."
+    }
+  },
+  "footer": {
+    "brand": "SIG Iranic Languages",
+    "links": [
+      { "text": "GitHub", "href": "https://github.com/sigiranic" },
+      { "text": "HuggingFace", "href": "https://huggingface.co/sigiranic" },
+      { "text": "Languages", "href": "#languages" },
+      { "text": "Research", "href": "#research" }
+    ],
+    "copyright": "© 2026 SIG Iranic Languages · Dedicated to computational research on Iranian language diversity"
+  },
+  "ornament": "❧ ✦ ❧"
+}

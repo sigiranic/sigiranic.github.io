@@ -1,0 +1,438 @@
+[
+  {
+    "name": "Persian (Farsi)",
+    "iso639_3": "pes",
+    "glottolog": "west2369",
+    "code": "pes",
+    "branch": "southwestern",
+    "speakers": "70M",
+    "area": "Iran, Afghanistan, Tajikistan",
+    "script": "Arabic (Nastaliq)",
+    "scriptId": "arabic-nastaliq",
+    "note": "Most widely spoken Iranian language",
+    "status": "major",
+    "coordinates": [
+      32.4279,
+      53.688
+    ]
+  },
+  {
+    "name": "Dari",
+    "iso639_3": "prs",
+    "glottolog": "dari1249",
+    "code": "prs",
+    "branch": "southwestern",
+    "speakers": "20M",
+    "area": "Afghanistan",
+    "script": "Arabic (Nastaliq)",
+    "status": "major",
+    "coordinates": [
+      34.5553,
+      69.2075
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Tajik",
+    "iso639_3": "tgk",
+    "glottolog": "taji1245",
+    "code": "tgk",
+    "branch": "southwestern",
+    "speakers": "8M",
+    "area": "Tajikistan, Uzbekistan",
+    "script": "Cyrillic",
+    "status": "major",
+    "coordinates": [
+      38.5598,
+      68.7738
+    ],
+    "scriptId": "cyrillic"
+  },
+  {
+    "name": "Luri",
+    "iso639_3": "lrc",
+    "glottolog": "nort2645",
+    "code": "lrc",
+    "branch": "southwestern",
+    "speakers": "5M",
+    "area": "Western Iran",
+    "script": "Arabic",
+    "status": "mid",
+    "coordinates": [
+      33.4847,
+      48.3551
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Pashto",
+    "iso639_3": "pus",
+    "glottolog": "pash1269",
+    "code": "pus",
+    "branch": "eastern",
+    "speakers": "60M",
+    "area": "Afghanistan, Pakistan",
+    "script": "Arabic (Pashto ext.)",
+    "note": "Second most spoken Iranian language",
+    "status": "major",
+    "coordinates": [
+      33.9391,
+      67.71
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Northern Kurdish (Kurmanji)",
+    "iso639_3": "kmr",
+    "glottolog": "nort2641",
+    "code": "kmr",
+    "branch": "northwestern",
+    "speakers": "15M",
+    "area": "Turkey, Syria, Iraq, Armenia",
+    "script": "Latin / Arabic",
+    "status": "major",
+    "coordinates": [
+      37.0662,
+      42.3569
+    ],
+    "scriptId": "latin"
+  },
+  {
+    "name": "Central Kurdish (Sorani)",
+    "iso639_3": "ckb",
+    "glottolog": "cent1972",
+    "code": "ckb",
+    "branch": "northwestern",
+    "speakers": "7M",
+    "area": "Iraq, Iran",
+    "script": "Arabic (Sorani)",
+    "status": "major",
+    "coordinates": [
+      35.5558,
+      45.4329
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Southern Kurdish",
+    "iso639_3": "sdh",
+    "glottolog": "sout2640",
+    "code": "sdh",
+    "branch": "northwestern",
+    "speakers": "3M",
+    "area": "Iran, Iraq",
+    "script": "Arabic",
+    "status": "mid",
+    "coordinates": [
+      34.3142,
+      46.9968
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Balochi",
+    "iso639_3": "bal",
+    "glottolog": "balo1260",
+    "code": "bal",
+    "branch": "northwestern",
+    "speakers": "9M",
+    "area": "Pakistan, Iran, Afghanistan",
+    "script": "Arabic / Latin",
+    "status": "major",
+    "coordinates": [
+      28.3895,
+      64.6857
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Gilaki",
+    "iso639_3": "glk",
+    "glottolog": "gila1241",
+    "code": "glk",
+    "branch": "northwestern",
+    "speakers": "3M",
+    "area": "Gilan, Iran",
+    "script": "Arabic",
+    "status": "mid",
+    "coordinates": [
+      37.2808,
+      49.5926
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Mazanderani",
+    "iso639_3": "mzn",
+    "glottolog": "maza1291",
+    "code": "mzn",
+    "branch": "northwestern",
+    "speakers": "4M",
+    "area": "Mazandaran, Iran",
+    "script": "Arabic",
+    "status": "mid",
+    "coordinates": [
+      36.5659,
+      52.5382
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Talysh",
+    "iso639_3": "tly",
+    "glottolog": "taly1247",
+    "code": "tly",
+    "branch": "northwestern",
+    "speakers": "1M",
+    "area": "Azerbaijan, Iran",
+    "script": "Latin / Arabic / Cyrillic",
+    "status": "mid",
+    "coordinates": [
+      38.7608,
+      48.4017
+    ],
+    "scriptId": "unwritten"
+  },
+  {
+    "name": "Zaza (Dimli)",
+    "iso639_3": "zza",
+    "glottolog": "zaza1246",
+    "code": "zza",
+    "branch": "northwestern",
+    "speakers": "2M",
+    "area": "Eastern Turkey",
+    "script": "Latin",
+    "status": "mid",
+    "coordinates": [
+      39.2645,
+      39.7191
+    ],
+    "scriptId": "latin"
+  },
+  {
+    "name": "Kirmanjki",
+    "iso639_3": "kiu",
+    "glottolog": "kirm1248",
+    "code": "kiu",
+    "branch": "northwestern",
+    "speakers": "300K",
+    "area": "Eastern Turkey",
+    "script": "Latin",
+    "status": "mid",
+    "coordinates": [
+      39.7465,
+      39.4817
+    ],
+    "scriptId": "latin"
+  },
+  {
+    "name": "Gurani",
+    "iso639_3": "hac",
+    "glottolog": "gura1253",
+    "code": "hac",
+    "branch": "northwestern",
+    "speakers": "200K",
+    "area": "Iran, Iraq",
+    "script": "Arabic",
+    "status": "low",
+    "coordinates": [
+      35.9502,
+      46.1063
+    ],
+    "scriptId": "arabic-nastaliq"
+  },
+  {
+    "name": "Ossetic",
+    "iso639_3": "oss",
+    "glottolog": "osse1243",
+    "code": "oss",
+    "branch": "scythian",
+    "speakers": "650K",
+    "area": "North Ossetia (Russia), South Ossetia (Georgia)",
+    "script": "Cyrillic",
+    "status": "mid",
+    "coordinates": [
+      42.9774,
+      44.6812
+    ],
+    "scriptId": "cyrillic"
+  },
+  {
+    "name": "Yagnobi",
+    "iso639_3": "yai",
+    "glottolog": "yagn1238",
+    "code": "yai",
+    "branch": "scythian",
+    "speakers": "13K",
+    "area": "Yagnob Valley, Tajikistan",
+    "script": "Cyrillic",
+    "status": "endangered",
+    "coordinates": [
+      39.1167,
+      68.6333
+    ],
+    "scriptId": "cyrillic"
+  },
+  {
+    "name": "Sogdian",
+    "iso639_3": "sog",
+    "glottolog": "sogd1245",
+    "code": "sog",
+    "branch": "scythian",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Sogdia (Uzbekistan)",
+    "script": "Sogdian",
+    "status": "historical",
+    "coordinates": [
+      39.627,
+      66.975
+    ],
+    "scriptId": "sogdian"
+  },
+  {
+    "name": "Avestan",
+    "iso639_3": "ave",
+    "glottolog": "aves1237",
+    "code": "ave",
+    "branch": "scythian",
+    "speakers": "0 (liturgical)",
+    "area": "Ancient Iran / Bactria",
+    "script": "Avestan",
+    "note": "Sacred language of Zoroastrianism, attested from ~1000 BCE",
+    "status": "historical",
+    "coordinates": [
+      36.5,
+      59.0
+    ],
+    "scriptId": "avestan"
+  },
+  {
+    "name": "Old Persian",
+    "iso639_3": "peo",
+    "glottolog": "oldp1254",
+    "code": "peo",
+    "branch": "scythian",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Persia",
+    "script": "Cuneiform",
+    "note": "Language of Achaemenid royal inscriptions (600–400 BCE)",
+    "status": "historical",
+    "coordinates": [
+      29.9341,
+      52.891
+    ],
+    "scriptId": "cuneiform"
+  },
+  {
+    "name": "Shughni",
+    "iso639_3": "sgh",
+    "glottolog": "shug1248",
+    "code": "sgh",
+    "branch": "eastern",
+    "speakers": "100K",
+    "area": "Tajikistan, Afghanistan (Gorno-Badakhshan)",
+    "script": "Cyrillic / Latin",
+    "status": "low",
+    "coordinates": [
+      37.9942,
+      71.5469
+    ],
+    "scriptId": "unwritten"
+  },
+  {
+    "name": "Wakhi",
+    "iso639_3": "wbl",
+    "glottolog": "wakh1245",
+    "code": "wbl",
+    "branch": "eastern",
+    "speakers": "50K",
+    "area": "Afghanistan, Pakistan, China, Tajikistan",
+    "script": "Arabic / Cyrillic",
+    "status": "low",
+    "coordinates": [
+      36.8,
+      73.0
+    ],
+    "scriptId": "unwritten"
+  },
+  {
+    "name": "Munji",
+    "iso639_3": "mnj",
+    "glottolog": "munj1244",
+    "code": "mnj",
+    "branch": "eastern",
+    "speakers": "5K",
+    "area": "Munjan Valley, Afghanistan",
+    "script": "Unwritten",
+    "status": "endangered",
+    "coordinates": [
+      35.85,
+      70.35
+    ],
+    "scriptId": "unwritten"
+  },
+  {
+    "name": "Yazgulyam",
+    "iso639_3": "yah",
+    "glottolog": "yazg1240",
+    "code": "yah",
+    "branch": "eastern",
+    "speakers": "7K",
+    "area": "Yazgulyam Valley, Tajikistan",
+    "script": "Cyrillic",
+    "status": "endangered",
+    "coordinates": [
+      38.2833,
+      71.5167
+    ],
+    "scriptId": "cyrillic"
+  },
+  {
+    "name": "Sanglechi-Ishkashimi",
+    "iso639_3": "sgl",
+    "glottolog": "sang1318",
+    "code": "sgl",
+    "branch": "eastern",
+    "speakers": "3K",
+    "area": "Ishkashim, Afghanistan/Tajikistan",
+    "script": "Unwritten",
+    "status": "endangered",
+    "coordinates": [
+      36.7167,
+      71.6167
+    ],
+    "scriptId": "unwritten"
+  },
+  {
+    "name": "Parachi",
+    "iso639_3": "prc",
+    "glottolog": "para1bage",
+    "code": "prc",
+    "branch": "eastern",
+    "speakers": "5K",
+    "area": "Parwan Province, Afghanistan",
+    "script": "Unwritten",
+    "status": "endangered",
+    "coordinates": [
+      35.0553,
+      69.0728
+    ],
+    "scriptId": "unwritten"
+  },
+  {
+    "name": "Ormuri",
+    "iso639_3": "oru",
+    "glottolog": "ormu1247",
+    "code": "oru",
+    "branch": "eastern",
+    "speakers": "7K",
+    "area": "Waziristan, Pakistan",
+    "script": "Unwritten",
+    "status": "endangered",
+    "coordinates": [
+      32.75,
+      69.5
+    ],
+    "scriptId": "unwritten"
+  }
+]

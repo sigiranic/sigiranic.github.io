@@ -1,0 +1,30 @@
+[
+  {
+    "id": "github",
+    "icon": "⌥",
+    "title": "GitHub",
+    "description": "Code, datasets, and pipelines",
+    "url": "https://github.com/sigiranic"
+  },
+  {
+    "id": "huggingface",
+    "icon": "🤗",
+    "title": "Hugging Face",
+    "description": "Models, datasets, demo spaces",
+    "url": "https://huggingface.co/sigiranic"
+  },
+  {
+    "id": "contact",
+    "icon": "✉",
+    "title": "Contact",
+    "description": "Reach the team directly",
+    "url": "mailto:amir@cis.lmu.de"
+  },
+  {
+    "id": "contribute",
+    "icon": "📄",
+    "title": "Contribute",
+    "description": "Add data, models, or evaluations",
+    "url": "#"
+  }
+]

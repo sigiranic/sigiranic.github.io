@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "status": {
+      "major": "#C8490F",
+      "mid": "#B89327",
+      "low": "#1B3A6B",
+      "endangered": "#7B4FA8",
+      "historical": "#A89880"
+    },
+    "branch": {
+      "southwestern": "#C8490F",
+      "northwestern": "#1B3A6B",
+      "eastern": "#2A6E4A",
+      "scythian": "#7B4FA8"
+    },
+    "script": {
+      "cuneiform": "#8B4513",
+      "avestan": "#9B59B6",
+      "pahlavi": "#E67E22",
+      "sogdian": "#16A085",
+      "arabic-nastaliq": "#C8490F",
+      "cyrillic": "#1B3A6B",
+      "latin": "#27AE60",
+      "manichaean": "#8E44AD",
+      "georgian": "#34495E",
+      "unwritten": "#95A5A6"
+    }
+  },
+  "map": {
+    "dotGroupIds": {
+      "southwestern": "mdots-sw",
+      "northwestern": "mdots-nw",
+      "eastern": "mdots-ea",
+      "scythian": "mdots-sc"
+    },
+    "allDotIds": ["mdots-sw", "mdots-nw", "mdots-ea", "mdots-sh", "mdots-sc", "mdots-hi"]
+  },
+  "badges": {
+    "ocr": { "class": "badge-ocr", "label": "OCR" },
+    "nlp": { "class": "badge-nlp", "label": "NLP" },
+    "data": { "class": "badge-data", "label": "Data" },
+    "model": { "class": "badge-model", "label": "Model" },
+    "venue": { "class": "badge-venue", "label": "Venue" }
+  }
+}

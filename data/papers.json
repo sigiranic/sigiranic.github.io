@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "fineweb2onepipelinetoscalethem",
+    "title": "FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language",
+    "authors": "Various authors",
+    "venue": "arXiv 2092",
+    "year": 2092,
+    "langs": [
+      "gilaki",
+      "persian"
+    ],
+    "areas": [
+      "text-generation",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2506.20920",
+    "abstract": "In particular, on the set of 9 diverse languages we used to guide our processing decisions, 🥂 FineWeb2 outperforms other popular pretraining datasets covering multiple languages (such as CC-100, mC4, ",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.20920",
+      "huggingface": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2"
+    }
+  },
+  {
+    "id": "soranikurdishversuskurmanjikur",
+    "title": "Sorani Kurdish versus Kurmanji Kurdish: An Empirical Comparison",
+    "authors": "Various authors",
+    "venue": "ACL 2054",
+    "year": 2054,
+    "langs": [
+      "kurdish",
+      "kurmanji",
+      "persian",
+      "sorani",
+      "tati"
+    ],
+    "areas": [
+      "text-generation"
+    ],
+    "url": "https://aclanthology.org/P13-2054/",
+    "abstract": "Pewan is the first standard test collection to evaluate Sorani Information Retrieval systems. To build Pewan, we have carefully followed TREC’s standard test collection construction methodology. More ",
+    "links": {
+      "paper": "https://aclanthology.org/P13-2054/",
+      "dataset": "https://sinaahmadi.github.io/resources/pewan.html"
+    }
+  },
+  {
+    "id": "apersianmedicalquestionansweri",
+    "title": "A Persian Medical Question Answering System",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2050",
+    "year": 2050,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering"
+    ],
+    "url": "https://www.worldscientific.com/doi/abs/10.1142/S0218213020500190",
+    "abstract": "A Medical Question Answering (QA) System for Persian",
+    "links": {
+      "paper": "https://www.worldscientific.com/doi/abs/10.1142/S0218213020500190",
+      "github": "https://github.com/DSP-UT/Persian-Medical-Question-Answering-/tree/main"
+    }
+  },
+  {
+    "id": "glotocr2026",
+    "title": "GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts",
+    "authors": "Kargaran, Nikeghbal, Diesner, Yvon, Schütze",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "langs": [
+      "multi-script",
+      "low-resource",
+      "persian",
+      "pashto",
+      "kurdish"
+    ],
+    "areas": [
+      "ocr",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2604.12978",
+    "abstract": "We introduce GlotOCR Bench, a comprehensive benchmark evaluating OCR generalization across 100+ Unicode scripts including many Iranian writing systems."
+  },
+  {
+    "id": "parmeparallelcorporaforlowreso",
+    "title": "PARME: Parallel Corpora for Low-Resourced Middle Eastern Languages",
+    "authors": "Various authors",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "langs": [
+      "gilaki",
+      "persian"
+    ],
+    "areas": [
+      "machine-translation"
+    ],
+    "url": "https://aclanthology.org/2025.acl-long.1451.pdf",
+    "abstract": "The Middle East is characterized by remarkable linguistic diversity, with over 500 million inhabitants speaking more than 60 languages across multiple language families. In a first attempt of its kind",
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.1451.pdf",
+      "github": "https://github.com/DOLMA-NLP/PARME/tree/main"
+    }
+  },
+  {
+    "id": "literarytranslationsandsynthet",
+    "title": "Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages",
+    "authors": "Various authors",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "langs": [
+      "gilaki",
+      "gorani",
+      "kurdish",
+      "laki",
+      "luri",
+      "mazanderani",
+      "persian",
+      "talysh",
+      "zaza"
+    ],
+    "areas": [
+      "machine-translation"
+    ],
+    "url": "https://aclanthology.org/2025.iwslt-1.10/",
+    "abstract": "This project is a follow-up of PARME where over 36,000 translation pairs are provided for eight low-resourced languages in the Middle East: Luri Bakhtiari (bqi), Gilaki (glk), Hawrami (hac), Laki Kurd",
+    "links": {
+      "paper": "https://aclanthology.org/2025.iwslt-1.10/",
+      "github": "https://github.com/DOLMA-NLP/bitext-mining"
+    }
+  },
+  {
+    "id": "perculastorydrivenculturaleval",
+    "title": "PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian",
+    "authors": "Various authors",
+    "venue": "NAACL 2025",
+    "year": 2025,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2025.naacl-long.631/",
+    "abstract": "Large language models predominantly reflect Western cultures, largely due to the dominance of English-centric training data. This imbalance presents a significant challenge, as LLMs are increasingly u",
+    "links": {
+      "paper": "https://aclanthology.org/2025.naacl-long.631/",
+      "huggingface": "https://huggingface.co/datasets/teias-ai/percul"
+    }
+  },
+  {
+    "id": "advancingpersianllmevaluation",
+    "title": "Advancing Persian LLM Evaluation",
+    "authors": "Various authors",
+    "venue": "ACL Findings 2025",
+    "year": 2025,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "text-generation",
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2025.findings-naacl.147.pdf",
+    "abstract": "PeKA is a dataset introduced in the paper \"Advancing Persian LLM Evaluation\", accepted at NAACL 2025 findings. It was developed as part of a broader effort to evaluate and benchmark large language mod",
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-naacl.147.pdf",
+      "huggingface": "https://huggingface.co/datasets/MatinaAI/pkbets"
+    }
+  },
+  {
+    "id": "paper184",
+    "title": "Advancing Persian LLM Evaluation",
+    "authors": "Various authors",
+    "venue": "ACL Findings 2025",
+    "year": 2025,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2025.findings-naacl.147.pdf",
+    "abstract": "PK-BETS is a dataset introduced in the paper \"Advancing Persian LLM Evaluation\", accepted at NAACL 2025 findings. It was developed as part of a broader effort to evaluate and benchmark large language ",
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-naacl.147.pdf",
+      "huggingface": "https://huggingface.co/datasets/MatinaAI/pkbets"
+    }
+  },
+  {
+    "id": "persianinacourtbenchmarkingvlm",
+    "title": "Persian in a Court: Benchmarking VLMs In Persian Multi-Modal Tasks",
+    "authors": "Various authors",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "vision-language",
+      "question-answering"
+    ],
+    "url": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+    "abstract": "",
+    "links": {
+      "paper": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+      "huggingface": "https://huggingface.co/datasets/AUT-NLP/Persian-OCR-QA"
+    }
+  },
+  {
+    "id": "paper189",
+    "title": "Persian in a Court: Benchmarking VLMs In Persian Multi-Modal Tasks",
+    "authors": "Various authors",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "vision-language"
+    ],
+    "url": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+    "abstract": "",
+    "links": {
+      "paper": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+      "huggingface": "https://huggingface.co/datasets/AUT-NLP/Persian-OCR-QA"
+    }
+  },
+  {
+    "id": "paper190",
+    "title": "Persian in a Court: Benchmarking VLMs In Persian Multi-Modal Tasks",
+    "authors": "Various authors",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "vision-language"
+    ],
+    "url": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+    "abstract": "",
+    "links": {
+      "paper": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+      "huggingface": "https://huggingface.co/datasets/AUT-NLP/Persian-OCR-QA"
+    }
+  },
+  {
+    "id": "paper191",
+    "title": "Persian in a Court: Benchmarking VLMs In Persian Multi-Modal Tasks",
+    "authors": "Various authors",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "vision-language"
+    ],
+    "url": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+    "abstract": "",
+    "links": {
+      "paper": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+      "huggingface": "https://huggingface.co/datasets/AUT-NLP/Persian-OCR-QA"
+    }
+  },
+  {
+    "id": "glotscript2024",
+    "title": "GlotScript: A Resource and Tool for Script Identification",
+    "authors": "Kargaran, Imani, Schütze",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "langs": [
+      "avestan",
+      "low-resource",
+      "multi-script",
+      "persian"
+    ],
+    "areas": [
+      "language-identification",
+      "dataset"
+    ],
+    "url": "https://github.com/cisnlp/GlotScript",
+    "abstract": "We present GlotScript, a script identification tool covering all known writing systems including rare Iranian scripts such as Avestan, Sogdian, and Kharoshthi."
+  },
+  {
+    "id": "glotcc2024",
+    "title": "GlotCC: An Open Broad-Coverage Common Crawl Corpus and Pipeline for Minority Languages",
+    "authors": "Kargaran, Yvon, Schütze",
+    "venue": "NeurIPS D&B 2024",
+    "year": 2024,
+    "langs": [
+      "balochi",
+      "gilaki",
+      "kurdish",
+      "laki",
+      "low-resource",
+      "mazanderani",
+      "ossetic",
+      "pashto",
+      "persian",
+      "talysh"
+    ],
+    "areas": [
+      "dataset"
+    ],
+    "url": "https://github.com/cisnlp/GlotCC",
+    "abstract": "GlotCC provides high-quality web-crawled text for 1,000+ languages, including the first large-scale corpora for Gilaki, Mazanderani, Ossetic, and Talysh."
+  },
+  {
+    "id": "sentiment2024",
+    "title": "Persian Sentiment Analysis with Pretrained Language Models",
+    "authors": "SIG Iranic Contributors",
+    "venue": "COLING 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "sentiment-analysis"
+    ],
+    "url": "https://github.com/sigiranic",
+    "abstract": "We evaluate pretrained multilingual models on Persian sentiment analysis, and release a new benchmark covering formal and colloquial registers."
+  },
+  {
+    "id": "pashtomt2024",
+    "title": "Building a Pashto–English Parallel Corpus for Neural Machine Translation",
+    "authors": "SIG Iranic Contributors",
+    "venue": "LREC 2024",
+    "year": 2024,
+    "langs": [
+      "english",
+      "low-resource",
+      "pashto"
+    ],
+    "areas": [
+      "machine-translation",
+      "dataset"
+    ],
+    "url": "https://github.com/sigiranic",
+    "abstract": "We release a 500K-sentence Pashto–English parallel corpus and establish strong NMT baselines for this under-resourced language."
+  },
+  {
+    "id": "kurdishasr2024",
+    "title": "Kurdish ASR: Speech Recognition for Kurmanji and Sorani",
+    "authors": "SIG Iranic Contributors",
+    "venue": "Interspeech 2024",
+    "year": 2024,
+    "langs": [
+      "kurdish",
+      "kurmanji",
+      "low-resource",
+      "sorani"
+    ],
+    "areas": [
+      "speech-recognition"
+    ],
+    "url": "https://github.com/sigiranic",
+    "abstract": "We train and evaluate automatic speech recognition models for Kurmanji and Sorani Kurdish, achieving competitive WER on both dialects with limited data."
+  },
+  {
+    "id": "survey2024",
+    "title": "A Survey of NLP Resources for Endangered Iranian Languages",
+    "authors": "Kargaran, Schütze",
+    "venue": "LREC-COLING 2024",
+    "year": 2024,
+    "langs": [
+      "ishkashimi",
+      "low-resource",
+      "sanglechi",
+      "shughni",
+      "tati",
+      "wakhi",
+      "yagnobi"
+    ],
+    "areas": [
+      "survey"
+    ],
+    "url": "https://github.com/sigiranic",
+    "abstract": "We survey computational resources for Shughni, Wakhi, Yagnobi, Munji, Sanglechi-Ishkashimi, and other endangered Iranian varieties, identifying critical gaps."
+  },
+  {
+    "id": "coperaqueryadaptablesemanticsb",
+    "title": "COPER: a Query-adaptable Semantics-based Search Engine for Persian COVID-19 Articles",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering"
+    ],
+    "url": "https://arxiv.org/abs/2107.05722",
+    "abstract": "مقاله COPER شامل دو دیتاست COVID-19 Articles و PerSICK بوده که مناسب تسک های Information Retrieval و Semantic Textual Similarity هستند. دیتاست اول شامل 3,500 مقاله مربوط به کرونا بوده (هر مقاله شامل ع",
+    "links": {
+      "paper": "https://arxiv.org/abs/2107.05722",
+      "github": "https://github.com/Ledengary/COPER"
+    }
+  },
+  {
+    "id": "farsickapersiansemantictextual",
+    "title": "FarSick: A Persian Semantic Textual Similarity And Natural Language Inference Dataset",
+    "authors": "Various authors",
+    "venue": "IEEE 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "semantic-similarity",
+      "dataset"
+    ],
+    "url": "https://ieeexplore.ieee.org/document/9721521",
+    "abstract": "This is FarSick Corpus; A Persian Semantic Textual Similarity And Natural Language Inference Dataset.",
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/9721521",
+      "github": "https://github.com/ZahraGhasemi-AI/FarSick"
+    }
+  },
+  {
+    "id": "neuralminingofpersianshortargu",
+    "title": "Neural Mining of Persian Short Argumentative Texts",
+    "authors": "Various authors",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "other"
+    ],
+    "url": "https://aclanthology.org/2024.eurali-1.5/",
+    "abstract": "First Persian (Farsi) Short Argumentative Text Coprus",
+    "links": {
+      "paper": "https://aclanthology.org/2024.eurali-1.5/",
+      "github": "https://github.com/myeghaneh/PAMT"
+    }
+  },
+  {
+    "id": "persiantypographicalerrortyped",
+    "title": "Persian Typographical Error Type Detection Using Deep Neural Networks on AlgorithmicallyGenerated Misspellings",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "spell-checking"
+    ],
+    "url": "https://arxiv.org/pdf/2305.11731",
+    "abstract": "",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2305.11731",
+      "github": "https://github.com/mohamad-dehghani/FarsTypo"
+    }
+  },
+  {
+    "id": "leveragingparsbertforcrossdoma",
+    "title": "Leveraging ParsBERT for cross-domain polarity sentiment classification of Persian social media comments",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "sentiment-analysis",
+      "dataset"
+    ],
+    "url": "https://link.springer.com/article/10.1007/s11042-023-16067-5",
+    "abstract": "An implementation of the paper \"Leveraging ParsBERT for cross-domain polarity sentiment classification of Persian social media comments\" along with the dataset Insta-MultiDSenti",
+    "links": {
+      "paper": "https://link.springer.com/article/10.1007/s11042-023-16067-5",
+      "github": "https://github.com/mpanahi/BERT-crossDomain-sentiment-classification"
+    }
+  },
+  {
+    "id": "pcoqapersianconversationalques",
+    "title": "PCoQA: Persian Conversational Question Answering Dataset",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/pdf/2312.04362",
+    "abstract": "This is the repository for the data and code of the first Persian conversational question answering datasetThe dataset contains 9,026 questions and 870 dialogs. A more detailed statistics of the datas",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2312.04362",
+      "github": "https://github.com/HamedHematian/PCoQA"
+    }
+  },
+  {
+    "id": "peqaamassivepersianquestionans",
+    "title": "PeQA: A Massive Persian Question-Answering and Chatbot Dataset",
+    "authors": "Various authors",
+    "venue": "IEEE 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://ieeexplore.ieee.org/document/9960071",
+    "abstract": "PeQa dataset is a huge dataset of 14 million Persian tweets from tweeter that is meticulously processed to create a rich collection of 420,000 pairs of question-answer data. Therefore, this valuable d",
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/9960071",
+      "github": "https://github.com/ZahraArshia/PeQa?tab=readme-ov-file"
+    }
+  },
+  {
+    "id": "pquadapersianquestionanswering",
+    "title": "PQuAD: A Persian question answering dataset",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0885230823000050",
+    "abstract": "a large-scale and high quality Persian span-extraction MRC dataset consisting of 80,000 human-annotated questions. PQuAD’s questions are based on Persian Wikipedia articles and cover a wide variety of",
+    "links": {
+      "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0885230823000050",
+      "github": "https://github.com/AUT-NLP/PQuAD"
+    }
+  },
+  {
+    "id": "exappcalargescalepersianparaph",
+    "title": "ExaPPC: a Large-Scale Persian Paraphrase Detection Corpus",
+    "authors": "Various authors",
+    "venue": "IEEE 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://ieeexplore.ieee.org/document/9786243",
+    "abstract": "ExaPPC is a large paraphrase corpus consisting of monolingual sentence-level paraphrases using different sources.It is the first large-scale paraphrase dataset in Persian that can be used to train sta",
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/9786243",
+      "github": "https://github.com/exaco/exappc"
+    }
+  },
+  {
+    "id": "personerpersiannamedentityreco",
+    "title": "PersoNER: Persian Named-Entity Recognition",
+    "authors": "Various authors",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "named-entity-recognition",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/C16-1319/",
+    "abstract": "This is a manually-annotated named entity recognition dataset with 250,015 tokens and 7,682 sentences. The dataset includes six named entity classes like Person, Organization, Location, and Event, in ",
+    "links": {
+      "paper": "https://aclanthology.org/C16-1319/",
+      "github": "https://github.com/AminMozhgani/Persian_NER"
+    }
+  },
+  {
+    "id": "syntranfageneratingcomprehensi",
+    "title": "SynTran-fa: Generating Comprehensive Answers for Farsi QA Pairs via Syntactic Transformation",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://www.preprints.org/manuscript/202410.1684",
+    "abstract": "Syntactic Transformed Version of Farsi QA datasets to make fluent responses from questions and short answers",
+    "links": {
+      "paper": "https://www.preprints.org/manuscript/202410.1684",
+      "huggingface": "https://huggingface.co/datasets/SLPL/syntran-fa"
+    }
+  },
+  {
+    "id": "empoweringpersianllmsforinstru",
+    "title": "Empowering Persian LLMs for Instruction Following: A Novel Dataset and Training Approach",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "classification",
+      "question-answering",
+      "dataset",
+      "machine-translation",
+      "instruction-following",
+      "text-generation"
+    ],
+    "url": "https://arxiv.org/abs/2407.11186",
+    "abstract": "Instruction-tuned large language models have demonstrated remarkable capabilities in following human instructions across various domains. However, their proficiency remains notably deficient in many l",
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.11186",
+      "github": "https://github.com/Hojjat-Mokhtarabadi/FarsInstruct"
+    }
+  },
+  {
+    "id": "investigatingshallowanddeeplea",
+    "title": "Investigating Shallow and Deep Learning Techniques for Emotion Classification in Short Persian Texts",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "emotion-detection"
+    ],
+    "url": "https://jad.shahroodut.ac.ir/article_3030.html",
+    "abstract": "The code and data in this project are related to the following research article, in which firstly ShortPersianEmo a new data set for emotion recognition in Persian short texts is introduced, and secon",
+    "links": {
+      "paper": "https://jad.shahroodut.ac.ir/article_3030.html",
+      "github": "https://github.com/vkiani/ShortPersianEmo?tab=readme-ov-file"
+    }
+  },
+  {
+    "id": "armanemoapersiandatasetfortext",
+    "title": "ArmanEmo: A Persian Dataset for Text-based Emotion Detection",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "emotion-detection",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2207.11808",
+    "abstract": "With the recent proliferation of open textual data on social media platforms, Emotion Detection(ED) from Text has received more attention over the past years. It has many applications, especiallyfor b",
+    "links": {
+      "paper": "https://arxiv.org/abs/2207.11808",
+      "github": "https://github.com/Arman-Rayan-Sharif/arman-text-emotion"
+    }
+  },
+  {
+    "id": "paper131",
+    "title": "EmoPars: A Collection of 30K Emotion-Annotated Persian Social Media Texts",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "emotion-detection",
+      "dataset"
+    ],
+    "url": "https://www.researchgate.net/publication/355368053_EmoPars_A_Collection_of_30K_Emotion-Annotated_Persian_Social_Media_Texts",
+    "abstract": "The wide reach of social media platforms, such as Twitter, have enabled many users to share their thoughts, opinions and emotions on various topics online. The ability to detect these emotions automat",
+    "links": {
+      "paper": "https://www.researchgate.net/publication/355368053_EmoPars_A_Collection_of_30K_Emotion-Annotated_Persian_Social_Media_Texts",
+      "github": "https://github.com/nazaninsbr/persian-emotion-detection?tab=readme-ov-file"
+    }
+  },
+  {
+    "id": "sentipersasentimentanalysiscor",
+    "title": "SentiPers: A Sentiment Analysis Corpus for Persian",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "sentiment-analysis"
+    ],
+    "url": "https://arxiv.org/abs/1801.07737",
+    "abstract": "SentiPers is one of the first corpora developed for Sentiment Analysis in Persian. Documents in SentiPers are manually annotated at different levels. We not only assigned polarity labels to sentences ",
+    "links": {
+      "paper": "https://arxiv.org/abs/1801.07737",
+      "github": "https://github.com/phosseini/SentiPers"
+    }
+  },
+  {
+    "id": "islamicpcqaadatasetforpersianm",
+    "title": "IslamicPCQA: A Dataset for Persian Multi-hop Complex Question Answering in Islamic Text Resources",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2304.11664",
+    "abstract": "Question Answering Systems is to answer complex questionsusing various sources of information. Multi-hop questions are atype of complex questions that require multi-step reasoning toanswer. In this ar",
+    "links": {
+      "paper": "https://arxiv.org/abs/2304.11664",
+      "github": "https://github.com/KGQA/leaderboard"
+    }
+  },
+  {
+    "id": "buildingarichdatasettoempowert",
+    "title": "Building a Rich Dataset to Empower the Persian Question Answering Systems",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2024",
+    "year": 2024,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://www.researchgate.net/publication/387539910_Building_a_Rich_Dataset_to_Empower_the_Persian_Question_Answering_Systems",
+    "abstract": "Question answering systems provide short, precise, and specific answers to questions. So far, many robust question answering systems have been developed for English, while some languages with fewer re",
+    "links": {
+      "paper": "https://www.researchgate.net/publication/387539910_Building_a_Rich_Dataset_to_Empower_the_Persian_Question_Answering_Systems",
+      "github": "https://github.com/mosiomohsen/NextQuAD"
+    }
+  },
+  {
+    "id": "leveragingonlinedatatoenhancem",
+    "title": "Leveraging Online Data to Enhance Medical Knowledge in a Small Persian Language Model",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2505.16000",
+    "abstract": "90M-token Persian medical corpus (crawled from diverse sources).",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.16000",
+      "github": "https://github.com/Mehrdadghassabi/Gaokerena-V/tree/main/dataset/MMLU_fa"
+    }
+  },
+  {
+    "id": "paper138",
+    "title": "Leveraging Online Data to Enhance Medical Knowledge in a Small Persian Language Model",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2505.16000",
+    "abstract": "about 180k question answer pairs crawled from drhast.com,doctor-yab.ir & niniban.com.\n\nthey have been filterd and altered both manually and automatically to introduce MF3QA dataset which has 20k QA pa",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.16000",
+      "github": "https://github.com/Mehrdadghassabi/Gaokerena-V/tree/main/dataset/MMLU_fa"
+    }
+  },
+  {
+    "id": "paper139",
+    "title": "Leveraging Online Data to Enhance Medical Knowledge in a Small Persian Language Model",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2505.16000",
+    "abstract": "Translation of K-QA benchmark into persian",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.16000",
+      "github": "https://github.com/Mehrdadghassabi/Gaokerena-V/tree/main/dataset/MMLU_fa"
+    }
+  },
+  {
+    "id": "paper140",
+    "title": "Leveraging Online Data to Enhance Medical Knowledge in a Small Persian Language Model",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2505.16000",
+    "abstract": "Translation of medical portion of MMLU benchmark into persian",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.16000",
+      "github": "https://github.com/Mehrdadghassabi/Gaokerena-V/tree/main/dataset/MMLU_fa"
+    }
+  },
+  {
+    "id": "meenapersianmmmumultimodalmult",
+    "title": "MEENA (PersianMMMU): Multimodal-Multilingual Educational Exams for N-level Assessment",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "vision-language",
+      "dataset"
+    ],
+    "url": "https://www.arxiv.org/pdf/2508.17290",
+    "abstract": "Recent advancements in large vision-language models (VLMs) have primarily focused on English, with limited attention given to other languages.\nTo address this gap, we introduce MEENA (also known as Pe",
+    "links": {
+      "paper": "https://www.arxiv.org/pdf/2508.17290",
+      "huggingface": "https://huggingface.co/papers/2508.17290"
+    }
+  },
+  {
+    "id": "jiraakurdishspeechrecognitions",
+    "title": "Jira: a Kurdish Speech Recognition System Designing and Building Speech Corpus and Pronunciation Lexicon",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "kurdish"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2102.07412",
+    "abstract": "AsoSoft is the first company to work in the field of Speech Recognition for the Kurdish language. We develop Speech Recognition, Speaker Recognition, and Speech Command software and tools for the Kurd",
+    "links": {
+      "paper": "https://arxiv.org/abs/2102.07412",
+      "huggingface": "https://huggingface.co/datasets/razhan/asosoft-speech"
+    }
+  },
+  {
+    "id": "parsvoicealargescalemultispeak",
+    "title": "ParsVoice: A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech Synthesis",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2510.10774v1",
+    "abstract": "ParsVoice is the largest high-quality Persian speech dataset designed specifically for text-to-speech (TTS) applications. The dataset addresses the critical gap in Persian speech technologies by provi",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.10774v1",
+      "huggingface": "https://huggingface.co/datasets/MohammadJRanjbar/ParsVoice"
+    }
+  },
+  {
+    "id": "mirastextanautomaticallygenera",
+    "title": "MirasText: An Automatically Generated Text Corpus for Persian",
+    "authors": "Various authors",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/L18-1188/",
+    "abstract": "This repository contains MirasText corpus and description along side with what it has been used for and what it can be used for. A sample of the dataset is provided in MirasText_sample.txt which conta",
+    "links": {
+      "paper": "https://aclanthology.org/L18-1188/",
+      "github": "https://github.com/miras-tech/MirasText/tree/master/MirasText"
+    }
+  },
+  {
+    "id": "pecoqadatasetforpersiancomplex",
+    "title": "PeCoQ: A Dataset for Persian Complex Question Answering over Knowledge Graph",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/pdf/2106.14167",
+    "abstract": "PeCoQ is an open-domain Persian complex question answering dataset that contains 10,000 question-answer pairs. The paper can be found PeCoQ: A Dataset for Persian Complex Question Answering over Knowl",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2106.14167",
+      "github": "https://github.com/roetezadi/PeCoQ"
+    }
+  },
+  {
+    "id": "nolanguageleftbehindscalinghum",
+    "title": "No Language Left Behind: Scaling Human-Centered Machine Translation",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "machine-translation"
+    ],
+    "url": "https://arxiv.org/abs/2207.04672",
+    "abstract": "The creation of FLORES-200 doubles the existing language coverage of FLORES-101. Given the nature of the new languages, which have less standardization and require more specialized professional transl",
+    "links": {
+      "paper": "https://arxiv.org/abs/2207.04672",
+      "github": "https://github.com/facebookresearch/flores/tree/main/flores200"
+    }
+  },
+  {
+    "id": "glotlidlanguageidentificationf",
+    "title": "GlotLID: Language Identification for Low-Resource Languages",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "gilaki",
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "language-identification"
+    ],
+    "url": "https://arxiv.org/abs/2310.16248",
+    "abstract": "TL;DR: The repository introduces GlotLID, an open-source language identification (LID) model with support for more than 2000 labels.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.16248",
+      "huggingface": "https://huggingface.co/datasets/cis-lmu/glotlid-corpus"
+    }
+  },
+  {
+    "id": "murihighqualityinstructiontuni",
+    "title": "MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "instruction-following",
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2409.12958",
+    "abstract": "Instruction tuning enhances large language models (LLMs) by aligning them with human preferences across diverse tasks. Traditional approaches to create instruction tuning datasets face serious challen",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.12958",
+      "huggingface": "https://huggingface.co/datasets/akoksal/muri-it"
+    }
+  },
+  {
+    "id": "xtremesevaluatingcrosslinguals",
+    "title": "XTREME-S: Evaluating Cross-lingual Speech Representations",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2203.10752",
+    "abstract": "The Cross-lingual TRansfer Evaluation of Multilingual Encoders for Speech (XTREME-S) benchmark is a benchmark designed to evaluate speech representations across languages, tasks, domains and data regi",
+    "links": {
+      "paper": "https://arxiv.org/abs/2203.10752",
+      "huggingface": "https://huggingface.co/datasets/google/xtreme_s"
+    }
+  },
+  {
+    "id": "globalpiqaevaluatingphysicalco",
+    "title": "Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2510.24081",
+    "abstract": "Global PIQA is a participatory commonsense reasoning benchmark for over 100 languages, constructed by hand by 335 researchers from 65 countries around the world. The 116 language varieties in Global P",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.24081",
+      "huggingface": "https://huggingface.co/datasets/mrlbenchmarks/global-piqa-nonparallel"
+    }
+  },
+  {
+    "id": "fleursfewshotlearningevaluatio",
+    "title": "FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2205.12446",
+    "abstract": "Fleurs is the speech version of the FLoRes machine translation benchmark. We use 2009 n-way parallel sentences from the FLoRes dev and devtest publicly available sets, in 102 languages.\n\nTraining sets",
+    "links": {
+      "paper": "https://arxiv.org/abs/2205.12446",
+      "huggingface": "https://huggingface.co/datasets/google/fleurs"
+    }
+  },
+  {
+    "id": "ayadatasetanopenaccesscollecti",
+    "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "instruction-following",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2402.06619",
+    "abstract": "The Aya Dataset is a multilingual instruction fine-tuning dataset curated by an open-science community via Aya Annotation Platform from Cohere Labs. The dataset contains a total of 204k human-annotate",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.06619",
+      "huggingface": "https://huggingface.co/datasets/CohereLabs/aya_dataset"
+    }
+  },
+  {
+    "id": "crosslingualgeneralizationthro",
+    "title": "Crosslingual Generalization through Multitask Finetuning",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "sentiment-analysis",
+      "language-models",
+      "question-answering",
+      "dataset",
+      "machine-translation",
+      "instruction-following",
+      "text-generation"
+    ],
+    "url": "https://arxiv.org/abs/2211.01786",
+    "abstract": "xP3x (Crosslingual Public Pool of Prompts eXtended) is a collection of prompts & datasets across 277 languages & 16 NLP tasks. It contains all of xP3 + much more! It is used for training future conten",
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.01786",
+      "github": "https://github.com/bigscience-workshop/xmtf?tab=readme-ov-file#data"
+    }
+  },
+  {
+    "id": "arulebasedkurdishtexttranslite",
+    "title": "A Rule-based Kurdish Text Transliteration System",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "kurdish",
+      "persian",
+      "sorani"
+    ],
+    "areas": [
+      "other"
+    ],
+    "url": "https://arxiv.org/abs/1811.10278",
+    "abstract": "Wergor is a transliteration system for Sorani Kurdish Latin-based and Arabic-based orthographies. In this first version, we have used a rule-based method. It is the result of a research project publis",
+    "links": {
+      "paper": "https://arxiv.org/abs/1811.10278",
+      "github": "https://github.com/sinaahmadi/wergor"
+    }
+  },
+  {
+    "id": "languageandspeechtechnologyfor",
+    "title": "Language and Speech Technology for Central Kurdish Varieties",
+    "authors": "Various authors",
+    "venue": "LREC 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "kurdish"
+    ],
+    "areas": [
+      "dataset",
+      "language-identification"
+    ],
+    "url": "https://aclanthology.org/2024.lrec-main.877/",
+    "abstract": "This repository provides resources for language and speech technology for Central Kurdish varieties discussed in our LREC-COLING 2024 paper, particularly the first annotated corpus of spoken Central K",
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.877/",
+      "github": "https://github.com/sinaahmadi/CORDI?tab=readme-ov-file"
+    }
+  },
+  {
+    "id": "perplexedbyqualityaperplexityb",
+    "title": "Perplexed by Quality: A Perplexity-based Method for Adult and Harmful Content Detection in Multilingual Heterogeneous Web Data",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "text-generation",
+      "language-models",
+      "dataset",
+      "language-identification"
+    ],
+    "url": "https://arxiv.org/abs/2212.10440",
+    "abstract": "The OSCAR project (Open Super-large Crawled Aggregated coRpus) is an Open Source project aiming to provide web-based multilingual resources and datasets for Machine Learning (ML) and Artificial Intell",
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.10440",
+      "huggingface": "https://huggingface.co/datasets/oscar-corpus/OSCAR-2301"
+    }
+  },
+  {
+    "id": "towardkurdishlanguageprocessin",
+    "title": "Toward Kurdish language processing: Experiments in collecting and processing the AsoSoft text corpus",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2024",
+    "year": 2024,
+    "langs": [
+      "kurdish",
+      "persian",
+      "sorani"
+    ],
+    "areas": [
+      "dataset",
+      "text-generation",
+      "language-models"
+    ],
+    "url": "https://academic.oup.com/dsh/article-abstract/35/1/176/5310055?redirectedFrom=fulltext",
+    "abstract": "AsoSoft Text Corpus is the first large-scale Kurdish text corpus for Central Kurdish (Sorani) branch. This text corpus is compiled and processed by AsoSoft R&D Group (http://asosoft.com/en/).\n\nThis re",
+    "links": {
+      "paper": "https://academic.oup.com/dsh/article-abstract/35/1/176/5310055?redirectedFrom=fulltext",
+      "github": "https://github.com/AsoSoft/AsoSoft-Text-Corpus?tab=readme-ov-file"
+    }
+  },
+  {
+    "id": "developingafinegrainedcorpusfo",
+    "title": "Developing a Fine-grained Corpus for a Less-resourced Language: the case of Kurdish",
+    "authors": "Various authors",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "langs": [
+      "kurdish",
+      "persian",
+      "sorani"
+    ],
+    "areas": [
+      "language-models",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/W19-3634/",
+    "abstract": "Kurdish is a less-resourced language consisting of different dialects written in various scripts. Approximately 30 million people in different countries speak the language. The lack of corpora is one ",
+    "links": {
+      "paper": "https://aclanthology.org/W19-3634/",
+      "github": "https://github.com/KurdishBLARK/KTC"
+    }
+  },
+  {
+    "id": "thewilibenchmarkdatasetforwrit",
+    "title": "The WiLI benchmark dataset for written language identification",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "gilaki",
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "dataset",
+      "language-identification"
+    ],
+    "url": "https://arxiv.org/pdf/1801.07779",
+    "abstract": "WiLI-2018 is a benchmark dataset for monolingual written natural language identification. WiLI-2018 is a publicly available, free of charge dataset of short text extracts from Wikipedia. It contains 1",
+    "links": {
+      "paper": "https://arxiv.org/pdf/1801.07779",
+      "dataset": "https://zenodo.org/records/841984"
+    }
+  },
+  {
+    "id": "centralkurdishmachinetranslati",
+    "title": "CENTRAL KURDISH MACHINE TRANSLATION: FIRST LARGE SCALE PARALLEL CORPUS AND EXPERIMENTS",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "english",
+      "kurdish",
+      "persian"
+    ],
+    "areas": [
+      "machine-translation",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/pdf/2106.09325",
+    "abstract": "Kurdish Machine translation project\n\nKurdish machine trasnalation project was initiaited in 2021 by Kurdish reserachers to foster Kurdish machine translation reserach.\n\nAs the first project, we collec",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2106.09325",
+      "github": "https://github.com/mihemmed/Kurdish-Machine-Translation-Project-KMTP-"
+    }
+  },
+  {
+    "id": "melacmassiveevaluationoflargel",
+    "title": "MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "other"
+    ],
+    "url": "https://arxiv.org/pdf/2508.00673",
+    "abstract": ""
+  },
+  {
+    "id": "smolprofessionallytranslatedpa",
+    "title": "SMOL: Professionally translated parallel data for 115 under-represented languages",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "gilaki",
+      "persian"
+    ],
+    "areas": [
+      "machine-translation"
+    ],
+    "url": "https://arxiv.org/pdf/2502.12301",
+    "abstract": "",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2502.12301",
+      "huggingface": "https://huggingface.co/datasets/google/smol"
+    }
+  },
+  {
+    "id": "apersianbenchmarkforjointinten",
+    "title": "A Persian Benchmark for Joint Intent Detection and Slot Filling",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2303.00408",
+    "abstract": "We present the first publicly available benchmark in the Persian language for intent detection and slot filling. We investigate the state-of-the-art models for intent detection and slot filling to app",
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.00408",
+      "github": "https://github.com/Makbari1997/Persian-Atis"
+    }
+  },
+  {
+    "id": "parsabsaanaspectbasedsentiment",
+    "title": "Pars-ABSA: an Aspect-based Sentiment Analysis dataset for Persian",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "sentiment-analysis"
+    ],
+    "url": "https://arxiv.org/pdf/1908.01815",
+    "abstract": "Parts descriptions: Pars-ABSA_all: there are 10,002 samples in this file that for each annotated targets from of Pars-ABSA_all, 3 lines are given. First line consists of comment that is related to tar",
+    "links": {
+      "paper": "https://arxiv.org/pdf/1908.01815",
+      "github": "https://github.com/Titowak/Pars-ABSA"
+    }
+  },
+  {
+    "id": "psrbacomprehensivebenchmarkfor",
+    "title": "PSRB: A Comprehensive Benchmark for Evaluating Persian ASR Systems",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/pdf/2505.21230",
+    "abstract": "The Persian Speech Recognition Benchmark (PSRB) is a comprehensive dataset designed to evaluate Persian Automatic Speech Recognition (ASR) systems under diverse real-world conditions.\nThis 1-hour samp",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2505.21230",
+      "huggingface": "https://huggingface.co/datasets/PartAI/PSRB"
+    }
+  },
+  {
+    "id": "benchmarkinglargelanguagemodel",
+    "title": "Benchmarking Large Language Models for Persian: A Preliminary Study Focusing on ChatGPT",
+    "authors": "Various authors",
+    "venue": "LREC 2024",
+    "year": 2024,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "named-entity-recognition",
+      "sentiment-analysis",
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2024.lrec-main.197/",
+    "abstract": "This paper explores the efficacy of large language models (LLMs) for Persian. While ChatGPT and consequent LLMs have shown remarkable performance in English, their efficiency for more low-resource lan",
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.197/",
+      "github": "https://github.com/Ipouyall/Benchmarking_ChatGPT_for_Persian/tree/main/Benchmark"
+    }
+  },
+  {
+    "id": "eptbenchmarkevaluationofpersia",
+    "title": "EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models",
+    "authors": "Various authors",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2509.06838",
+    "abstract": "The EPT (Evaluation of Persian Trustworthiness) benchmark addresses a critical gap in AI trustworthiness evaluation by providing a robust framework for Persian-language contexts. As LLMs face substant",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.06838",
+      "github": "https://github.com/Rezamirbagheri110/EPT-Benchmark"
+    }
+  },
+  {
+    "id": "glotlid2023",
+    "title": "GlotLID: Language Identification for Low-Resource Languages",
+    "authors": "Kargaran et al.",
+    "venue": "ACL Findings 2023",
+    "year": 2023,
+    "langs": [
+      "balochi",
+      "gilaki",
+      "kurdish",
+      "low-resource",
+      "pashto",
+      "persian"
+    ],
+    "areas": [
+      "language-identification"
+    ],
+    "url": "https://aclanthology.org/2023.findings-acl.834",
+    "abstract": "GlotLID is a language identification model covering 1,600+ languages with high recall on Iranian minority and endangered varieties.",
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-acl.834",
+      "huggingface": "https://huggingface.co/datasets/cis-lmu/glotlid-corpus"
+    }
+  },
+  {
+    "id": "massivea1mexamplemultilingualn",
+    "title": "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages",
+    "authors": "Various authors",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2023.acl-long.235/",
+    "abstract": "We present the MASSIVE dataset--Multilingual Amazon Slu resource package (SLURP) for Slot-filling, Intent classification, and Virtual assistant Evaluation. MASSIVE contains 1M realistic, parallel, lab",
+    "links": {
+      "paper": "https://aclanthology.org/2023.acl-long.235/",
+      "huggingface": "https://huggingface.co/datasets/mteb/amazon_massive_intent"
+    }
+  },
+  {
+    "id": "paper158",
+    "title": "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages",
+    "authors": "Various authors",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2023.acl-long.235/",
+    "abstract": "We present the MASSIVE dataset--Multilingual Amazon Slu resource package (SLURP) for Slot-filling, Intent classification, and Virtual assistant Evaluation. MASSIVE contains 1M realistic, parallel, lab",
+    "links": {
+      "paper": "https://aclanthology.org/2023.acl-long.235/",
+      "huggingface": "https://huggingface.co/datasets/mteb/amazon_massive_intent"
+    }
+  },
+  {
+    "id": "glot500scalingmultilingualcorp",
+    "title": "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
+    "authors": "Various authors",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "dataset",
+      "text-generation",
+      "language-models"
+    ],
+    "url": "https://aclanthology.org/2023.acl-long.61/",
+    "abstract": "A dataset of natural language data collected by putting together more than 150 existing mono-lingual and multilingual datasets together and crawling known multilingual websites. The focus of this data",
+    "links": {
+      "paper": "https://aclanthology.org/2023.acl-long.61/",
+      "huggingface": "https://huggingface.co/datasets/cis-lmu/Glot500"
+    }
+  },
+  {
+    "id": "palialanguageidentificationben",
+    "title": "PALI: A Language Identification Benchmark for Perso-Arabic Scripts",
+    "authors": "Various authors",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "langs": [
+      "gilaki",
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "language-identification"
+    ],
+    "url": "https://aclanthology.org/2023.vardial-1.8/",
+    "abstract": "The Perso-Arabic scripts are a family of scripts that are widely adopted and used by various linguistic communities around the globe. Identifying various languages using such scripts is crucial to lan",
+    "links": {
+      "paper": "https://aclanthology.org/2023.vardial-1.8/",
+      "github": "https://github.com/sinaahmadi/PersoArabicLID"
+    }
+  },
+  {
+    "id": "scriptnormalizationforunconven",
+    "title": "Script Normalization for Unconventional Writing of Under-Resourced Languages in Bilingual Communities",
+    "authors": "Various authors",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "langs": [
+      "english",
+      "gilaki",
+      "kurdish",
+      "persian"
+    ],
+    "areas": [
+      "machine-translation",
+      "dataset",
+      "language-identification"
+    ],
+    "url": "https://aclanthology.org/2023.acl-long.809/",
+    "abstract": "What do all these sentences have in common? Being greeted in Arabic with \"mar7aba\" written in the Latin script, then asked how you are (\"هاو ئار یوو؟\") in English using the Perso-Arabic script of Kurd",
+    "links": {
+      "paper": "https://aclanthology.org/2023.acl-long.809/",
+      "github": "https://github.com/sinaahmadi/ScriptNormalization"
+    }
+  },
+  {
+    "id": "approachestocorpuscreationforl",
+    "title": "Approaches to Corpus Creation for Low-Resource Language Technology: the Case of Southern Kurdish and Laki",
+    "authors": "Various authors",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "langs": [
+      "gorani",
+      "kurdish",
+      "laki",
+      "persian",
+      "zaza"
+    ],
+    "areas": [
+      "language-identification"
+    ],
+    "url": "https://aclanthology.org/2023.fieldmatters-1.7/",
+    "abstract": "Language identification or detection is the task of detecting the language in which a sentence is written. This repository provides models for language identificaiton of Kurdish and Zaza-Gorani langua",
+    "links": {
+      "paper": "https://aclanthology.org/2023.fieldmatters-1.7/",
+      "github": "https://github.com/sinaahmadi/KurdishLID"
+    }
+  },
+  {
+    "id": "percqapersiancommunityquestion",
+    "title": "PerCQA: Persian Community Question Answering Dataset",
+    "authors": "Various authors",
+    "venue": "LREC 2022",
+    "year": 2022,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2022.lrec-1.654/",
+    "abstract": "Community Question Answering (CQA) forums provide answers to many real-life questions. These forums are trendy among machine learning researchers due to their large size. Automatic answer selection, a",
+    "links": {
+      "paper": "https://aclanthology.org/2022.lrec-1.654/",
+      "github": "https://github.com/PerCQA/PerCQA-Dataset"
+    }
+  },
+  {
+    "id": "parssimpleqathepersiansimplequ",
+    "title": "ParsSimpleQA: The Persian Simple Question Answering Dataset and System over Knowledge Graph",
+    "authors": "Various authors",
+    "venue": "ACL 2022",
+    "year": 2022,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2022.nlp4dh-1.9/",
+    "abstract": "The simple question answering over the knowledge graph concerns answering single-relation questions by querying the facts in the knowledge graph. This task has drawn significant attention in recent ye",
+    "links": {
+      "paper": "https://aclanthology.org/2022.nlp4dh-1.9/",
+      "github": "https://github.com/partdpai/ParsSimpleQA"
+    }
+  },
+  {
+    "id": "emoparsacollectionof30kemotion",
+    "title": "EmoPars: A Collection of 30K Emotion-Annotated Persian Social Media Texts",
+    "authors": "Various authors",
+    "venue": "ACL 2021",
+    "year": 2021,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "sentiment-analysis"
+    ],
+    "url": "https://aclanthology.org/2021.ranlp-srw.23/",
+    "abstract": "دیتاست فارسی 30 هزارتایی توییتر برای تحلیل احساسات\nبرخلاف دیتاست های رایج 6 کلاسه هست و مناسب برای تست مدل های شما",
+    "links": {
+      "paper": "https://aclanthology.org/2021.ranlp-srw.23/",
+      "github": "https://github.com/nazaninsbr/persian-emotion-detection?tab=readme-ov-file"
+    }
+  },
+  {
+    "id": "perspelldataanexhaustiveparall",
+    "title": "PerSpellData: An Exhaustive Parallel Spell Dataset For Persian",
+    "authors": "Various authors",
+    "venue": "ACL 2021",
+    "year": 2021,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "spell-checking",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2021.nsurl-1.2.pdf",
+    "abstract": "A comprehensive parallel dataset designed for the task of spell checking in Persian. Misspelled sentences together with the correct form are produced using a massive confusion matrix, which is gathere",
+    "links": {
+      "paper": "https://aclanthology.org/2021.nsurl-1.2.pdf",
+      "github": "https://github.com/rominaoji/PerSpellData"
+    }
+  },
+  {
+    "id": "parsquadpersianquestionansweri",
+    "title": "ParSQuAD: Persian Question Answering Dataset based on Machine Translation of SQuAD 2. 0‏",
+    "authors": "Various authors",
+    "venue": "Conf/Journal 2021",
+    "year": 2021,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "question-answering",
+      "dataset"
+    ],
+    "url": "https://scholar.google.com/scholar_lookup?title=Parsquad:+Persian+question+answering+dataset+based+on+machine+translation+of+squad+2.0&author=Abadani,+N.&author=Mozafari,+J.&author=Fatemi,+A.&author=Nematbakhsh,+M.&author=Kazemi,+A.&publication_year=2021&journal=International+Journal+of+Web+Research&volume=4&pages=34%E2%80%9346",
+    "abstract": "Persian Question Answering Dataset.based on Machine Translation of SQuAD 2.0",
+    "links": {
+      "paper": "https://scholar.google.com/scholar_lookup?title=Parsquad:+Persian+question+answering+dataset+based+on+machine+translation+of+squad+2.0&author=Abadani,+N.&author=Mozafari,+J.&author=Fatemi,+A.&author=Nematbakhsh,+M.&author=Kazemi,+A.&publication_year=2021&journal=International+Journal+of+Web+Research&volume=4&pages=34%E2%80%9346",
+      "github": "https://github.com/BigData-IsfahanUni/ParSQuAD"
+    }
+  },
+  {
+    "id": "lscpenhancedlargescalecolloqui",
+    "title": "LSCP: Enhanced Large Scale Colloquial Persian Language Understanding",
+    "authors": "Various authors",
+    "venue": "LREC 2020",
+    "year": 2020,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "text-generation",
+      "dataset"
+    ],
+    "url": "https://www.aclweb.org/anthology/2020.lrec-1.776",
+    "abstract": "\"Large Scale Colloquial Persian Dataset\" (LSCP) is hierarchically organized in asemantic taxonomy that focuses on multi-task informal Persian language understanding as a comprehensive problem. LSCP in",
+    "links": {
+      "paper": "https://www.aclweb.org/anthology/2020.lrec-1.776",
+      "dataset": "https://iasbs.ac.ir/~ansari/lscp/fa/index.html"
+    }
+  },
+  {
+    "id": "contentanalysisofpersianfarsit",
+    "title": "Content analysis of Persian/Farsi Tweets during COVID-19 pandemic in Iran using NLP",
+    "authors": "Various authors",
+    "venue": "ACL 2020",
+    "year": 2020,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "classification"
+    ],
+    "url": "https://aclanthology.org/2020.nlpcovid19-2.26/",
+    "abstract": "Content analysis of Persian/Farsi Tweets during COVID-19 pandemic in Iran using NLP (NLP-COVID19, EMNLP)",
+    "links": {
+      "paper": "https://aclanthology.org/2020.nlpcovid19-2.26/",
+      "github": "https://github.com/phosseini/COVID19-fa"
+    }
+  },
+  {
+    "id": "ironydetectioninpersianlanguag",
+    "title": "Irony Detection in Persian Language: A Transfer Learning Approach Using Emoji Prediction",
+    "authors": "Various authors",
+    "venue": "LREC 2020",
+    "year": 2020,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "classification"
+    ],
+    "url": "https://aclanthology.org/2020.lrec-1.346/",
+    "abstract": "The data file is in CSV format, each row containing a tweet and its corresponding label. The labels are either 1, for an ironic tweet, or 0, for a non-ironic tweets.",
+    "links": {
+      "paper": "https://aclanthology.org/2020.lrec-1.346/",
+      "github": "https://github.com/miras-tech/MirasText/tree/master/MirasIrony"
+    }
+  },
+  {
+    "id": "optimizingannotationeffortusin",
+    "title": "Optimizing Annotation Effort Using Active Learning Strategies: A Sentiment Analysis Case Study in Persian",
+    "authors": "Various authors",
+    "venue": "LREC 2020",
+    "year": 2020,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "sentiment-analysis",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2020.lrec-1.348/",
+    "abstract": "MirasOpinion is crawled from the Digikala website, one of the largest e-commerce websites in Iran. 2.5 million comments have been crawled, and after some pre-processing, we reduce its size to one mill",
+    "links": {
+      "paper": "https://aclanthology.org/2020.lrec-1.348/",
+      "github": "https://github.com/miras-tech/MirasText/tree/master/MirasOpinion"
+    }
+  },
+  {
+    "id": "buildingacorpusforthezazagoran",
+    "title": "Building a Corpus for the Zaza–Gorani Language Family",
+    "authors": "Various authors",
+    "venue": "ACL 2020",
+    "year": 2020,
+    "langs": [
+      "gorani",
+      "kurdish",
+      "kurmanji",
+      "persian",
+      "sorani",
+      "zaza"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2020.vardial-1.7/",
+    "abstract": "This repository provides a corpus for two endangered languages of the Zaza-Gorani language family: Zazaki and Gorani. These two languages along with Shabaki are the three languages belonging to the Za",
+    "links": {
+      "paper": "https://aclanthology.org/2020.vardial-1.7/",
+      "github": "https://github.com/sinaahmadi/ZazaGoraniCorpus?tab=readme-ov-file"
+    }
+  },
+  {
+    "id": "towardskurdishtexttosigntransl",
+    "title": "Towards Kurdish Text to Sign Translation",
+    "authors": "Various authors",
+    "venue": "ACL 2020",
+    "year": 2020,
+    "langs": [
+      "kurdish",
+      "persian",
+      "sorani",
+      "tati"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2020.signlang-1.19/",
+    "abstract": "KurdishSignLanguage\nThis dataset is used in translating Kurdish texts to Kurdish Sign Language (KuSL). Currently, the dataset is useful in making the texts in the Sorani dialect Sign-supported. We aim",
+    "links": {
+      "paper": "https://aclanthology.org/2020.signlang-1.19/",
+      "github": "https://github.com/KurdishBLARK/KurdishSignLanguage"
+    }
+  },
+  {
+    "id": "acorpusofthesoranikurdishfolkl",
+    "title": "A Corpus of the Sorani Kurdish Folkloric Lyrics",
+    "authors": "Various authors",
+    "venue": "ACL 2020",
+    "year": 2020,
+    "langs": [
+      "gorani",
+      "kurdish",
+      "luri",
+      "persian",
+      "sorani",
+      "tati"
+    ],
+    "areas": [
+      "text-generation",
+      "dataset"
+    ],
+    "url": "https://aclanthology.org/2020.sltu-1.46/",
+    "abstract": "Kurdish poetry and prose narratives were historically transmitted orally and less in a written form. Being an essential medium of oral narration and literature, Kurdish lyrics have had a unique attrib",
+    "links": {
+      "paper": "https://aclanthology.org/2020.sltu-1.46/",
+      "github": "https://github.com/KurdishBLARK/KurdishLyricsCorpus"
+    }
+  },
+  {
+    "id": "parsinluasuiteoflanguageunders",
+    "title": "ParsiNLU: A Suite of Language Understanding Challenges for Persian",
+    "authors": "Various authors",
+    "venue": "arXiv 2012",
+    "year": 2012,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "machine-translation",
+      "sentiment-analysis",
+      "question-answering"
+    ],
+    "url": "https://arxiv.org/abs/2012.06154",
+    "abstract": "ParsiNLU is a comprehensive suit of high-level NLP tasks for Persian language. This suit contains 6 different key NLP tasks --- Reading Comprehension, Multiple-Choice Question-Answering, Textual Entai",
+    "links": {
+      "paper": "https://arxiv.org/abs/2012.06154",
+      "github": "https://github.com/persiannlp/parsinlu?tab=License-1-ov-file#readme"
+    }
+  },
+  {
+    "id": "leveragingparsbertandpretraine",
+    "title": "Leveraging ParsBERT and Pretrained mT5 for Persian Abstractive Text Summarization",
+    "authors": "Various authors",
+    "venue": "arXiv 2012",
+    "year": 2012,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "text-generation",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2012.11204",
+    "abstract": "Natural Language Processing (NLP) is a field of AI that focuses on processing textual information in order to make them comprehensible to computers. With the emergence of Deep Learning (DL), numerous ",
+    "links": {
+      "paper": "https://arxiv.org/abs/2012.11204",
+      "github": "https://github.com/hooshvare/pn-summary"
+    }
+  },
+  {
+    "id": "leveragingmultilingualnewswebs",
+    "title": "Leveraging Multilingual News Websites for Building a Kurdish Parallel Corpus",
+    "authors": "Various authors",
+    "venue": "arXiv 2010",
+    "year": 2010,
+    "langs": [
+      "english",
+      "kurdish",
+      "kurmanji",
+      "persian",
+      "sorani",
+      "tati"
+    ],
+    "areas": [
+      "machine-translation",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2010.01554",
+    "abstract": "This repository contains a parallel corpus of Sorani (ckb) and Kurmanji (kmr) dialects of Kurdish along with English (eng). The development of the corpus is described in our paper. Our approach is con",
+    "links": {
+      "paper": "https://arxiv.org/abs/2010.01554",
+      "github": "https://github.com/KurdishBLARK/InterdialectCorpus/tree/master"
+    }
+  },
+  {
+    "id": "farstailapersiannaturallanguag",
+    "title": "FarsTail: A Persian Natural Language Inference Dataset",
+    "authors": "Various authors",
+    "venue": "arXiv 2009",
+    "year": 2009,
+    "langs": [
+      "english",
+      "persian"
+    ],
+    "areas": [
+      "other",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2009.08820",
+    "abstract": "Natural Language Inference (NLI), also called Textual Entailment, is an important task in NLP with the goal of determining the inference relationship between a premise p and a hypothesis h. It is a th",
+    "links": {
+      "paper": "https://arxiv.org/abs/2009.08820",
+      "github": "https://github.com/dml-qom/FarsTail"
+    }
+  },
+  {
+    "id": "thepersiandependencytreebankma",
+    "title": "The Persian Dependency Treebank Made Universal",
+    "authors": "Various authors",
+    "venue": "arXiv 2009",
+    "year": 2009,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "pos-tagging"
+    ],
+    "url": "https://arxiv.org/abs/2009.10205",
+    "abstract": "Automatic conversion of Persian Dependency Treebank (PerDT) into UD format with manual corrections, 29K sentences over multiple genres.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2009.10205",
+      "github": "https://github.com/phsfr/UD_Persian-PerDT"
+    }
+  },
+  {
+    "id": "parsberttransformerbasedmodelf",
+    "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "authors": "Various authors",
+    "venue": "arXiv 2005",
+    "year": 2005,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "recommendation",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2005.12515",
+    "abstract": "A total of 8,515 articles scraped from Digikala Online Magazine. This dataset includes seven different classes.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2005.12515",
+      "dataset": "https://hooshvare.github.io/docs/datasets/ner"
+    }
+  },
+  {
+    "id": "paper121",
+    "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "authors": "Various authors",
+    "venue": "arXiv 2005",
+    "year": 2005,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "classification",
+      "text-generation",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2005.12515",
+    "abstract": "A dataset of various news articles scraped from different online news agencies’ websites. The total number of articles is 16,438, spread over eight different classes.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2005.12515",
+      "dataset": "https://hooshvare.github.io/docs/datasets/ner"
+    }
+  },
+  {
+    "id": "paper122",
+    "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "authors": "Various authors",
+    "venue": "arXiv 2005",
+    "year": 2005,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "sentiment-analysis"
+    ],
+    "url": "https://arxiv.org/abs/2005.12515",
+    "abstract": "Snappfood (an online food delivery company) user comments containing 70,000 comments with two labels (i.e. polarity classification): 1-Happy 2-Sad",
+    "links": {
+      "paper": "https://arxiv.org/abs/2005.12515",
+      "dataset": "https://hooshvare.github.io/docs/datasets/ner"
+    }
+  },
+  {
+    "id": "paper123",
+    "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "authors": "Various authors",
+    "venue": "arXiv 2005",
+    "year": 2005,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "sentiment-analysis",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2005.12515",
+    "abstract": "Digikala user comments provided by Open Data Mining Program (ODMP). This dataset contains 62,321 user comments with three labels:",
+    "links": {
+      "paper": "https://arxiv.org/abs/2005.12515",
+      "dataset": "https://hooshvare.github.io/docs/datasets/ner"
+    }
+  },
+  {
+    "id": "paper124",
+    "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "authors": "Various authors",
+    "venue": "arXiv 2005",
+    "year": 2005,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "named-entity-recognition",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2005.12515",
+    "abstract": "PEYMA dataset includes 7,145 sentences with a total of 302,530 tokens from which 41,148 tokens are tagged with seven different classes.Organization,Money,Location,Date,Time,Person,Percent",
+    "links": {
+      "paper": "https://arxiv.org/abs/2005.12515",
+      "dataset": "https://hooshvare.github.io/docs/datasets/ner"
+    }
+  },
+  {
+    "id": "paper125",
+    "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "authors": "Various authors",
+    "venue": "arXiv 2005",
+    "year": 2005,
+    "langs": [
+      "persian"
+    ],
+    "areas": [
+      "named-entity-recognition",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2005.12515",
+    "abstract": "ARMAN dataset holds 7,682 sentences with 250,015 sentences tagged over six different classes.Organization,Location,Facility,Event,Product,Person",
+    "links": {
+      "paper": "https://arxiv.org/abs/2005.12515",
+      "dataset": "https://hooshvare.github.io/docs/datasets/ner"
+    }
+  },
+  {
+    "id": "deepsentipersnoveldeeplearning",
+    "title": "DeepSentiPers: Novel Deep Learning Models Trained Over Proposed Augmented Persian Sentiment Corpus",
+    "authors": "Various authors",
+    "venue": "arXiv 2004",
+    "year": 2004,
+    "langs": [
+      "persian",
+      "tati"
+    ],
+    "areas": [
+      "sentiment-analysis",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/pdf/2004.05328",
+    "abstract": "Deep learning models provided a new way to boost the quality of the output. However, these architectures need to feed on big annotated data as well as an accurate design. To best of our knowledge, we ",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2004.05328",
+      "github": "https://github.com/JoyeBright/DeepSentiPers?tab=readme-ov-file"
+    }
+  }
+]

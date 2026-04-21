@@ -1,0 +1,80 @@
+[
+  {
+    "id": "glotocr-bench",
+    "title": "GlotOCR-Bench",
+    "badge": "badge-ocr",
+    "badgeLabel": "OCR Benchmark",
+    "desc": "A comprehensive benchmark evaluating OCR generalization across 158 Unicode scripts, including many Iranian scripts. Reveals stark performance gaps on low-resource writing systems.",
+    "langs": ["Persian","Pashto","Balochi","Kurdish","All scripts"],
+    "venue": "arXiv",
+    "year": "2026",
+    "url": "https://arxiv.org/abs/2604.12978",
+    "github": "https://github.com/cisnlp/GlotOCR-bench",
+    "hf": "https://huggingface.co/datasets/cis-lmu/GlotOCR-bench"
+  },
+  {
+    "id": "glotsid",
+    "title": "GlotSID",
+    "badge": "badge-nlp",
+    "badgeLabel": "Language ID",
+    "desc": "Script and language identification covering 1,600+ languages including over 40 Iranian varieties. Enables automatic detection of Iranian language text in multilingual corpora.",
+    "langs": ["Persian","Kurdish","Pashto","Balochi","Shughni","20+ more"],
+    "venue": "EMNLP",
+    "year": "2024",
+    "url": "https://github.com/cisnlp/GlotSID",
+    "github": "https://github.com/cisnlp/GlotSID",
+    "hf": null
+  },
+  {
+    "id": "glotscript",
+    "title": "GlotScript",
+    "badge": "badge-data",
+    "badgeLabel": "Dataset",
+    "desc": "A resource and tool for script identification covering virtually all writing systems used in Iranian languages — from Arabic-Nastaliq to Avestan, Sogdian, and Cuneiform.",
+    "langs": ["All Iranian scripts"],
+    "venue": "ACL",
+    "year": "2024",
+    "url": "https://github.com/cisnlp/GlotScript",
+    "github": "https://github.com/cisnlp/GlotScript",
+    "hf": null
+  },
+  {
+    "id": "glotlid",
+    "title": "GlotLID",
+    "badge": "badge-nlp",
+    "badgeLabel": "Language ID",
+    "desc": "Language identification model covering 1,600+ languages with strong coverage of Iranian language varieties including many low-resource and endangered ones.",
+    "langs": ["Persian","Dari","Tajik","Pashto","Kurdish","Balochi","Shughni","Wakhi"],
+    "venue": "ACL Findings",
+    "year": "2023",
+    "url": "https://github.com/cisnlp/GlotLID",
+    "github": "https://github.com/cisnlp/GlotLID",
+    "hf": "https://huggingface.co/cisnlp/GlotLID"
+  },
+  {
+    "id": "glotcc",
+    "title": "GlotCC",
+    "badge": "badge-data",
+    "badgeLabel": "Corpus",
+    "desc": "An open broad-coverage common crawl corpus with high-quality data for 1,000+ languages. Provides the first large-scale text for dozens of Iranian minority languages.",
+    "langs": ["Persian","Pashto","Kurdish","Balochi","Gilaki","Mazanderani","Ossetic","Talysh"],
+    "venue": "NeurIPS D&B",
+    "year": "2024",
+    "url": "https://github.com/cisnlp/GlotCC",
+    "github": "https://github.com/cisnlp/GlotCC",
+    "hf": "https://huggingface.co/datasets/cisnlp/GlotCC"
+  },
+  {
+    "id": "transliteration",
+    "title": "Transliteration Tools",
+    "badge": "badge-nlp",
+    "badgeLabel": "NLP Tool",
+    "desc": "Transliteration tools and resources for converting Iranian language text between scripts — enabling Persian↔Latin, Kurdish Arabic↔Latin, and cross-script transfer learning.",
+    "langs": ["Persian","Kurdish","Pashto","Talysh","Ossetic"],
+    "venue": "LREC-COLING",
+    "year": "2024",
+    "url": "https://github.com/sigiranic",
+    "github": "https://github.com/sigiranic",
+    "hf": null
+  }
+]
