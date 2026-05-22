@@ -308,7 +308,8 @@ footer{background:var(--dark);padding:32px 40px;display:flex;flex-direction:colu
       <button class="etab" onclick="filterBranch('southwestern',this)">Southwestern</button>
       <button class="etab" onclick="filterBranch('northwestern',this)">Northwestern</button>
       <button class="etab" onclick="filterBranch('eastern',this)">Eastern</button>
-      <button class="etab" onclick="filterBranch('scythian',this)">Scythian / Historical</button>
+      <button class="etab" onclick="filterBranch('ossetic',this)">Ossetic</button>
+      <button class="etab" onclick="filterBranch('historical',this)">Historical</button>
     </div>
     <!-- Split: list | map/detail -->
     <div class="epane active" id="lang-pane" style="grid-template-columns:260px 1fr;height:520px">
@@ -324,7 +325,8 @@ footer{background:var(--dark);padding:32px 40px;display:flex;flex-direction:colu
             <div class="map-legend-item"><div class="map-legend-dot" style="background:#C8490F"></div><span>Southwestern</span></div>
             <div class="map-legend-item"><div class="map-legend-dot" style="background:#1B3A6B"></div><span>Northwestern</span></div>
             <div class="map-legend-item"><div class="map-legend-dot" style="background:#2A6E4A"></div><span>Eastern</span></div>
-            <div class="map-legend-item"><div class="map-legend-dot" style="background:#7B4FA8"></div><span>Scythian</span></div>
+            <div class="map-legend-item"><div class="map-legend-dot" style="background:#7B4FA8"></div><span>Ossetic</span></div>
+            <div class="map-legend-item"><div class="map-legend-dot" style="background:#A89880"></div><span>Historical</span></div>
           </div>
           <div class="map-hint">Click a language to explore →</div>
         </div>
@@ -504,13 +506,17 @@ let activeResourceLang='persian', activeResource=null, resourceTypeFilter='all';
 function renderLangList(){
   let filtered;
   if(activeView==='branch'){
-    filtered=activeBranch==='all'?LANGUAGES:LANGUAGES.filter(l=>l.branch===activeBranch);
+    if(activeBranch==='all') filtered=LANGUAGES;
+    else if(activeBranch==='historical') filtered=LANGUAGES.filter(l=>l.status==='historical');
+    else filtered=LANGUAGES.filter(l=>l.branch===activeBranch);
   }else{
     filtered=activeBranch==='all'?LANGUAGES:LANGUAGES.filter(l=>l.scriptId===activeBranch);
   }
   document.getElementById('lang-count').textContent=LANGUAGES.length;
   document.getElementById('lang-list').innerHTML=filtered.map((l,i)=>{
-    const color=activeView==='branch'?(statusColor[l.status]||'#A89880'):(scriptColor[l.scriptId]||'#888');
+    const color=activeView==='branch'
+      ?(l.status==='historical'?'#A89880':(branchColor[l.branch]||'#888'))
+      :(scriptColor[l.scriptId]||'#888');
     return `
     <div class="lang-item ${activeLang===l.code?'active':''}" onclick="selectLang('${l.code}')" style="animation-delay:${i*14}ms">
       <div class="li-dot" style="background:${color}"></div>
@@ -524,7 +530,13 @@ function filterBranch(branch,el){
   activeBranch=branch;
   document.querySelectorAll('#lang-tab-bar .etab').forEach(b=>b.classList.remove('active'));
   el.classList.add('active');
-  if(activeLang){const l=LANGUAGES.find(x=>x.code===activeLang);if(l&&branch!=='all'&&l.branch!==branch)clearLang();}
+  if(activeLang){
+    const l=LANGUAGES.find(x=>x.code===activeLang);
+    if(l&&branch!=='all'){
+      const match=branch==='historical'?l.status==='historical':l.branch===branch;
+      if(!match)clearLang();
+    }
+  }
   renderLangList();
   updateMapMarkers();
 }
@@ -542,7 +554,8 @@ function switchView(view,el){
       <button class="etab" onclick="filterBranch('southwestern',this)">Southwestern</button>
       <button class="etab" onclick="filterBranch('northwestern',this)">Northwestern</button>
       <button class="etab" onclick="filterBranch('eastern',this)">Eastern</button>
-      <button class="etab" onclick="filterBranch('scythian',this)">Scythian / Historical</button>`;
+      <button class="etab" onclick="filterBranch('ossetic',this)">Ossetic</button>
+      <button class="etab" onclick="filterBranch('historical',this)">Historical</button>`;
   }else{
     document.getElementById('lang-tab-bar').innerHTML=`
       <button class="etab active" onclick="filterBranch('all',this)">All <span class="etab-count" id="lang-count">—</span></button>
@@ -878,7 +891,9 @@ function updateMapMarkers(){
   // Filter languages
   let filtered;
   if(activeView==='branch'){
-    filtered=activeBranch==='all'?LANGUAGES:LANGUAGES.filter(l=>l.branch===activeBranch);
+    if(activeBranch==='all') filtered=LANGUAGES;
+    else if(activeBranch==='historical') filtered=LANGUAGES.filter(l=>l.status==='historical');
+    else filtered=LANGUAGES.filter(l=>l.branch===activeBranch);
   }else{
     filtered=activeBranch==='all'?LANGUAGES:LANGUAGES.filter(l=>l.scriptId===activeBranch);
   }
@@ -886,7 +901,9 @@ function updateMapMarkers(){
   // Add markers
   filtered.forEach(lang=>{
     if(!lang.coordinates)return;
-    const color=activeView==='branch'?(branchColor[lang.branch]||'#888'):(scriptColor[lang.scriptId]||'#888');
+    const color=activeView==='branch'
+      ?(lang.status==='historical'?'#A89880':(branchColor[lang.branch]||'#888'))
+      :(scriptColor[lang.scriptId]||'#888');
 
     const marker=L.circleMarker([lang.coordinates[0],lang.coordinates[1]],{
       radius:lang.status==='major'?8:lang.status==='mid'?6:5,
@@ -927,7 +944,8 @@ function updateMapLegend(){
       <div class="map-legend-item"><div class="map-legend-dot" style="background:#C8490F"></div><span>Southwestern</span></div>
       <div class="map-legend-item"><div class="map-legend-dot" style="background:#1B3A6B"></div><span>Northwestern</span></div>
       <div class="map-legend-item"><div class="map-legend-dot" style="background:#2A6E4A"></div><span>Eastern</span></div>
-      <div class="map-legend-item"><div class="map-legend-dot" style="background:#7B4FA8"></div><span>Scythian</span></div>`;
+      <div class="map-legend-item"><div class="map-legend-dot" style="background:#7B4FA8"></div><span>Ossetic</span></div>
+      <div class="map-legend-item"><div class="map-legend-dot" style="background:#A89880"></div><span>Historical</span></div>`;
   }else{
     document.querySelector('.map-legend').innerHTML=`
       <div class="map-legend-title">Writing Systems</div>
