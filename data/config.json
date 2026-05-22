@@ -11,7 +11,8 @@
       "southwestern": "#C8490F",
       "northwestern": "#1B3A6B",
       "eastern": "#2A6E4A",
-      "scythian": "#7B4FA8"
+      "ossetic": "#7B4FA8",
+      "historical": "#A89880"
     },
     "script": {
       "cuneiform": "#8B4513",
@@ -31,15 +32,37 @@
       "southwestern": "mdots-sw",
       "northwestern": "mdots-nw",
       "eastern": "mdots-ea",
-      "scythian": "mdots-sc"
+      "ossetic": "mdots-os",
+      "historical": "mdots-hi"
     },
-    "allDotIds": ["mdots-sw", "mdots-nw", "mdots-ea", "mdots-sh", "mdots-sc", "mdots-hi"]
+    "allDotIds": [
+      "mdots-sw",
+      "mdots-nw",
+      "mdots-ea",
+      "mdots-os",
+      "mdots-hi"
+    ]
   },
   "badges": {
-    "ocr": { "class": "badge-ocr", "label": "OCR" },
-    "nlp": { "class": "badge-nlp", "label": "NLP" },
-    "data": { "class": "badge-data", "label": "Data" },
-    "model": { "class": "badge-model", "label": "Model" },
-    "venue": { "class": "badge-venue", "label": "Venue" }
+    "ocr": {
+      "class": "badge-ocr",
+      "label": "OCR"
+    },
+    "nlp": {
+      "class": "badge-nlp",
+      "label": "NLP"
+    },
+    "data": {
+      "class": "badge-data",
+      "label": "Data"
+    },
+    "model": {
+      "class": "badge-model",
+      "label": "Model"
+    },
+    "venue": {
+      "class": "badge-venue",
+      "label": "Venue"
+    }
   }
 }
