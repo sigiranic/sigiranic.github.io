@@ -1,19 +1,1011 @@
 [
   {
+    "name": "Aimaq",
+    "iso639_3": "aiq",
+    "glottolog": "aima1241",
+    "code": "aiq",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:aiq",
+    "speakers": "1.8M",
+    "area": "Afghanistan, Iran",
+    "script": "Arabic (Nastaliq)",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      35.283,
+      59.1756
+    ]
+  },
+  {
+    "name": "Ashtiani",
+    "iso639_3": "atn",
+    "glottolog": "asht1244",
+    "code": "atn",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:atn",
+    "speakers": "15K",
+    "area": "Markazi Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      34.6042,
+      49.9991
+    ]
+  },
+  {
+    "name": "Alviri-Vidari",
+    "iso639_3": "avd",
+    "glottolog": "alvi1241",
+    "code": "avd",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:avd",
+    "speakers": "4K",
+    "area": "Qazvin Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.0075,
+      50.3794
+    ]
+  },
+  {
+    "name": "Avestan",
+    "iso639_3": "ave",
+    "glottolog": "aves1237",
+    "code": "ave",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ave",
+    "speakers": "0 (liturgical)",
+    "area": "Ancient Iran / Bactria",
+    "script": "Avestan",
+    "scriptId": "avestan",
+    "status": "historical",
+    "note": "Sacred language of Zoroastrianism, attested from ~1000 BCE",
+    "coordinates": [
+      34.217,
+      62.112
+    ]
+  },
+  {
+    "name": "Balochi",
+    "iso639_3": "bal",
+    "glottolog": "balo1260",
+    "code": "bal",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bal",
+    "speakers": "9M",
+    "area": "Pakistan, Iran, Afghanistan",
+    "script": "Arabic / Latin",
+    "scriptId": "arabic-nastaliq",
+    "status": "major",
+    "coordinates": [
+      28.3895,
+      64.6857
+    ]
+  },
+  {
+    "name": "Southern Balochi",
+    "iso639_3": "bcc",
+    "glottolog": "sout2642",
+    "code": "bcc",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bcc",
+    "speakers": "3M",
+    "area": "Pakistan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      26,
+      64
+    ]
+  },
+  {
+    "name": "Western Balochi",
+    "iso639_3": "bgn",
+    "glottolog": "west2368",
+    "code": "bgn",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bgn",
+    "speakers": "2M",
+    "area": "Pakistan, Iran, Afghanistan",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      29.4993,
+      66.0288
+    ]
+  },
+  {
+    "name": "Eastern Balochi",
+    "iso639_3": "bgp",
+    "glottolog": "east2304",
+    "code": "bgp",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bgp",
+    "speakers": "2M",
+    "area": "Pakistan",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      29.3821,
+      69.0583
+    ]
+  },
+  {
+    "name": "Bukharic",
+    "iso639_3": "bhh",
+    "glottolog": "bukh1238",
+    "code": "bhh",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bhh",
+    "speakers": "10K",
+    "area": "Bukhara, Uzbekistan",
+    "script": "Hebrew / Cyrillic",
+    "scriptId": "hebrew",
+    "status": "endangered",
+    "coordinates": [
+      41,
+      64
+    ]
+  },
+  {
+    "name": "Bajelani",
+    "iso639_3": "bjm",
+    "glottolog": "baje1238",
+    "code": "bjm",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bjm",
+    "speakers": "10K",
+    "area": "Iraq, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      33.9498,
+      42.9867
+    ]
+  },
+  {
+    "name": "Bakhtiari",
+    "iso639_3": "bqi",
+    "glottolog": "bakh1245",
+    "code": "bqi",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bqi",
+    "speakers": "1M",
+    "area": "Khuzestan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      32.0163,
+      49.7713
+    ]
+  },
+  {
+    "name": "Bashkardi",
+    "iso639_3": "bsg",
+    "glottolog": "bash1263",
+    "code": "bsg",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bsg",
+    "speakers": "20K",
+    "area": "Hormozgan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      27.3326,
+      56.8655
+    ]
+  },
+  {
+    "name": "Central Kurdish (Sorani)",
+    "iso639_3": "ckb",
+    "glottolog": "cent1972",
+    "code": "ckb",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ckb",
+    "speakers": "7M",
+    "area": "Iraq, Iran",
+    "script": "Arabic (Sorani)",
+    "scriptId": "arabic-nastaliq",
+    "status": "major",
+    "coordinates": [
+      35.6539,
+      45.8077
+    ]
+  },
+  {
+    "name": "Dezfuli-Shushtari",
+    "iso639_3": "def",
+    "glottolog": "dezf1238",
+    "code": "def",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:def",
+    "speakers": "50K",
+    "area": "Khuzestan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      32.374,
+      48.907
+    ]
+  },
+  {
+    "name": "Dehwari",
+    "iso639_3": "deh",
+    "glottolog": "dehw1238",
+    "code": "deh",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:deh",
+    "speakers": "30K",
+    "area": "Balochistan, Pakistan",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      29.5205,
+      66.5977
+    ]
+  },
+  {
+    "name": "Dimli (Zazaki)",
+    "iso639_3": "diq",
+    "glottolog": "diml1238",
+    "code": "diq",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:diq",
+    "speakers": "2M",
+    "area": "Eastern Turkey",
+    "script": "Latin",
+    "scriptId": "latin",
+    "status": "mid",
+    "coordinates": [
+      38.6147,
+      39.6388
+    ]
+  },
+  {
+    "name": "Darwazi",
+    "iso639_3": "drw",
+    "glottolog": "darw1234",
+    "code": "drw",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:drw",
+    "speakers": "15K",
+    "area": "Badakhshan, Afghanistan/Tajikistan",
+    "script": "Arabic / Cyrillic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      38.3161,
+      70.7643
+    ]
+  },
+  {
+    "name": "Eshtehardi",
+    "iso639_3": "esh",
+    "glottolog": "esht1238",
+    "code": "esh",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:esh",
+    "speakers": "5K",
+    "area": "Gilan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.7267,
+      50.3677
+    ]
+  },
+  {
     "name": "Persian (Farsi)",
+    "iso639_3": "fas",
+    "glottolog": "fars1254",
+    "code": "fas",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:fas",
+    "speakers": "110M",
+    "area": "Iran, Afghanistan, Tajikistan",
+    "script": "Arabic (Nastaliq)",
+    "scriptId": "arabic-nastaliq",
+    "status": "major",
+    "note": "Macrolanguage covering pes, prs, tgk and others",
+    "coordinates": [
+      32.4279,
+      53.688
+    ]
+  },
+  {
+    "name": "Fars Dialects",
+    "iso639_3": "fay",
+    "glottolog": "sout2645",
+    "code": "fay",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:fay",
+    "speakers": "200K",
+    "area": "Fars Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      29.746,
+      52.267
+    ]
+  },
+  {
+    "name": "Dari (Zoroastrian)",
+    "iso639_3": "gbz",
+    "glottolog": "zoro1242",
+    "code": "gbz",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:gbz",
+    "speakers": "10K",
+    "area": "Yazd and Kerman, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      31.8161,
+      54.4469
+    ]
+  },
+  {
+    "name": "Gilaki",
+    "iso639_3": "glk",
+    "glottolog": "gila1241",
+    "code": "glk",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:glk",
+    "speakers": "3M",
+    "area": "Gilan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      37.1344,
+      49.8359
+    ]
+  },
+  {
+    "name": "Alamuti",
+    "iso639_3": "goz",
+    "glottolog": "goza1238",
+    "code": "goz",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:goz",
+    "speakers": "5K",
+    "area": "Alamut, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      36.4133,
+      50.6987
+    ]
+  },
+  {
+    "name": "Gazic",
+    "iso639_3": "gzi",
+    "glottolog": "gazi1243",
+    "code": "gzi",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:gzi",
+    "speakers": "10K",
+    "area": "Isfahan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      34.0357,
+      49.4553
+    ]
+  },
+  {
+    "name": "Gurani",
+    "iso639_3": "hac",
+    "glottolog": "gura1251",
+    "code": "hac",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:hac",
+    "speakers": "200K",
+    "area": "Iran, Iraq",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      36.8377,
+      44.4956
+    ]
+  },
+  {
+    "name": "Hazaragi",
+    "iso639_3": "haz",
+    "glottolog": "haza1239",
+    "code": "haz",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:haz",
+    "speakers": "2.2M",
+    "area": "Afghanistan, Pakistan, Iran",
+    "script": "Arabic (Nastaliq)",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      33.3708,
+      64.5105
+    ]
+  },
+  {
+    "name": "Harzani-Kilit",
+    "iso639_3": "hrz",
+    "glottolog": "harz1239",
+    "code": "hrz",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:hrz",
+    "speakers": "10K",
+    "area": "East Azerbaijan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      38.4341,
+      48.2848
+    ]
+  },
+  {
+    "name": "Ishkashimi",
+    "iso639_3": "isk",
+    "glottolog": "ishk1246",
+    "code": "isk",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:isk",
+    "speakers": "2K",
+    "area": "Ishkashim, Afghanistan/Tajikistan",
+    "script": "Unwritten",
+    "scriptId": "unwritten",
+    "status": "endangered",
+    "coordinates": [
+      36.67,
+      71.55
+    ]
+  },
+  {
+    "name": "Judeo-Tat",
+    "iso639_3": "jdt",
+    "glottolog": "jude1256",
+    "code": "jdt",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:jdt",
+    "speakers": "5K",
+    "area": "Azerbaijan, Dagestan",
+    "script": "Cyrillic / Hebrew",
+    "scriptId": "hebrew",
+    "status": "endangered",
+    "coordinates": [
+      42.0683,
+      48.2647
+    ]
+  },
+  {
+    "name": "Judeo-Persian",
+    "iso639_3": "jpr",
+    "glottolog": "jude1257",
+    "code": "jpr",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:jpr",
+    "speakers": "55K",
+    "area": "Iran, Israel, USA",
+    "script": "Hebrew / Arabic",
+    "scriptId": "hebrew",
+    "status": "low",
+    "coordinates": [
+      31.4507,
+      43.5715
+    ]
+  },
+  {
+    "name": "Khunsaric",
+    "iso639_3": "kfm",
+    "glottolog": "khun1255",
+    "code": "kfm",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:kfm",
+    "speakers": "10K",
+    "area": "Isfahan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      36.6963,
+      49.3742
+    ]
+  },
+  {
+    "name": "Karingani-Kalasuri-Khoynarudi",
+    "iso639_3": "kgn",
+    "glottolog": "kari1303",
+    "code": "kgn",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:kgn",
+    "speakers": "10K",
+    "area": "East Azerbaijan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      38.5656,
+      47.4329
+    ]
+  },
+  {
+    "name": "Khotanese",
+    "iso639_3": "kho",
+    "glottolog": "khot1251",
+    "code": "kho",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:kho",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Khotan (Xinjiang, China)",
+    "script": "Brahmi",
+    "scriptId": "brahmi",
+    "status": "historical",
+    "coordinates": [
+      38.33,
+      79.04
+    ]
+  },
+  {
+    "name": "Kirmanjki",
+    "iso639_3": "kiu",
+    "glottolog": "kirm1248",
+    "code": "kiu",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:kiu",
+    "speakers": "300K",
+    "area": "Eastern Turkey",
+    "script": "Latin",
+    "scriptId": "latin",
+    "status": "mid",
+    "coordinates": [
+      39.1636,
+      39.4004
+    ]
+  },
+  {
+    "name": "Northern Kurdish (Kurmanji)",
+    "iso639_3": "kmr",
+    "glottolog": "nort2641",
+    "code": "kmr",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:kmr",
+    "speakers": "15M",
+    "area": "Turkey, Syria, Iraq, Armenia",
+    "script": "Latin / Arabic",
+    "scriptId": "latin",
+    "status": "major",
+    "coordinates": [
+      37,
+      43
+    ]
+  },
+  {
+    "name": "Koroshi",
+    "iso639_3": "ktl",
+    "glottolog": "koro1296",
+    "code": "ktl",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ktl",
+    "speakers": "15K",
+    "area": "Hormozgan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      29.441,
+      53.008
+    ]
+  },
+  {
+    "name": "Kurdish (macro)",
+    "iso639_3": "kur",
+    "glottolog": "kurd1259",
+    "code": "kur",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:kur",
+    "speakers": "30M",
+    "area": "Turkey, Iraq, Iran, Syria",
+    "script": "Latin / Arabic / Cyrillic",
+    "scriptId": "latin",
+    "status": "major",
+    "note": "Macrolanguage covering kmr, ckb, sdh",
+    "coordinates": [
+      37.0,
+      43.0
+    ]
+  },
+  {
+    "name": "Laki",
+    "iso639_3": "lki",
+    "glottolog": "laki1244",
+    "code": "lki",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:lki",
+    "speakers": "1M",
+    "area": "Kermanshah and Ilam, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      34.0103,
+      47.9398
+    ]
+  },
+  {
+    "name": "Northern Luri",
+    "iso639_3": "lrc",
+    "glottolog": "nort2645",
+    "code": "lrc",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:lrc",
+    "speakers": "5M",
+    "area": "Western Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      32.5438,
+      47.916
+    ]
+  },
+  {
+    "name": "Lari",
+    "iso639_3": "lrl",
+    "glottolog": "lari1253",
+    "code": "lrl",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:lrl",
+    "speakers": "200K",
+    "area": "Fars Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      27.6436,
+      54.6345
+    ]
+  },
+  {
+    "name": "Lasgerdi",
+    "iso639_3": "lsa",
+    "glottolog": "lasg1238",
+    "code": "lsa",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:lsa",
+    "speakers": "2K",
+    "area": "Semnan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.4015,
+      52.9987
+    ]
+  },
+  {
+    "name": "Southern Luri",
+    "iso639_3": "luz",
+    "glottolog": "sout2647",
+    "code": "luz",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:luz",
+    "speakers": "1M",
+    "area": "Kohgiluyeh, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      30.4669,
+      50.8382
+    ]
+  },
+  {
+    "name": "Munji",
+    "iso639_3": "mnj",
+    "glottolog": "munj1244",
+    "code": "mnj",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mnj",
+    "speakers": "5K",
+    "area": "Munjan Valley, Afghanistan",
+    "script": "Unwritten",
+    "scriptId": "unwritten",
+    "status": "endangered",
+    "coordinates": [
+      35.9321,
+      70.9404
+    ]
+  },
+  {
+    "name": "Mazanderani",
+    "iso639_3": "mzn",
+    "glottolog": "maza1291",
+    "code": "mzn",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mzn",
+    "speakers": "4M",
+    "area": "Mazandaran, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "mid",
+    "coordinates": [
+      36.241,
+      52.3009
+    ]
+  },
+  {
+    "name": "Natanzic",
+    "iso639_3": "ntz",
+    "glottolog": "nata1252",
+    "code": "ntz",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ntz",
+    "speakers": "5K",
+    "area": "Isfahan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      33.4593,
+      51.9538
+    ]
+  },
+  {
+    "name": "Nayini",
+    "iso639_3": "nyq",
+    "glottolog": "nayi1242",
+    "code": "nyq",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:nyq",
+    "speakers": "10K",
+    "area": "Isfahan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      34.2212,
+      53.521
+    ]
+  },
+  {
+    "name": "Karanic",
+    "iso639_3": "okh",
+    "glottolog": "kore1279",
+    "code": "okh",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:okh",
+    "speakers": "5K",
+    "area": "Zanjan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      37.794,
+      44.895
+    ]
+  },
+  {
+    "name": "Old Ossetic",
+    "iso639_3": "oos",
+    "glottolog": "oldo1234",
+    "code": "oos",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:oos",
+    "speakers": "0 (extinct)",
+    "area": "Ancient North Caucasus",
+    "script": "Georgian (historical)",
+    "scriptId": "georgian",
+    "status": "historical",
+    "coordinates": [
+      48.48,
+      39.46
+    ]
+  },
+  {
+    "name": "Ormuri",
+    "iso639_3": "oru",
+    "glottolog": "ormu1247",
+    "code": "oru",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:oru",
+    "speakers": "7K",
+    "area": "Waziristan, Pakistan",
+    "script": "Unwritten",
+    "scriptId": "unwritten",
+    "status": "endangered",
+    "coordinates": [
+      32.6819,
+      69.3444
+    ]
+  },
+  {
+    "name": "Digor Ossetic",
+    "iso639_3": "osd",
+    "glottolog": "digo1242",
+    "code": "osd",
+    "branch": "ossetic",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:osd",
+    "speakers": "450K",
+    "area": "North Ossetia (Russia)",
+    "script": "Cyrillic",
+    "scriptId": "cyrillic",
+    "status": "mid",
+    "coordinates": [
+      43.1581,
+      44.1569
+    ]
+  },
+  {
+    "name": "Ossetic",
+    "iso639_3": "oss",
+    "glottolog": "iron1242",
+    "code": "oss",
+    "branch": "ossetic",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:oss",
+    "speakers": "650K",
+    "area": "North Ossetia (Russia), South Ossetia (Georgia)",
+    "script": "Cyrillic",
+    "scriptId": "cyrillic",
+    "status": "mid",
+    "coordinates": [
+      42.98,
+      44.61
+    ]
+  },
+  {
+    "name": "Middle Persian (Pahlavi)",
+    "iso639_3": "pal",
+    "glottolog": "pahl1241",
+    "code": "pal",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pal",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Persia (Sassanid Empire)",
+    "script": "Pahlavi",
+    "scriptId": "pahlavi",
+    "status": "historical",
+    "coordinates": [
+      30.06,
+      52.7
+    ]
+  },
+  {
+    "name": "Southern Pashto",
+    "iso639_3": "pbt",
+    "glottolog": "sout2649",
+    "code": "pbt",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pbt",
+    "speakers": "20M",
+    "area": "Pakistan, Afghanistan",
+    "script": "Arabic (Pashto ext.)",
+    "scriptId": "arabic-nastaliq",
+    "status": "major",
+    "coordinates": [
+      31.5,
+      65.7
+    ]
+  },
+  {
+    "name": "Northern Pashto",
+    "iso639_3": "pbu",
+    "glottolog": "nort2646",
+    "code": "pbu",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pbu",
+    "speakers": "30M",
+    "area": "Afghanistan, Pakistan",
+    "script": "Arabic (Pashto ext.)",
+    "scriptId": "arabic-nastaliq",
+    "status": "major",
+    "coordinates": [
+      34,
+      71.33
+    ]
+  },
+  {
+    "name": "Old Persian",
+    "iso639_3": "peo",
+    "glottolog": "oldp1254",
+    "code": "peo",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:peo",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Persia",
+    "script": "Cuneiform",
+    "scriptId": "cuneiform",
+    "status": "historical",
+    "note": "Language of Achaemenid royal inscriptions (600-400 BCE)",
+    "coordinates": [
+      32,
+      54
+    ]
+  },
+  {
+    "name": "Western Farsi",
     "iso639_3": "pes",
     "glottolog": "west2369",
     "code": "pes",
     "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pes",
     "speakers": "70M",
     "area": "Iran, Afghanistan, Tajikistan",
     "script": "Arabic (Nastaliq)",
     "scriptId": "arabic-nastaliq",
-    "note": "Most widely spoken Iranian language",
     "status": "major",
+    "note": "Most widely spoken Iranian language",
     "coordinates": [
-      32.4279,
-      53.688
+      32.9,
+      53.3
+    ]
+  },
+  {
+    "name": "Pahlavani",
+    "iso639_3": "phv",
+    "glottolog": "pahl1240",
+    "code": "phv",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:phv",
+    "speakers": "10K",
+    "area": "Gilan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      31.3267,
+      62.1978
+    ]
+  },
+  {
+    "name": "Parachi",
+    "iso639_3": "prc",
+    "glottolog": "para1299",
+    "code": "prc",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:prc",
+    "speakers": "5K",
+    "area": "Parwan Province, Afghanistan",
+    "script": "Unwritten",
+    "scriptId": "unwritten",
+    "status": "endangered",
+    "coordinates": [
+      36.0432,
+      70.8805
+    ]
+  },
+  {
+    "name": "Parsi-Dari",
+    "iso639_3": "prd",
+    "glottolog": null,
+    "code": "prd",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:prd",
+    "speakers": "10K",
+    "area": "Yazd and Kerman, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "note": "Considered spurious by Glottolog; may be duplicate of gbz",
+    "coordinates": [
+      31.8974,
+      54.3569
     ]
   },
   {
@@ -22,96 +1014,119 @@
     "glottolog": "dari1249",
     "code": "prs",
     "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:prs",
     "speakers": "20M",
     "area": "Afghanistan",
     "script": "Arabic (Nastaliq)",
+    "scriptId": "arabic-nastaliq",
     "status": "major",
     "coordinates": [
-      34.5553,
-      69.2075
-    ],
-    "scriptId": "arabic-nastaliq"
+      34.3976,
+      66.1496
+    ]
   },
   {
-    "name": "Tajik",
-    "iso639_3": "tgk",
-    "glottolog": "taji1245",
-    "code": "tgk",
-    "branch": "southwestern",
-    "speakers": "8M",
-    "area": "Tajikistan, Uzbekistan",
-    "script": "Cyrillic",
+    "name": "Central Pashto",
+    "iso639_3": "pst",
+    "glottolog": "cent1973",
+    "code": "pst",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pst",
+    "speakers": "10M",
+    "area": "Pakistan",
+    "script": "Arabic (Pashto ext.)",
+    "scriptId": "arabic-nastaliq",
     "status": "major",
     "coordinates": [
-      38.5598,
-      68.7738
-    ],
-    "scriptId": "cyrillic"
+      31.9153,
+      69.4529
+    ]
   },
   {
-    "name": "Luri",
-    "iso639_3": "lrc",
-    "glottolog": "nort2645",
-    "code": "lrc",
-    "branch": "southwestern",
-    "speakers": "5M",
-    "area": "Western Iran",
-    "script": "Arabic",
-    "status": "mid",
-    "coordinates": [
-      33.4847,
-      48.3551
-    ],
-    "scriptId": "arabic-nastaliq"
-  },
-  {
-    "name": "Pashto",
+    "name": "Pashto (macro)",
     "iso639_3": "pus",
-    "glottolog": "pash1269",
+    "glottolog": "nucl1276",
     "code": "pus",
     "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pus",
     "speakers": "60M",
     "area": "Afghanistan, Pakistan",
     "script": "Arabic (Pashto ext.)",
-    "note": "Second most spoken Iranian language",
+    "scriptId": "arabic-nastaliq",
     "status": "major",
+    "note": "Second most spoken Iranian language",
     "coordinates": [
       33.9391,
       67.71
-    ],
-    "scriptId": "arabic-nastaliq"
+    ]
   },
   {
-    "name": "Northern Kurdish (Kurmanji)",
-    "iso639_3": "kmr",
-    "glottolog": "nort2641",
-    "code": "kmr",
+    "name": "Razajerdi",
+    "iso639_3": "rat",
+    "glottolog": "raza1238",
+    "code": "rat",
     "branch": "northwestern",
-    "speakers": "15M",
-    "area": "Turkey, Syria, Iraq, Armenia",
-    "script": "Latin / Arabic",
-    "status": "major",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:rat",
+    "speakers": "2K",
+    "area": "Zanjan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
     "coordinates": [
-      37.0662,
-      42.3569
-    ],
-    "scriptId": "latin"
+      36.267,
+      50.002
+    ]
   },
   {
-    "name": "Central Kurdish (Sorani)",
-    "iso639_3": "ckb",
-    "glottolog": "cent1972",
-    "code": "ckb",
+    "name": "Rudbari",
+    "iso639_3": "rdb",
+    "glottolog": "rudb1238",
+    "code": "rdb",
     "branch": "northwestern",
-    "speakers": "7M",
-    "area": "Iraq, Iran",
-    "script": "Arabic (Sorani)",
-    "status": "major",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:rdb",
+    "speakers": "30K",
+    "area": "Gilan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
     "coordinates": [
-      35.5558,
-      45.4329
-    ],
-    "scriptId": "arabic-nastaliq"
+      37.0878,
+      49.8801
+    ]
+  },
+  {
+    "name": "Shabaki",
+    "iso639_3": "sdb",
+    "glottolog": "shab1251",
+    "code": "sdb",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sdb",
+    "speakers": "10K",
+    "area": "Nineveh, Iraq",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      36.375,
+      43.144
+    ]
+  },
+  {
+    "name": "Sarli",
+    "iso639_3": "sdf",
+    "glottolog": "sarl1241",
+    "code": "sdf",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sdf",
+    "speakers": "2K",
+    "area": "Kermanshah, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      36.021,
+      43.644
+    ]
   },
   {
     "name": "Southern Kurdish",
@@ -119,209 +1134,16 @@
     "glottolog": "sout2640",
     "code": "sdh",
     "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sdh",
     "speakers": "3M",
     "area": "Iran, Iraq",
     "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
     "status": "mid",
     "coordinates": [
-      34.3142,
-      46.9968
-    ],
-    "scriptId": "arabic-nastaliq"
-  },
-  {
-    "name": "Balochi",
-    "iso639_3": "bal",
-    "glottolog": "balo1260",
-    "code": "bal",
-    "branch": "northwestern",
-    "speakers": "9M",
-    "area": "Pakistan, Iran, Afghanistan",
-    "script": "Arabic / Latin",
-    "status": "major",
-    "coordinates": [
-      28.3895,
-      64.6857
-    ],
-    "scriptId": "arabic-nastaliq"
-  },
-  {
-    "name": "Gilaki",
-    "iso639_3": "glk",
-    "glottolog": "gila1241",
-    "code": "glk",
-    "branch": "northwestern",
-    "speakers": "3M",
-    "area": "Gilan, Iran",
-    "script": "Arabic",
-    "status": "mid",
-    "coordinates": [
-      37.2808,
-      49.5926
-    ],
-    "scriptId": "arabic-nastaliq"
-  },
-  {
-    "name": "Mazanderani",
-    "iso639_3": "mzn",
-    "glottolog": "maza1291",
-    "code": "mzn",
-    "branch": "northwestern",
-    "speakers": "4M",
-    "area": "Mazandaran, Iran",
-    "script": "Arabic",
-    "status": "mid",
-    "coordinates": [
-      36.5659,
-      52.5382
-    ],
-    "scriptId": "arabic-nastaliq"
-  },
-  {
-    "name": "Talysh",
-    "iso639_3": "tly",
-    "glottolog": "taly1247",
-    "code": "tly",
-    "branch": "northwestern",
-    "speakers": "1M",
-    "area": "Azerbaijan, Iran",
-    "script": "Latin / Arabic / Cyrillic",
-    "status": "mid",
-    "coordinates": [
-      38.7608,
-      48.4017
-    ],
-    "scriptId": "unwritten"
-  },
-  {
-    "name": "Zaza (Dimli)",
-    "iso639_3": "zza",
-    "glottolog": "zaza1246",
-    "code": "zza",
-    "branch": "northwestern",
-    "speakers": "2M",
-    "area": "Eastern Turkey",
-    "script": "Latin",
-    "status": "mid",
-    "coordinates": [
-      39.2645,
-      39.7191
-    ],
-    "scriptId": "latin"
-  },
-  {
-    "name": "Kirmanjki",
-    "iso639_3": "kiu",
-    "glottolog": "kirm1248",
-    "code": "kiu",
-    "branch": "northwestern",
-    "speakers": "300K",
-    "area": "Eastern Turkey",
-    "script": "Latin",
-    "status": "mid",
-    "coordinates": [
-      39.7465,
-      39.4817
-    ],
-    "scriptId": "latin"
-  },
-  {
-    "name": "Gurani",
-    "iso639_3": "hac",
-    "glottolog": "gura1253",
-    "code": "hac",
-    "branch": "northwestern",
-    "speakers": "200K",
-    "area": "Iran, Iraq",
-    "script": "Arabic",
-    "status": "low",
-    "coordinates": [
-      35.9502,
-      46.1063
-    ],
-    "scriptId": "arabic-nastaliq"
-  },
-  {
-    "name": "Ossetic",
-    "iso639_3": "oss",
-    "glottolog": "osse1243",
-    "code": "oss",
-    "branch": "scythian",
-    "speakers": "650K",
-    "area": "North Ossetia (Russia), South Ossetia (Georgia)",
-    "script": "Cyrillic",
-    "status": "mid",
-    "coordinates": [
-      42.9774,
-      44.6812
-    ],
-    "scriptId": "cyrillic"
-  },
-  {
-    "name": "Yagnobi",
-    "iso639_3": "yai",
-    "glottolog": "yagn1238",
-    "code": "yai",
-    "branch": "scythian",
-    "speakers": "13K",
-    "area": "Yagnob Valley, Tajikistan",
-    "script": "Cyrillic",
-    "status": "endangered",
-    "coordinates": [
-      39.1167,
-      68.6333
-    ],
-    "scriptId": "cyrillic"
-  },
-  {
-    "name": "Sogdian",
-    "iso639_3": "sog",
-    "glottolog": "sogd1245",
-    "code": "sog",
-    "branch": "scythian",
-    "speakers": "0 (extinct)",
-    "area": "Ancient Sogdia (Uzbekistan)",
-    "script": "Sogdian",
-    "status": "historical",
-    "coordinates": [
-      39.627,
-      66.975
-    ],
-    "scriptId": "sogdian"
-  },
-  {
-    "name": "Avestan",
-    "iso639_3": "ave",
-    "glottolog": "aves1237",
-    "code": "ave",
-    "branch": "scythian",
-    "speakers": "0 (liturgical)",
-    "area": "Ancient Iran / Bactria",
-    "script": "Avestan",
-    "note": "Sacred language of Zoroastrianism, attested from ~1000 BCE",
-    "status": "historical",
-    "coordinates": [
-      36.5,
-      59.0
-    ],
-    "scriptId": "avestan"
-  },
-  {
-    "name": "Old Persian",
-    "iso639_3": "peo",
-    "glottolog": "oldp1254",
-    "code": "peo",
-    "branch": "scythian",
-    "speakers": "0 (extinct)",
-    "area": "Ancient Persia",
-    "script": "Cuneiform",
-    "note": "Language of Achaemenid royal inscriptions (600–400 BCE)",
-    "status": "historical",
-    "coordinates": [
-      29.9341,
-      52.891
-    ],
-    "scriptId": "cuneiform"
+      32.8977,
+      46.5976
+    ]
   },
   {
     "name": "Shughni",
@@ -329,15 +1151,322 @@
     "glottolog": "shug1248",
     "code": "sgh",
     "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sgh",
     "speakers": "100K",
     "area": "Tajikistan, Afghanistan (Gorno-Badakhshan)",
     "script": "Cyrillic / Latin",
+    "scriptId": "unwritten",
     "status": "low",
     "coordinates": [
-      37.9942,
-      71.5469
-    ],
-    "scriptId": "unwritten"
+      37.5018,
+      71.7925
+    ]
+  },
+  {
+    "name": "Sanglechi-Ishkashimi",
+    "iso639_3": "sgl",
+    "glottolog": "sang1343",
+    "code": "sgl",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sgl",
+    "speakers": "3K",
+    "area": "Ishkashim, Afghanistan/Tajikistan",
+    "script": "Unwritten",
+    "scriptId": "unwritten",
+    "status": "endangered",
+    "coordinates": [
+      36.6354,
+      71.6743
+    ]
+  },
+  {
+    "name": "Sangisari",
+    "iso639_3": "sgr",
+    "glottolog": "sang1315",
+    "code": "sgr",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sgr",
+    "speakers": "20K",
+    "area": "Semnan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.72,
+      53.3
+    ]
+  },
+  {
+    "name": "Sanglechi",
+    "iso639_3": "sgy",
+    "glottolog": "sang1344",
+    "code": "sgy",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sgy",
+    "speakers": "1K",
+    "area": "Sanglechi, Afghanistan",
+    "script": "Unwritten",
+    "scriptId": "unwritten",
+    "status": "endangered",
+    "coordinates": [
+      36.45,
+      71.3
+    ]
+  },
+  {
+    "name": "Shahrudi-Southern Talysh",
+    "iso639_3": "shm",
+    "glottolog": "shah1254",
+    "code": "shm",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:shm",
+    "speakers": "5K",
+    "area": "Semnan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      36.7581,
+      50.2074
+    ]
+  },
+  {
+    "name": "Sivandi",
+    "iso639_3": "siy",
+    "glottolog": "siva1239",
+    "code": "siy",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:siy",
+    "speakers": "3K",
+    "area": "Fars Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      30.08,
+      52.92
+    ]
+  },
+  {
+    "name": "Semnani-Biyabuneki",
+    "iso639_3": "smy",
+    "glottolog": "semn1249",
+    "code": "smy",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:smy",
+    "speakers": "15K",
+    "area": "Semnan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.5295,
+      53.2868
+    ]
+  },
+  {
+    "name": "Sogdian",
+    "iso639_3": "sog",
+    "glottolog": "sogd1245",
+    "code": "sog",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sog",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Sogdia (Uzbekistan)",
+    "script": "Sogdian",
+    "scriptId": "sogdian",
+    "status": "historical",
+    "coordinates": [
+      39.7,
+      66.983
+    ]
+  },
+  {
+    "name": "Soi",
+    "iso639_3": "soj",
+    "glottolog": "soii1239",
+    "code": "soj",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:soj",
+    "speakers": "5K",
+    "area": "Isfahan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      31.8542,
+      54.5964
+    ]
+  },
+  {
+    "name": "Sorkhei-Aftari",
+    "iso639_3": "sqo",
+    "glottolog": "sork1239",
+    "code": "sqo",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sqo",
+    "speakers": "3K",
+    "area": "Isfahan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.4565,
+      53.219
+    ]
+  },
+  {
+    "name": "Sarikoli",
+    "iso639_3": "srh",
+    "glottolog": "sari1246",
+    "code": "srh",
+    "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:srh",
+    "speakers": "100K",
+    "area": "Tajikistan, China (Xinjiang)",
+    "script": "Cyrillic / Arabic",
+    "scriptId": "cyrillic",
+    "status": "low",
+    "coordinates": [
+      37.905,
+      75.1449
+    ]
+  },
+  {
+    "name": "Shahmirzadi",
+    "iso639_3": "srz",
+    "glottolog": "shah1253",
+    "code": "srz",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:srz",
+    "speakers": "30K",
+    "area": "Mazandaran, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.778,
+      53.32
+    ]
+  },
+  {
+    "name": "Tajik",
+    "iso639_3": "tgk",
+    "glottolog": "taji1245",
+    "code": "tgk",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tgk",
+    "speakers": "8M",
+    "area": "Tajikistan, Uzbekistan",
+    "script": "Cyrillic",
+    "scriptId": "cyrillic",
+    "status": "major",
+    "coordinates": [
+      38.8213,
+      68.5549
+    ]
+  },
+  {
+    "name": "Takestani",
+    "iso639_3": "tks",
+    "glottolog": "take1255",
+    "code": "tks",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tks",
+    "speakers": "200K",
+    "area": "Zanjan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      36.0651,
+      49.6885
+    ]
+  },
+  {
+    "name": "Talysh",
+    "iso639_3": "tly",
+    "glottolog": "taly1247",
+    "code": "tly",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tly",
+    "speakers": "1M",
+    "area": "Azerbaijan, Iran",
+    "script": "Latin / Arabic / Cyrillic",
+    "scriptId": "unwritten",
+    "status": "mid",
+    "coordinates": [
+      38.4552,
+      48.6349
+    ]
+  },
+  {
+    "name": "Upper Taromi",
+    "iso639_3": "tov",
+    "glottolog": "uppe1235",
+    "code": "tov",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tov",
+    "speakers": "5K",
+    "area": "Zanjan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      36.5998,
+      48.7301
+    ]
+  },
+  {
+    "name": "Muslim Tat",
+    "iso639_3": "ttt",
+    "glottolog": "musl1236",
+    "code": "ttt",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ttt",
+    "speakers": "30K",
+    "area": "Azerbaijan, Dagestan",
+    "script": "Cyrillic / Latin",
+    "scriptId": "cyrillic",
+    "status": "low",
+    "coordinates": [
+      41.4251,
+      46.6456
+    ]
+  },
+  {
+    "name": "Vafsi",
+    "iso639_3": "vaf",
+    "glottolog": "vafs1240",
+    "code": "vaf",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:vaf",
+    "speakers": "30K",
+    "area": "Hamadan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      34.5309,
+      50.0013
+    ]
+  },
+  {
+    "name": "Maraghei",
+    "iso639_3": "vmh",
+    "glottolog": "mara1373",
+    "code": "vmh",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:vmh",
+    "speakers": "10K",
+    "area": "East Azerbaijan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      36.8259,
+      49.9665
+    ]
   },
   {
     "name": "Wakhi",
@@ -345,31 +1474,152 @@
     "glottolog": "wakh1245",
     "code": "wbl",
     "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:wbl",
     "speakers": "50K",
     "area": "Afghanistan, Pakistan, China, Tajikistan",
     "script": "Arabic / Cyrillic",
+    "scriptId": "unwritten",
     "status": "low",
     "coordinates": [
-      36.8,
-      73.0
-    ],
-    "scriptId": "unwritten"
+      37.1768,
+      73.9777
+    ]
   },
   {
-    "name": "Munji",
-    "iso639_3": "mnj",
-    "glottolog": "munj1244",
-    "code": "mnj",
+    "name": "Waneci",
+    "iso639_3": "wne",
+    "glottolog": "wane1241",
+    "code": "wne",
     "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:wne",
+    "speakers": "40K",
+    "area": "Balochistan, Pakistan",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "low",
+    "coordinates": [
+      30.0501,
+      67.8327
+    ]
+  },
+  {
+    "name": "Bactrian",
+    "iso639_3": "xbc",
+    "glottolog": "bact1239",
+    "code": "xbc",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xbc",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Bactria (Afghanistan/Uzbekistan)",
+    "script": "Greek",
+    "scriptId": "greek",
+    "status": "historical",
+    "coordinates": [
+      36.81,
+      66.85
+    ]
+  },
+  {
+    "name": "Khwarezmian",
+    "iso639_3": "xco",
+    "glottolog": "khwa1238",
+    "code": "xco",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xco",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Khwarezm (Uzbekistan/Turkmenistan)",
+    "script": "Khwarazmian",
+    "scriptId": "khwarazmian",
+    "status": "historical",
+    "coordinates": [
+      41.68,
+      60.75
+    ]
+  },
+  {
+    "name": "Kho'ini",
+    "iso639_3": "xkc",
+    "glottolog": "khoi1250",
+    "code": "xkc",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xkc",
     "speakers": "5K",
-    "area": "Munjan Valley, Afghanistan",
-    "script": "Unwritten",
+    "area": "East Azerbaijan, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
     "status": "endangered",
     "coordinates": [
-      35.85,
-      70.35
-    ],
-    "scriptId": "unwritten"
+      36.8997,
+      48.6212
+    ]
+  },
+  {
+    "name": "Kajali",
+    "iso639_3": "xkj",
+    "glottolog": "kaja1247",
+    "code": "xkj",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xkj",
+    "speakers": "3K",
+    "area": "Zanjan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      35.8989,
+      53.4785
+    ]
+  },
+  {
+    "name": "Kabatei",
+    "iso639_3": "xkp",
+    "glottolog": "kaba1276",
+    "code": "xkp",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xkp",
+    "speakers": "3K",
+    "area": "Zanjan Province, Iran",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
+    "status": "endangered",
+    "coordinates": [
+      37.0529,
+      49.7603
+    ]
+  },
+  {
+    "name": "Parthian",
+    "iso639_3": "xpr",
+    "glottolog": "part1239",
+    "code": "xpr",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xpr",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Parthia (NE Iran/Turkmenistan)",
+    "script": "Aramaic / Pahlavi",
+    "scriptId": "pahlavi",
+    "status": "historical",
+    "coordinates": [
+      37.052,
+      56.056
+    ]
+  },
+  {
+    "name": "Tumshuqese",
+    "iso639_3": "xtq",
+    "glottolog": "tums1237",
+    "code": "xtq",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xtq",
+    "speakers": "0 (extinct)",
+    "area": "Ancient Tumushuk (Xinjiang, China)",
+    "script": "Brahmi",
+    "scriptId": "brahmi",
+    "status": "historical",
+    "coordinates": [
+      39.8667,
+      79.0667
+    ]
   },
   {
     "name": "Yazgulyam",
@@ -377,62 +1627,100 @@
     "glottolog": "yazg1240",
     "code": "yah",
     "branch": "eastern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:yah",
     "speakers": "7K",
     "area": "Yazgulyam Valley, Tajikistan",
     "script": "Cyrillic",
+    "scriptId": "cyrillic",
     "status": "endangered",
     "coordinates": [
-      38.2833,
-      71.5167
-    ],
-    "scriptId": "cyrillic"
+      38.2801,
+      71.565
+    ]
   },
   {
-    "name": "Sanglechi-Ishkashimi",
-    "iso639_3": "sgl",
-    "glottolog": "sang1318",
-    "code": "sgl",
+    "name": "Yagnobi",
+    "iso639_3": "yai",
+    "glottolog": "yagn1238",
+    "code": "yai",
     "branch": "eastern",
-    "speakers": "3K",
-    "area": "Ishkashim, Afghanistan/Tajikistan",
-    "script": "Unwritten",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:yai",
+    "speakers": "13K",
+    "area": "Yagnob Valley, Tajikistan",
+    "script": "Cyrillic",
+    "scriptId": "cyrillic",
     "status": "endangered",
     "coordinates": [
-      36.7167,
-      71.6167
-    ],
-    "scriptId": "unwritten"
+      39.1486,
+      69.2422
+    ]
   },
   {
-    "name": "Parachi",
-    "iso639_3": "prc",
-    "glottolog": "para1bage",
-    "code": "prc",
+    "name": "Yidgha",
+    "iso639_3": "ydg",
+    "glottolog": "yidg1240",
+    "code": "ydg",
     "branch": "eastern",
-    "speakers": "5K",
-    "area": "Parwan Province, Afghanistan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ydg",
+    "speakers": "6K",
+    "area": "Chitral, Pakistan",
     "script": "Unwritten",
+    "scriptId": "unwritten",
     "status": "endangered",
     "coordinates": [
-      35.0553,
-      69.0728
-    ],
-    "scriptId": "unwritten"
+      36.014,
+      71.5077
+    ]
   },
   {
-    "name": "Ormuri",
-    "iso639_3": "oru",
-    "glottolog": "ormu1247",
-    "code": "oru",
-    "branch": "eastern",
-    "speakers": "7K",
-    "area": "Waziristan, Pakistan",
-    "script": "Unwritten",
+    "name": "Jassic",
+    "iso639_3": "ysc",
+    "glottolog": "jass1238",
+    "code": "ysc",
+    "branch": "extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ysc",
+    "speakers": "0 (extinct)",
+    "area": "Hungary (Jász region)",
+    "script": "Latin (historical)",
+    "scriptId": "latin",
+    "status": "historical",
+    "coordinates": [
+      47.5,
+      19.83
+    ]
+  },
+  {
+    "name": "Kumzari",
+    "iso639_3": "zum",
+    "glottolog": "kumz1235",
+    "code": "zum",
+    "branch": "southwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:zum",
+    "speakers": "10K",
+    "area": "Musandam, Oman",
+    "script": "Arabic",
+    "scriptId": "arabic-nastaliq",
     "status": "endangered",
     "coordinates": [
-      32.75,
-      69.5
-    ],
-    "scriptId": "unwritten"
+      26.1602,
+      56.4202
+    ]
+  },
+  {
+    "name": "Zaza",
+    "iso639_3": "zza",
+    "glottolog": "zaza1246",
+    "code": "zza",
+    "branch": "northwestern",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:zza",
+    "speakers": "2M",
+    "area": "Eastern Turkey",
+    "script": "Latin",
+    "scriptId": "latin",
+    "status": "mid",
+    "coordinates": [
+      39.2645,
+      39.7191
+    ]
   }
 ]
