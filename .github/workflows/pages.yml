@@ -1,0 +1,42 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Inject CARTO Basemaps key
+        env:
+          CARTO_BASEMAPS_KEY: ${{ secrets.CARTO_BASEMAPS_KEY }}
+        run: |
+          if [ -z "$CARTO_BASEMAPS_KEY" ]; then
+            echo "::warning::CARTO_BASEMAPS_KEY secret is not set; map tiles will show the API-key watermark."
+          fi
+          sed -i "s|__CARTO_BASEMAPS_KEY__|${CARTO_BASEMAPS_KEY}|g" index.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
