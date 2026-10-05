@@ -5,8 +5,8 @@
     const P = site.pages.home, T = site.taxonomy;
     const [languages, papersAll, resources, scripts] = await Promise.all([data('languages'), data('papers'), data('resources'), data('writing-systems')]);
     const papers = SI.realPapers(papersAll);
-    const res = Object.entries(resources.languages);
-    const nResources = res.reduce((n, [, v]) => n + v.datasets.length + v.tools.length + v.code_mixed.length, 0);
+    const allRes = [...resources.datasets.map(r => ['datasets', r]), ...resources.tools.map(r => ['tools', r]), ...resources.code_mixed.map(r => ['code_mixed', r])];
+    const nResources = allRes.length;
 
     /* hero + search */
     $('#hero-text').innerHTML = `<span class="kicker">${esc(P.kicker)}</span>
@@ -32,7 +32,8 @@
       ...languages.map(l => ({ g: 'languages', label: l.name, sub: l.code, url: langUrl(l.code), text: `${l.name} ${l.code} ${l.area} ${l.glottolog}` })),
       ...scripts.filter(s => s.id !== 'unwritten').map(s => ({ g: 'scripts', label: s.name, sub: s.direction, url: `/scripts/#${tok(s.id)}`, text: `${s.name} ${s.nativeName} ${s.languages.join(' ')}` })),
       ...papers.map(p => ({ g: 'papers', label: p.title, sub: String(p.year), url: `/research/?id=${encodeURIComponent(p.id)}`, text: `${p.title} ${p.venue} ${(p.areas || []).map(a => T.areas[a] || a).join(' ')} ${langLabels(p)}` })),
-      ...res.flatMap(([key, v]) => ['datasets', 'tools', 'code_mixed'].flatMap(kind => v[kind].map(d => ({ g: 'datasets', label: d.name, sub: v.name, url: `/datasets/?lang=${encodeURIComponent(key)}&q=${encodeURIComponent(d.name)}${kind === 'datasets' ? '' : '&tab=' + kind}`, text: `${d.name} ${v.name} ${d.tasks || ''} ${d.description || ''}` })))),
+      ...allRes.map(([kind, r]) => { const ls = [...(Array.isArray(r.languages) ? r.languages.map(x => x.lang) : []), ...(r.also || []), ...(r.keys || [])].map(k => T.paper_languages[k] || k);
+        return { g: 'datasets', label: r.name, sub: ls.slice(0, 2).join(', ') + (ls.length > 2 ? ' …' : ''), url: `/datasets/?q=${encodeURIComponent(r.name)}${kind === 'datasets' ? '' : '&tab=' + kind}`, text: `${r.name} ${ls.join(' ')} ${r.tasks || ''} ${r.description || ''}` }; }),
     ].map(x => ({ ...x, hay: x.text.toLowerCase(), low: x.label.toLowerCase() }));
     const q = $('#q'), box = $('#results');
     let active = -1;

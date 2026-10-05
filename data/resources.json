@@ -1,142 +1,13 @@
 {
-  "languages": {
-    "gilaki": {
-      "name": "Gilaki",
-      "datasets": [
+  "datasets": [
+    {
+      "id": "parme",
+      "name": "PARME",
+      "task": "machine-translation",
+      "description": "Parallel corpora for low-resourced Iranian languages of Iran and Iraq, translated by native speakers, paired with Persian, English and each other.",
+      "languages": [
         {
-          "name": "PARME",
-          "task": "machine-translation",
-          "sentences": 14949,
-          "pairs": [
-            {
-              "lang": "Persian",
-              "count": 5418
-            },
-            {
-              "lang": "English",
-              "count": 5418
-            },
-            {
-              "lang": "Mazandarani",
-              "count": 1108
-            },
-            {
-              "lang": "Talysh",
-              "count": 84
-            },
-            {
-              "lang": "Laki",
-              "count": 437
-            },
-            {
-              "lang": "Luri",
-              "count": 39
-            },
-            {
-              "lang": "Hawrami",
-              "count": 1957
-            },
-            {
-              "lang": "Kurdish",
-              "count": 488
-            }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/PARME/tree/main"
-        },
-        {
-          "name": "Machine Translation for Middle Eastern Languages",
-          "task": "machine-translation",
-          "sentences": 2554,
-          "pairs": [
-            {
-              "lang": "English",
-              "count": 2554
-            }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/bitext-mining"
-        },
-        {
-          "name": "google/smol",
-          "task": "machine-translation",
-          "sentences": 863,
-          "pairs": [
-            {
-              "lang": "English",
-              "count": 863
-            }
-          ],
-          "access": "Public",
-          "url": "https://arxiv.org/pdf/2502.12301"
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "kurdish": {
-      "name": "Kurdish",
-      "datasets": [
-        {
-          "name": "PARME",
-          "task": "machine-translation",
-          "sentences": 24501,
-          "pairs": [
-            {
-              "lang": "Persian",
-              "count": 8582
-            },
-            {
-              "lang": "English",
-              "count": 8582
-            },
-            {
-              "lang": "Mazandarani",
-              "count": 1644
-            },
-            {
-              "lang": "Gilaki",
-              "count": 488
-            },
-            {
-              "lang": "Talysh",
-              "count": 1581
-            },
-            {
-              "lang": "Laki",
-              "count": 1424
-            },
-            {
-              "lang": "Luri",
-              "count": 994
-            },
-            {
-              "lang": "Hawrami",
-              "count": 1256
-            }
-          ],
-          "access": "",
-          "url": ""
-        },
-        {
-          "name": "xP3x",
-          "task": "machine-translation",
-          "sentences": 1226531,
-          "pairs": [],
-          "access": "Public",
-          "url": "https://github.com/bigscience-workshop/xmtf?tab=readme-ov-file#data",
-          "note": "Many languages"
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "persian": {
-      "name": "Persian",
-      "datasets": [
-        {
-          "name": "PARME",
-          "task": "machine-translation",
+          "lang": "persian",
           "sentences": 53880,
           "pairs": [
             {
@@ -171,441 +42,86 @@
               "lang": "Kurdish",
               "count": 8582
             }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/PARME/tree/main"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Hazm",
-          "programming_language": "Python",
-          "tasks": "Normalise; sentence/word tokenise; lemmatise; POS tagging",
-          "features": "Dependency parsing; embeddings",
-          "url": "https://github.com/roshan-research/hazm"
+          ]
         },
         {
-          "name": "DadmaTools",
-          "programming_language": "Python",
-          "tasks": "Normalise; tokenise; lemmatise; POS tagging",
-          "features": "NER; dependency & constituency parsing; chunking; Ezafe detection; spell checker; sentiment",
-          "url": "https://github.com/Dadmatech/DadmaTools",
-          "paper": "https://aclanthology.org/2022.naacl-demo.13/"
-        },
-        {
-          "name": "Parsivar",
-          "programming_language": "Python",
-          "tasks": "Normalise; half-space correction; tokenise; stem; POS tagging",
-          "features": "Shallow parsing (chunker); dependency parsing; spell checking",
-          "url": "https://github.com/ICTRC/Parsivar"
-        },
-        {
-          "name": "Shekar",
-          "programming_language": "Python",
-          "tasks": "Normalise; tokenise; POS tagging; lemmatise/stem",
-          "features": "NER; embeddings; sentiment & offensive-language classifiers; keyword extraction; spell checking",
-          "url": "https://github.com/amirivojdan/shekar"
-        },
-        {
-          "name": "Khoshnevis",
-          "programming_language": "Python",
-          "tasks": "Text cleaning; URL & emoji removal; tokenise; punctuation & half-space correction",
-          "features": "Standardise alphabet; NLTK compatible",
-          "url": "https://github.com/Khodnevis-Research-Lab/khoshnevis"
-        },
-        {
-          "name": "Seperno",
-          "programming_language": "Go",
-          "tasks": "Normalise (half-space to space; remove URLs; combine spaces)",
-          "features": "Trim outer spaces; remove end-of-line chars; normalise punctuation",
-          "url": "https://github.com/snapp-incubator/seperno"
-        },
-        {
-          "name": "FarsiNLPTools",
-          "programming_language": "Python",
-          "tasks": "Normalise",
-          "features": "POS tagging; dependency parsing",
-          "url": "https://github.com/wfeely/farsiNLPTools"
-        },
-        {
-          "name": "Virastar",
-          "programming_language": "PHP",
-          "tasks": "Normalise (replace Arabic letters/numbers; punctuation spacing; fix ZWNJ)",
-          "features": "Aggressive options to remove repeated punctuation & Kashida",
-          "url": "https://github.com/AlirezaSedghi/Virastar"
-        },
-        {
-          "name": "Perstem",
-          "programming_language": "Perl",
-          "tasks": "Stemming/morphological analysis; tokenisation; POS tagging (partial)",
-          "features": "Transliteration; encoding conversion; insert ZWNJ; unvowel",
-          "url": "https://github.com/jonsafari/perstem"
-        },
-        {
-          "name": "ParsiAnalyzer",
-          "programming_language": "Java",
-          "tasks": "Tokenise (whitespaces to ZWNJ; punctuation conversion); normalise tokens; stop-word removal",
-          "features": "Stemming by removing suffixes",
-          "url": "https://github.com/NarimanN2/ParsiAnalyzer"
-        },
-        {
-          "name": "ParsiNorm",
-          "programming_language": "Python",
-          "tasks": "Sentence & word tokenisation; normalise characters, numbers, punctuation; remove emojis",
-          "features": "Speech normalisation (emails, URLs, dates, times, special numbers, abbreviations, telephone numbers, currency)",
-          "url": "https://github.com/haraai/ParsiNorm",
-          "paper": "https://ieeexplore.ieee.org/document/9729392/"
-        }
-      ],
-      "code_mixed": [
-        {
-          "name": "MaskLID",
-          "description": "Zero-shot, training-free code-switching LID via iterative masking; tuned on synthetic Persian mixes",
-          "languages": "Persian + English/French/Arabic",
-          "contribution": "Improves LID in code-switched scenarios using base LIDs like GlotLID",
-          "reference": "Kargaran et al., ACL (2024)",
-          "notes": "Applicable to Persian-English"
-        },
-        {
-          "name": "PinLID Dataset & Models",
-          "description": "Labeled Persian-English code-mixed tweets for sentence/token-level LID; evaluated with SVM, mBERT, XLM-R, ParsBERT, AriaBERT, PersianLLaMA",
-          "languages": "Persian-English (Pinglish)",
-          "contribution": "Dataset creation + benchmarking; PersianLLaMA strong on code-mixed",
-          "reference": "Ghafouri et al., Language Resources and Evaluation (2025)",
-          "notes": "High F1-scores; social media focus"
-        },
-        {
-          "name": "BERT-based Sentiment Analysis",
-          "description": "BERT embeddings + translation models to learn polarity in code-mixed tweets; outperforms Naïve Bayes/RF",
-          "languages": "Persian-English",
-          "contribution": "Custom dataset + cross-lingual transfer for sentiment",
-          "reference": "Sabri et al., arXiv:2102.12700 / CSICC (2021)",
-          "notes": "~3,640 labeled tweets"
-        },
-        {
-          "name": "Pinglish Filter for Morphological Analysis",
-          "description": "Normalization to convert Pinglish (Latin Persian-English) to standard Persian script for morphology",
-          "languages": "Persian-English (Pinglish)",
-          "contribution": "Preprocessing rule-based conversion for tokenization/analysis",
-          "reference": "Tavassoli et al., IJCA (2011)",
-          "notes": "Early work; adjective-focused"
-        },
-        {
-          "name": "Text Normalization with Pinglish Conversion",
-          "description": "Rule-based + learning-based pipeline (e.g., Parsivar) including Pinglish unification for MWE discovery",
-          "languages": "Persian-English",
-          "contribution": "Improves MWE extraction by ~18% via code-mixed handling",
-          "reference": "Marszałek-Kowalewska, RANLP (2021)",
-          "notes": "Boosts downstream Persian NLP"
-        },
-        {
-          "name": "Prabhupadavani Dataset",
-          "description": "Code-mixed speech translation dataset with audio/transcripts; includes Persian among 25 languages",
-          "languages": "Persian + others (English embeddings)",
-          "contribution": "Resource for training ASR/translation on code-mixed speech",
-          "reference": "Sandhan et al., LaTeCH-CLfL (2022)",
-          "notes": "Speech-focused; multilingual CS"
-        }
-      ]
-    },
-    "talysh": {
-      "name": "Talysh",
-      "datasets": [
-        {
-          "name": "PARME",
-          "task": "machine-translation",
-          "sentences": 7836,
+          "lang": "kurdish",
+          "sentences": 24501,
           "pairs": [
             {
               "lang": "Persian",
-              "count": 2106
+              "count": 8582
             },
             {
               "lang": "English",
-              "count": 2106
-            },
-            {
-              "lang": "Laki",
-              "count": 849
-            },
-            {
-              "lang": "Luri",
-              "count": 785
-            },
-            {
-              "lang": "Hawrami",
-              "count": 409
-            },
-            {
-              "lang": "Kurdish",
-              "count": 1581
-            }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/PARME/tree/main"
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "balochi": {
-      "name": "Balochi",
-      "datasets": [
-        {
-          "name": "Tatoeba",
-          "task": "machine-translation",
-          "sentences": 50,
-          "pairs": [
-            {
-              "lang": "English",
-              "count": 50
-            }
-          ],
-          "access": "Public",
-          "url": "https://www.kaggle.com/datasets/junaidjameel67/balochi-language-sentences-dataset"
-        },
-        {
-          "name": "Flores200",
-          "task": "machine-translation",
-          "sentences": 3001,
-          "pairs": [
-            {
-              "lang": "Persian",
-              "count": 3001
-            },
-            {
-              "lang": "English",
-              "count": 3001
-            },
-            {
-              "lang": "Kurdish",
-              "count": 3001
-            },
-            {
-              "lang": "Balochi",
-              "count": 3001
-            },
-            {
-              "lang": "Luri",
-              "count": 3001
+              "count": 8582
             },
             {
               "lang": "Mazandarani",
-              "count": 3001
-            }
-          ],
-          "access": "Public",
-          "url": "https://github.com/facebookresearch/flores/tree/main/flores200"
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "luri": {
-      "name": "Luri",
-      "datasets": [
-        {
-          "name": "PARME",
-          "task": "machine-translation",
-          "sentences": 1998,
-          "pairs": [
-            {
-              "lang": "Persian",
-              "count": 1997
-            },
-            {
-              "lang": "English",
-              "count": 1997
+              "count": 1644
             },
             {
               "lang": "Gilaki",
-              "count": 39
-            },
-            {
-              "lang": "Mazandarani",
-              "count": 1396
+              "count": 488
             },
             {
               "lang": "Talysh",
-              "count": 785
+              "count": 1581
             },
             {
               "lang": "Laki",
-              "count": 1235
+              "count": 1424
             },
             {
-              "lang": "Kurdish",
+              "lang": "Luri",
               "count": 994
             },
             {
               "lang": "Hawrami",
-              "count": 934
+              "count": 1256
             }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/PARME/tree/main"
+          ]
         },
         {
-          "name": "Flores200",
-          "task": "machine-translation",
-          "sentences": 3001,
+          "lang": "gilaki",
+          "sentences": 14949,
           "pairs": [
             {
               "lang": "Persian",
-              "count": 3001
+              "count": 5418
             },
             {
               "lang": "English",
-              "count": 3001
-            },
-            {
-              "lang": "Kurdish",
-              "count": 3001
-            },
-            {
-              "lang": "Balochi",
-              "count": 3001
-            },
-            {
-              "lang": "Luri",
-              "count": 3001
+              "count": 5418
             },
             {
               "lang": "Mazandarani",
-              "count": 3001
-            }
-          ],
-          "access": "Public",
-          "url": "https://github.com/facebookresearch/flores/tree/main/flores200"
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "mazanderani": {
-      "name": "Mazanderani",
-      "datasets": [
-        {
-          "name": "Flores200",
-          "task": "machine-translation",
-          "sentences": 3001,
-          "pairs": [
-            {
-              "lang": "Persian",
-              "count": 3001
+              "count": 1108
             },
             {
-              "lang": "English",
-              "count": 3001
+              "lang": "Talysh",
+              "count": 84
             },
             {
-              "lang": "Kurdish",
-              "count": 3001
-            },
-            {
-              "lang": "Balochi",
-              "count": 3001
+              "lang": "Laki",
+              "count": 437
             },
             {
               "lang": "Luri",
-              "count": 3001
+              "count": 39
             },
             {
-              "lang": "Mazandarani",
-              "count": 3001
-            }
-          ],
-          "access": "Public",
-          "url": "https://github.com/facebookresearch/flores/tree/main/flores200"
-        },
-        {
-          "name": "wikimedia",
-          "task": "machine-translation",
-          "sentences": 926,
-          "pairs": [
-            {
-              "lang": "English",
-              "count": 141
-            },
-            {
-              "lang": "Persian",
-              "count": 785
-            }
-          ],
-          "access": "",
-          "url": ""
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "gorani": {
-      "name": "Gorani",
-      "datasets": [
-        {
-          "name": "google/smol",
-          "task": "machine-translation",
-          "sentences": 863,
-          "pairs": [
-            {
-              "lang": "English",
-              "count": 863
-            }
-          ],
-          "access": "Public",
-          "url": ""
-        },
-        {
-          "name": "Machine Translation for Middle Eastern Languages",
-          "task": "machine-translation",
-          "sentences": 14161,
-          "pairs": [
-            {
-              "lang": "English",
-              "count": 13843
+              "lang": "Hawrami",
+              "count": 1957
             },
             {
               "lang": "Kurdish",
-              "count": 318
+              "count": 488
             }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/bitext-mining"
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "zaza": {
-      "name": "Zaza",
-      "datasets": [
+          ]
+        },
         {
-          "name": "PARME",
-          "task": "machine-translation",
-          "sentences": 4401,
-          "pairs": [
-            {
-              "lang": "Kurdish",
-              "count": 3331
-            },
-            {
-              "lang": "English",
-              "count": 4401
-            }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/PARME/tree/main"
-        }
-      ],
-      "tools": [],
-      "code_mixed": []
-    },
-    "laki": {
-      "name": "Laki",
-      "datasets": [
-        {
-          "name": "PARME",
-          "task": "machine-translation",
+          "lang": "laki",
           "sentences": 14503,
           "pairs": [
             {
@@ -640,26 +156,527 @@
               "lang": "Luri",
               "count": 1235
             }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/PARME/tree/main"
+          ]
         },
         {
-          "name": "Machine Translation for Middle Eastern Languages",
-          "task": "machine-translation",
+          "lang": "talysh",
+          "sentences": 7836,
+          "pairs": [
+            {
+              "lang": "Persian",
+              "count": 2106
+            },
+            {
+              "lang": "English",
+              "count": 2106
+            },
+            {
+              "lang": "Laki",
+              "count": 849
+            },
+            {
+              "lang": "Luri",
+              "count": 785
+            },
+            {
+              "lang": "Hawrami",
+              "count": 409
+            },
+            {
+              "lang": "Kurdish",
+              "count": 1581
+            }
+          ]
+        },
+        {
+          "lang": "zaza",
+          "sentences": 4401,
+          "pairs": [
+            {
+              "lang": "Kurdish",
+              "count": 3331
+            },
+            {
+              "lang": "English",
+              "count": 4401
+            }
+          ]
+        },
+        {
+          "lang": "luri",
+          "sentences": 1998,
+          "pairs": [
+            {
+              "lang": "Persian",
+              "count": 1997
+            },
+            {
+              "lang": "English",
+              "count": 1997
+            },
+            {
+              "lang": "Gilaki",
+              "count": 39
+            },
+            {
+              "lang": "Mazandarani",
+              "count": 1396
+            },
+            {
+              "lang": "Talysh",
+              "count": 785
+            },
+            {
+              "lang": "Laki",
+              "count": 1235
+            },
+            {
+              "lang": "Kurdish",
+              "count": 994
+            },
+            {
+              "lang": "Hawrami",
+              "count": 934
+            }
+          ]
+        }
+      ],
+      "also": [
+        "mazanderani",
+        "hawrami"
+      ],
+      "also_note": "Mazanderani and Hawrami appear as pair languages in PARME's counts.",
+      "access": "Public",
+      "links": {
+        "paper": "https://aclanthology.org/2025.acl-long.1451/",
+        "github": "https://github.com/DOLMA-NLP/PARME"
+      }
+    },
+    {
+      "id": "bitext-mining",
+      "name": "Machine Translation for Middle Eastern Languages",
+      "task": "machine-translation",
+      "description": "Literary translations and synthetic parallel data for low-resource Middle Eastern languages.",
+      "languages": [
+        {
+          "lang": "gorani",
+          "sentences": 14161,
+          "pairs": [
+            {
+              "lang": "English",
+              "count": 13843
+            },
+            {
+              "lang": "Kurdish",
+              "count": 318
+            }
+          ]
+        },
+        {
+          "lang": "gilaki",
+          "sentences": 2554,
+          "pairs": [
+            {
+              "lang": "English",
+              "count": 2554
+            }
+          ]
+        },
+        {
+          "lang": "laki",
           "sentences": 1221,
           "pairs": [
             {
               "lang": "English",
               "count": 1221
             }
-          ],
-          "access": "Public",
-          "url": "https://github.com/DOLMA-NLP/bitext-mining"
+          ]
         }
       ],
-      "tools": [],
-      "code_mixed": []
+      "access": "Public",
+      "links": {
+        "paper": "https://aclanthology.org/2025.iwslt-1.10/",
+        "github": "https://github.com/DOLMA-NLP/bitext-mining"
+      }
+    },
+    {
+      "id": "smol",
+      "name": "SMOL",
+      "task": "machine-translation",
+      "description": "Professionally translated sentences and documents for 115 under-represented languages, from Google.",
+      "languages": [
+        {
+          "lang": "gilaki",
+          "sentences": 863,
+          "pairs": [
+            {
+              "lang": "English",
+              "count": 863
+            }
+          ]
+        },
+        {
+          "lang": "gorani",
+          "sentences": null,
+          "pairs": []
+        }
+      ],
+      "check": "The Gorani entry repeated the Gilaki count (863); please confirm Gorani is in SMOL.",
+      "access": "Public",
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.12301",
+        "huggingface": "https://huggingface.co/datasets/google/smol"
+      }
+    },
+    {
+      "id": "flores",
+      "name": "FLORES-200",
+      "task": "machine-translation",
+      "description": "The 3,001-sentence multilingual evaluation benchmark from Meta's No Language Left Behind project.",
+      "languages": [
+        {
+          "lang": "persian",
+          "sentences": 3001,
+          "pairs": []
+        },
+        {
+          "lang": "dari",
+          "sentences": 3001,
+          "pairs": []
+        },
+        {
+          "lang": "tajik",
+          "sentences": 3001,
+          "pairs": []
+        },
+        {
+          "lang": "sorani",
+          "sentences": 3001,
+          "pairs": []
+        },
+        {
+          "lang": "kurmanji",
+          "sentences": 3001,
+          "pairs": []
+        },
+        {
+          "lang": "pashto",
+          "sentences": 3001,
+          "pairs": []
+        }
+      ],
+      "check": "Our data also listed Balochi, Luri and Mazanderani, which are not in the official FLORES-200 language list. If a community translation exists for them, please add its link.",
+      "access": "Public",
+      "links": {
+        "paper": "https://arxiv.org/abs/2207.04672",
+        "github": "https://github.com/facebookresearch/flores/tree/main/flores200",
+        "huggingface": "https://huggingface.co/datasets/openlanguagedata/flores_plus"
+      }
+    },
+    {
+      "id": "xp3x",
+      "name": "xP3x",
+      "task": "machine-translation",
+      "description": "Prompts and completions in 277 languages for multitask finetuning, from the BigScience workshop.",
+      "languages": [
+        {
+          "lang": "kurdish",
+          "sentences": 1226531,
+          "pairs": []
+        }
+      ],
+      "also": [
+        "persian"
+      ],
+      "access": "Public",
+      "links": {
+        "paper": "https://arxiv.org/abs/2211.01786",
+        "github": "https://github.com/bigscience-workshop/xmtf",
+        "huggingface": "https://huggingface.co/datasets/CohereForAI/xP3x"
+      }
+    },
+    {
+      "id": "tatoeba",
+      "name": "Tatoeba",
+      "task": "machine-translation",
+      "description": "Crowd-sourced example sentences with translations. The Kaggle export below contains the Balochi sentences.",
+      "languages": [
+        {
+          "lang": "balochi",
+          "sentences": 50,
+          "pairs": [
+            {
+              "lang": "English",
+              "count": 50
+            }
+          ]
+        }
+      ],
+      "also": [
+        "persian",
+        "kurdish",
+        "tajik",
+        "pashto",
+        "ossetic"
+      ],
+      "access": "Public",
+      "links": {
+        "website": "https://tatoeba.org",
+        "kaggle": "https://www.kaggle.com/datasets/junaidjameel67/balochi-language-sentences-dataset"
+      }
+    },
+    {
+      "id": "wikimedia",
+      "name": "Wikimedia translations (OPUS)",
+      "task": "machine-translation",
+      "description": "Sentences from Wikimedia content translations, distributed through OPUS.",
+      "languages": [
+        {
+          "lang": "mazanderani",
+          "sentences": 926,
+          "pairs": [
+            {
+              "lang": "English",
+              "count": 141
+            },
+            {
+              "lang": "Persian",
+              "count": 785
+            }
+          ]
+        }
+      ],
+      "access": "Public",
+      "links": {
+        "website": "https://opus.nlpl.eu/"
+      }
     }
-  }
+  ],
+  "tools": [
+    {
+      "name": "Hazm",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Python",
+      "tasks": "Normalise; sentence/word tokenise; lemmatise; POS tagging",
+      "features": "Dependency parsing; embeddings",
+      "links": {
+        "github": "https://github.com/roshan-research/hazm"
+      }
+    },
+    {
+      "name": "DadmaTools",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Python",
+      "tasks": "Normalise; tokenise; lemmatise; POS tagging",
+      "features": "NER; dependency & constituency parsing; chunking; Ezafe detection; spell checker; sentiment",
+      "links": {
+        "github": "https://github.com/Dadmatech/DadmaTools",
+        "paper": "https://aclanthology.org/2022.naacl-demo.13/"
+      }
+    },
+    {
+      "name": "Parsivar",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Python",
+      "tasks": "Normalise; half-space correction; tokenise; stem; POS tagging",
+      "features": "Shallow parsing (chunker); dependency parsing; spell checking",
+      "links": {
+        "github": "https://github.com/ICTRC/Parsivar"
+      }
+    },
+    {
+      "name": "Shekar",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Python",
+      "tasks": "Normalise; tokenise; POS tagging; lemmatise/stem",
+      "features": "NER; embeddings; sentiment & offensive-language classifiers; keyword extraction; spell checking",
+      "links": {
+        "github": "https://github.com/amirivojdan/shekar"
+      }
+    },
+    {
+      "name": "Khoshnevis",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Python",
+      "tasks": "Text cleaning; URL & emoji removal; tokenise; punctuation & half-space correction",
+      "features": "Standardise alphabet; NLTK compatible",
+      "links": {
+        "github": "https://github.com/Khodnevis-Research-Lab/khoshnevis"
+      }
+    },
+    {
+      "name": "Seperno",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Go",
+      "tasks": "Normalise (half-space to space; remove URLs; combine spaces)",
+      "features": "Trim outer spaces; remove end-of-line chars; normalise punctuation",
+      "links": {
+        "github": "https://github.com/snapp-incubator/seperno"
+      }
+    },
+    {
+      "name": "FarsiNLPTools",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Python",
+      "tasks": "Normalise",
+      "features": "POS tagging; dependency parsing",
+      "links": {
+        "github": "https://github.com/wfeely/farsiNLPTools"
+      }
+    },
+    {
+      "name": "Virastar",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "PHP",
+      "tasks": "Normalise (replace Arabic letters/numbers; punctuation spacing; fix ZWNJ)",
+      "features": "Aggressive options to remove repeated punctuation & Kashida",
+      "links": {
+        "github": "https://github.com/AlirezaSedghi/Virastar"
+      }
+    },
+    {
+      "name": "Perstem",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Perl",
+      "tasks": "Stemming/morphological analysis; tokenisation; POS tagging (partial)",
+      "features": "Transliteration; encoding conversion; insert ZWNJ; unvowel",
+      "links": {
+        "github": "https://github.com/jonsafari/perstem"
+      }
+    },
+    {
+      "name": "ParsiAnalyzer",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Java",
+      "tasks": "Tokenise (whitespaces to ZWNJ; punctuation conversion); normalise tokens; stop-word removal",
+      "features": "Stemming by removing suffixes",
+      "links": {
+        "github": "https://github.com/NarimanN2/ParsiAnalyzer"
+      }
+    },
+    {
+      "name": "ParsiNorm",
+      "languages": [
+        "persian"
+      ],
+      "programming_language": "Python",
+      "tasks": "Sentence & word tokenisation; normalise characters, numbers, punctuation; remove emojis",
+      "features": "Speech normalisation (emails, URLs, dates, times, special numbers, abbreviations, telephone numbers, currency)",
+      "links": {
+        "github": "https://github.com/haraai/ParsiNorm",
+        "paper": "https://ieeexplore.ieee.org/document/9729392/"
+      }
+    },
+    {
+      "name": "KLPT",
+      "languages": [
+        "sorani",
+        "kurmanji"
+      ],
+      "programming_language": "Python",
+      "tasks": "Normalise; tokenise; transliterate (Arabic ↔ Latin script); stem",
+      "features": "Kurdish Language Processing Toolkit for Sorani and Kurmanji",
+      "links": {
+        "github": "https://github.com/sinaahmadi/klpt"
+      }
+    }
+  ],
+  "code_mixed": [
+    {
+      "name": "MaskLID",
+      "description": "Zero-shot, training-free code-switching LID via iterative masking; tuned on synthetic Persian mixes",
+      "languages": "Persian + English/French/Arabic",
+      "contribution": "Improves LID in code-switched scenarios using base LIDs like GlotLID",
+      "reference": "Kargaran et al., ACL (2024)",
+      "notes": "Applicable to Persian-English",
+      "keys": [
+        "persian"
+      ],
+      "links": {
+        "github": "https://github.com/cisnlp/MaskLID"
+      }
+    },
+    {
+      "name": "PinLID Dataset & Models",
+      "description": "Labeled Persian-English code-mixed tweets for sentence/token-level LID; evaluated with SVM, mBERT, XLM-R, ParsBERT, AriaBERT, PersianLLaMA",
+      "languages": "Persian-English (Pinglish)",
+      "contribution": "Dataset creation + benchmarking; PersianLLaMA strong on code-mixed",
+      "reference": "Ghafouri et al., Language Resources and Evaluation (2025)",
+      "notes": "High F1-scores; social media focus",
+      "keys": [
+        "persian"
+      ],
+      "links": {}
+    },
+    {
+      "name": "BERT-based Sentiment Analysis",
+      "description": "BERT embeddings + translation models to learn polarity in code-mixed tweets; outperforms Naïve Bayes/RF",
+      "languages": "Persian-English",
+      "contribution": "Custom dataset + cross-lingual transfer for sentiment",
+      "reference": "Sabri et al., arXiv:2102.12700 / CSICC (2021)",
+      "notes": "~3,640 labeled tweets",
+      "keys": [
+        "persian"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2102.12700"
+      }
+    },
+    {
+      "name": "Pinglish Filter for Morphological Analysis",
+      "description": "Normalization to convert Pinglish (Latin Persian-English) to standard Persian script for morphology",
+      "languages": "Persian-English (Pinglish)",
+      "contribution": "Preprocessing rule-based conversion for tokenization/analysis",
+      "reference": "Tavassoli et al., IJCA (2011)",
+      "notes": "Early work; adjective-focused",
+      "keys": [
+        "persian"
+      ],
+      "links": {}
+    },
+    {
+      "name": "Text Normalization with Pinglish Conversion",
+      "description": "Rule-based + learning-based pipeline (e.g., Parsivar) including Pinglish unification for MWE discovery",
+      "languages": "Persian-English",
+      "contribution": "Improves MWE extraction by ~18% via code-mixed handling",
+      "reference": "Marszałek-Kowalewska, RANLP (2021)",
+      "notes": "Boosts downstream Persian NLP",
+      "keys": [
+        "persian"
+      ],
+      "links": {}
+    },
+    {
+      "name": "Prabhupadavani Dataset",
+      "description": "Code-mixed speech translation dataset with audio/transcripts; includes Persian among 25 languages",
+      "languages": "Persian + others (English embeddings)",
+      "contribution": "Resource for training ASR/translation on code-mixed speech",
+      "reference": "Sandhan et al., LaTeCH-CLfL (2022)",
+      "notes": "Speech-focused; multilingual CS",
+      "keys": [
+        "persian"
+      ],
+      "links": {}
+    }
+  ]
 }

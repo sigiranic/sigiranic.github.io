@@ -88,7 +88,7 @@ const SI = (() => {
     const T = site.taxonomy;
     const langs = (p.langs || []).map(k => T.paper_languages[k] ? `<a class="tag tag--lang" href="/research/?lang=${encodeURIComponent(k)}">${esc(T.paper_languages[k])}</a>` : '').join(' ');
     const areas = (p.areas || []).map(a => `<span class="tag">${esc(T.areas[a] || a)}</span>`).join(' ');
-    const links = Object.entries(p.links || {}).filter(([k, u]) => u && u !== p.url).map(([k, u]) => `<a class="btn btn--sm" href="${href(u)}"${ext(u)}>${esc(site.labels[k] || k)} ↗</a>`).join('');
+    const links = linkButtons({ paper: p.url, ...(p.links || {}) }, site);
     return `<li class="card paper${focus ? ' focus' : ''}" id="p-${tok(p.id)}">
       <h3><a href="${href(p.url)}"${ext(p.url)}>${esc(p.title)}</a></h3>
       <div class="meta">${esc(p.venue || '')}${p.authors ? ' · ' + esc(p.authors) : ''}</div>
@@ -97,9 +97,18 @@ const SI = (() => {
       ${p.abstract ? `<p class="abstract" id="abs-${tok(p.id)}" hidden>${esc(p.abstract)}</p>` : ''}
     </li>`;
   }
+  // Link buttons with an icon per type (site.link_types); the same URL is shown once.
+  function linkButtons(links, site, { skip = [] } = {}) {
+    const seen = new Set(skip);
+    return Object.entries(links || {}).filter(([, u]) => u && !seen.has(u) && seen.add(u)).map(([k, u]) => {
+      const t = site.link_types[k] || { label: k, icon: '↗' };
+      const icon = t.icon === 'github' ? '<img class="ico ico-gh" src="/assets/img/icons/github.svg" alt="" width="15" height="15">' : `<span class="ico" aria-hidden="true">${esc(t.icon)}</span>`;
+      return `<a class="btn btn--sm btn--link" href="${href(u)}"${ext(u)}>${icon}${esc(t.label)}</a>`;
+    }).join('');
+  }
   function projectCard(p, site) {
     const col = site.taxonomy.project_badges[p.badge] || 'var(--lapis)';
-    const links = [['url', site.labels.paper], ['github', site.labels.github], ['hf', site.labels.huggingface]].filter(([k]) => p[k]).map(([k, l]) => `<a class="btn btn--sm" href="${href(p[k])}"${ext(p[k])}>${esc(l)} ↗</a>`).join('');
+    const links = linkButtons({ url: p.url, github: p.github, hf: p.hf, demo: p.demo }, site);
     return `<article class="card"><span class="badge" style="--c:${color(col)}">${esc(p.badgeLabel)}</span>
       <h3 style="margin-top:12px">${esc(p.title)}</h3><p class="muted small">${esc(p.desc)}</p>
       <p class="small muted">${esc(p.venue)} ${esc(p.year)}</p><div class="btn-row">${links}</div></article>`;
@@ -189,5 +198,5 @@ const SI = (() => {
   const site = ready.then(chrome);
 
   return { esc, href, ext, tok, color, fill, data, getJSON, $, $$, fmt, debounce, showError, params, setParams, download, csv, copy, useFont,
-    keyCodes, keysForCode, branch, status, badge, langUrl, realPapers, speakersNum, paperItem, projectCard, bibtex, bindBib, tabs, tabList, tabPanel, bars, currentTheme, site };
+    keyCodes, keysForCode, branch, status, badge, langUrl, realPapers, speakersNum, paperItem, projectCard, linkButtons, bibtex, bindBib, tabs, tabList, tabPanel, bars, currentTheme, site };
 })();

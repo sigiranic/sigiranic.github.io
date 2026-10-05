@@ -318,6 +318,24 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: now
 .stack { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--bg-2); margin: 8px 0; }
 .stack i { height: 100%; }
 
+/* link buttons with icons */
+.btn--link { gap: 7px; }
+.btn--link .ico { font-size: 1rem; line-height: 1; }
+.ico-gh { width: 15px; height: 15px; }
+:root[data-theme="dark"] .ico-gh { filter: invert(.93); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ico-gh { filter: invert(.93); } }
+
+/* resource cards */
+.res { display: grid; gap: 10px; align-content: start; }
+.res h3 { margin: 0; font-size: 1.4rem; }
+.res .langs { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.res .lang-chip { display: inline-flex; gap: 6px; align-items: baseline; padding: 3px 10px; border-radius: 999px; background: var(--lapis-soft); color: var(--lapis-ink); font-size: .85rem; text-decoration: none; }
+.res .lang-chip b { font-weight: 500; font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+.res .lang-chip.also { background: transparent; border: 1px dashed var(--border-strong); color: var(--ink-soft); }
+.res .label { font: 500 .72rem var(--font); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faint); margin-right: 4px; }
+.res .check { margin: 0; padding: 8px 12px; border-radius: 10px; background: color-mix(in srgb, var(--gold) 14%, transparent); font-size: .88rem; }
+.res details summary { cursor: pointer; font-size: .88rem; color: var(--ink-soft); }
+
 /* legal pages */
 .legal { max-width: 70ch; }
 .legal section { margin-bottom: 30px; }

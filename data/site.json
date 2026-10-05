@@ -237,7 +237,7 @@
       "description": "Parallel corpora, NLP toolkits and code-mixing resources for Persian, Kurdish, Gilaki, Mazanderani, Talysh, Luri, Laki, Zaza, Gorani and Balochi.",
       "kicker": "Resources",
       "h1": "Datasets & tools",
-      "lead": "What exists, for which language, and where to get it. Sentence counts are as reported by each resource.",
+      "lead": "Datasets and tools for Iranian languages, listed once each with every language they cover. Sentence counts are as reported by each resource.",
       "tabs": {
         "datasets": "Parallel data",
         "tools": "NLP tools",
@@ -255,11 +255,16 @@
         "tasks": "Tasks",
         "features": "Features",
         "description": "Description",
-        "reference": "Reference"
+        "reference": "Reference",
+        "languages": "Languages",
+        "also": "Also covers",
+        "links": "Links"
       },
       "chart_title": "Parallel sentences per language",
       "chart_note": "Largest single resource per language, log scale.",
-      "empty": "Nothing listed yet."
+      "empty": "Nothing listed yet.",
+      "check_label": "Needs checking",
+      "total_label": "sentences"
     },
     "toolkit": {
       "path": "toolkit/",
@@ -526,7 +531,8 @@
       "parthian": "Parthian",
       "old-persian": "Old Persian",
       "avestan": "Avestan",
-      "low-resource": "Other Low-resource"
+      "low-resource": "Other Low-resource",
+      "hawrami": "Hawrami"
     },
     "lang_keys": {
       "persian": [
@@ -786,5 +792,63 @@
     "noscript": "This site needs JavaScript to show its data. All data is also available as JSON in the data/ folder on GitHub.",
     "arxiv": "arXiv",
     "researchgate": "ResearchGate"
+  },
+  "link_types": {
+    "paper": {
+      "label": "Paper",
+      "icon": "📄"
+    },
+    "arxiv": {
+      "label": "arXiv",
+      "icon": "📄"
+    },
+    "github": {
+      "label": "GitHub",
+      "icon": "github"
+    },
+    "huggingface": {
+      "label": "Hugging Face",
+      "icon": "🤗"
+    },
+    "hf": {
+      "label": "Hugging Face",
+      "icon": "🤗"
+    },
+    "demo": {
+      "label": "Demo",
+      "icon": "▶️"
+    },
+    "website": {
+      "label": "Website",
+      "icon": "🌐"
+    },
+    "kaggle": {
+      "label": "Kaggle",
+      "icon": "📊"
+    },
+    "researchgate": {
+      "label": "ResearchGate",
+      "icon": "📄"
+    },
+    "url": {
+      "label": "Paper",
+      "icon": "📄"
+    },
+    "dataset": {
+      "label": "Dataset",
+      "icon": "🗂️"
+    },
+    "code": {
+      "label": "Code",
+      "icon": "💻"
+    },
+    "model": {
+      "label": "Model",
+      "icon": "🤗"
+    },
+    "space": {
+      "label": "Demo",
+      "icon": "▶️"
+    }
   }
 }
