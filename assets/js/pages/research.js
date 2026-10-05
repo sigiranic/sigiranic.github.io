@@ -36,7 +36,7 @@
         (!g || inGroup(p, g)) &&
         (state.lang === 'all' || (p.langs || []).includes(state.lang)) &&
         (state.year === 'all' || String(p.year) === state.year) &&
-        terms.every(t => `${p.title} ${p.abstract || ''} ${p.venue} ${p.authors || ''}`.toLowerCase().includes(t)));
+        terms.every(t => `${p.title} ${p.abstract || ''} ${p.venue} ${p.authors || ''} ${(p.langs || []).map(k => T.paper_languages[k] || k).join(' ')}`.toLowerCase().includes(t)));
       const by = { new: (a, b) => b.year - a.year || a.title.localeCompare(b.title), old: (a, b) => a.year - b.year || a.title.localeCompare(b.title), title: (a, b) => a.title.localeCompare(b.title) }[state.sort] || (() => 0);
       rows.sort(by);
       $('#count').textContent = fill(P.count, { n: fmt(rows.length), total: fmt(papers.length) });

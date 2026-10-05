@@ -63,13 +63,8 @@
       "path": "",
       "title": "SIG Iranic · Language technology for Iranian languages",
       "description": "Languages, scripts, papers, datasets and text tools for NLP research on the Iranian language family, from Persian and Kurdish to Wakhi, Talysh and Yaghnobi.",
-      "kicker": "Special Interest Group · Iranian Languages",
-      "title_lines": [
-        "Iranian",
-        "languages,",
-        "one place."
-      ],
-      "lead": "A research hub for the Iranian language family: 101 languages from Persian, Kurdish and Pashto to Talysh, Wakhi and Yaghnobi, with the papers, datasets, scripts and tools that exist for each of them.",
+      "kicker": "SIG Iranic",
+      "lead": "Papers, datasets, scripts and text tools for computational research on the 101 Iranian languages with ISO 639-3 codes, from Persian, Kurdish and Pashto to Talysh, Wakhi and Yaghnobi.",
       "search_placeholder": "Search languages, papers, datasets, scripts…",
       "search_hint": "Try “Gilaki”, “sentiment”, “Sorani” or an ISO code like “glk”.",
       "stats": [
@@ -133,7 +128,10 @@
       "coverage_title": "Where the resources are",
       "coverage_text": "Papers per language in this index. Most of the family has almost nothing.",
       "numbers_title": "In numbers",
-      "coverage_count": "{n} of {total} languages have at least one paper."
+      "coverage_count": "{n} of {total} languages have at least one paper.",
+      "search_all": "All {n} in {group}",
+      "search_none": "Nothing found for “{q}”.",
+      "h1": "Special Interest Group on Iranian Languages"
     },
     "languages": {
       "path": "languages/",
@@ -343,8 +341,8 @@
       "path": "404.html",
       "title": "Page not found · SIG Iranic",
       "description": "This page does not exist.",
-      "h1": "Lost in the desert",
-      "lead": "This page does not exist. Try the search on the home page."
+      "h1": "Page not found",
+      "lead": "This page does not exist. Use the search on the home page or the menu above."
     }
   },
   "taxonomy": {
@@ -735,6 +733,8 @@
     "code": "Code",
     "all": "All",
     "edit_on_github": "Edit on GitHub",
-    "noscript": "This site needs JavaScript to show its data. All data is also available as JSON in the data/ folder on GitHub."
+    "noscript": "This site needs JavaScript to show its data. All data is also available as JSON in the data/ folder on GitHub.",
+    "arxiv": "arXiv",
+    "researchgate": "ResearchGate"
   }
 }

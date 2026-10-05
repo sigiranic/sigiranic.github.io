@@ -10,7 +10,7 @@
 
     /* hero + search */
     $('#hero-text').innerHTML = `<span class="kicker">${esc(P.kicker)}</span>
-      <h1>${P.title_lines.map(w => `<span>${esc(w)}</span>`).join('')}</h1>
+      <h1>${esc(P.h1)}</h1>
       <p class="lead">${esc(P.lead)}</p>
       <div class="search" role="search">
         <label class="visually-hidden" for="q">${esc(P.search_placeholder)}</label>
@@ -20,30 +20,41 @@
       </div>
       <p class="search-hint">${esc(P.search_hint)}</p>`;
 
-    // One flat index across languages, papers, resources and scripts.
+    // One index across languages, scripts, papers and resources, shown in that order.
+    const G = [
+      { id: 'languages', label: site.labels.languages, all: q => `/languages/?q=${encodeURIComponent(q)}` },
+      { id: 'scripts', label: site.pages.scripts.h1, all: () => '/scripts/' },
+      { id: 'papers', label: site.pages.research.h1, all: q => `/research/?q=${encodeURIComponent(q)}` },
+      { id: 'datasets', label: site.pages.datasets.h1, all: q => `/datasets/?q=${encodeURIComponent(q)}` },
+    ];
+    const langLabels = p => (p.langs || []).map(k => T.paper_languages[k] || k).join(' ');
     const index = [
-      ...languages.map(l => ({ group: site.labels.languages, label: l.name, sub: l.code, url: langUrl(l.code), text: `${l.name} ${l.code} ${l.area} ${l.glottolog}` })),
-      ...scripts.filter(s => s.id !== 'unwritten').map(s => ({ group: site.pages.scripts.h1, label: s.name, sub: s.direction, url: `/scripts/#${tok(s.id)}`, text: `${s.name} ${s.nativeName} ${s.languages.join(' ')}` })),
-      ...papers.map(p => ({ group: site.pages.research.h1, label: p.title, sub: String(p.year), url: `/research/?id=${encodeURIComponent(p.id)}`, text: `${p.title} ${p.venue} ${(p.areas || []).join(' ')} ${(p.langs || []).join(' ')}` })),
-      ...res.flatMap(([key, v]) => ['datasets', 'tools', 'code_mixed'].flatMap(kind => v[kind].map(d => ({ group: site.pages.datasets.h1, label: d.name, sub: v.name, url: `/datasets/?lang=${encodeURIComponent(key)}&q=${encodeURIComponent(d.name)}${kind === 'datasets' ? '' : '&tab=' + kind}`, text: `${d.name} ${v.name} ${d.tasks || ''} ${d.description || ''}` })))),
-    ].map(x => ({ ...x, hay: x.text.toLowerCase() }));
+      ...languages.map(l => ({ g: 'languages', label: l.name, sub: l.code, url: langUrl(l.code), text: `${l.name} ${l.code} ${l.area} ${l.glottolog}` })),
+      ...scripts.filter(s => s.id !== 'unwritten').map(s => ({ g: 'scripts', label: s.name, sub: s.direction, url: `/scripts/#${tok(s.id)}`, text: `${s.name} ${s.nativeName} ${s.languages.join(' ')}` })),
+      ...papers.map(p => ({ g: 'papers', label: p.title, sub: String(p.year), url: `/research/?id=${encodeURIComponent(p.id)}`, text: `${p.title} ${p.venue} ${(p.areas || []).map(a => T.areas[a] || a).join(' ')} ${langLabels(p)}` })),
+      ...res.flatMap(([key, v]) => ['datasets', 'tools', 'code_mixed'].flatMap(kind => v[kind].map(d => ({ g: 'datasets', label: d.name, sub: v.name, url: `/datasets/?lang=${encodeURIComponent(key)}&q=${encodeURIComponent(d.name)}${kind === 'datasets' ? '' : '&tab=' + kind}`, text: `${d.name} ${v.name} ${d.tasks || ''} ${d.description || ''}` })))),
+    ].map(x => ({ ...x, hay: x.text.toLowerCase(), low: x.label.toLowerCase() }));
     const q = $('#q'), box = $('#results');
-    let active = -1, shown = [];
+    let active = -1;
+    // Exact label, then label prefix, then a word in the label, then anywhere.
+    const score = (x, phrase, terms) => x.low === phrase || x.sub.toLowerCase() === phrase ? 0 : x.low.startsWith(phrase) ? 1 : terms.every(t => x.low.split(/[\s:(),-]+/).some(w => w.startsWith(t))) ? 2 : 3;
+    const mark = (text, terms) => {
+      const re = new RegExp(`(${terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi');
+      return String(text).split(re).map((part, i) => i % 2 ? `<mark>${esc(part)}</mark>` : esc(part)).join('');
+    };
     const render = () => {
-      const terms = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      const raw = q.value.trim(), phrase = raw.toLowerCase(), terms = phrase.split(/\s+/).filter(Boolean);
       if (!terms.length) { box.hidden = true; q.setAttribute('aria-expanded', 'false'); return; }
-      const hits = index.filter(x => terms.every(t => x.hay.includes(t)));
-      const exact = x => x.label.toLowerCase() === terms.join(' ') || x.sub.toLowerCase() === terms.join(' ') ? 0 : 1;
-      shown = [];
-      const groups = {};
-      hits.sort((a, b) => exact(a) - exact(b)).forEach(h => { (groups[h.group] = groups[h.group] || []).length < 5 && groups[h.group].push(h); });
-      let html = '';
-      Object.entries(groups).forEach(([g, items]) => {
-        html += `<div class="group" role="presentation">${esc(g)}</div>`;
-        items.forEach(it => { html += `<a role="option" id="opt-${shown.length}" href="${href(it.url)}" aria-selected="false"><span>${esc(it.label)}</span><small>${esc(it.sub)}</small></a>`; shown.push(it); });
+      const hits = index.filter(x => terms.every(t => x.hay.includes(t))).map(x => ({ ...x, s: score(x, phrase, terms) })).sort((a, b) => a.s - b.s || a.label.localeCompare(b.label));
+      let html = '', n = 0;
+      G.forEach(g => {
+        const all = hits.filter(h => h.g === g.id); if (!all.length) return;
+        html += `<div class="group" role="presentation"><span>${esc(g.label)}</span><span>${fmt(all.length)}</span></div>`;
+        all.slice(0, 4).forEach(it => { html += `<a role="option" id="opt-${n++}" href="${href(it.url)}" aria-selected="false"><span>${mark(it.label, terms)}</span><small>${esc(it.sub)}</small></a>`; });
+        if (all.length > 4) html += `<a class="more" role="option" id="opt-${n++}" href="${href(g.all(raw))}" aria-selected="false">${esc(SI.fill(P.search_all, { n: fmt(all.length), group: g.label }))} →</a>`;
       });
-      box.innerHTML = html || `<div class="group">–</div>`;
-      box.hidden = false; q.setAttribute('aria-expanded', 'true'); active = -1;
+      box.innerHTML = html || `<p class="none">${esc(SI.fill(P.search_none, { q: raw }))}</p>`;
+      box.hidden = false; box.scrollTop = 0; q.setAttribute('aria-expanded', 'true'); q.removeAttribute('aria-activedescendant'); active = -1;
     };
     const move = d => {
       const opts = [...box.querySelectorAll('[role="option"]')]; if (!opts.length) return;

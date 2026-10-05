@@ -603,26 +603,6 @@
     }
   },
   {
-    "id": "paper131",
-    "title": "EmoPars: A Collection of 30K Emotion-Annotated Persian Social Media Texts",
-    "authors": "",
-    "venue": "Conf/Journal 2024",
-    "year": 2024,
-    "langs": [
-      "persian"
-    ],
-    "areas": [
-      "emotion-detection",
-      "dataset"
-    ],
-    "url": "https://www.researchgate.net/publication/355368053_EmoPars_A_Collection_of_30K_Emotion-Annotated_Persian_Social_Media_Texts",
-    "abstract": "The wide reach of social media platforms, such as Twitter, have enabled many users to share their thoughts, opinions and emotions on various topics online. The ability to detect these emotions automat",
-    "links": {
-      "paper": "https://www.researchgate.net/publication/355368053_EmoPars_A_Collection_of_30K_Emotion-Annotated_Persian_Social_Media_Texts",
-      "github": "https://github.com/nazaninsbr/persian-emotion-detection?tab=readme-ov-file"
-    }
-  },
-  {
     "id": "sentipersasentimentanalysiscor",
     "title": "SentiPers: A Sentiment Analysis Corpus for Persian",
     "authors": "",
@@ -823,27 +803,6 @@
     "links": {
       "paper": "https://arxiv.org/abs/2207.04672",
       "github": "https://github.com/facebookresearch/flores/tree/main/flores200"
-    }
-  },
-  {
-    "id": "glotlidlanguageidentificationf",
-    "title": "GlotLID: Language Identification for Low-Resource Languages",
-    "authors": "",
-    "venue": "arXiv 2023",
-    "year": 2023,
-    "langs": [
-      "gilaki",
-      "persian"
-    ],
-    "areas": [
-      "classification",
-      "language-identification"
-    ],
-    "url": "https://arxiv.org/abs/2310.16248",
-    "abstract": "TL;DR: The repository introduces GlotLID, an open-source language identification (LID) model with support for more than 2000 labels.",
-    "links": {
-      "paper": "https://arxiv.org/abs/2310.16248",
-      "huggingface": "https://huggingface.co/datasets/cis-lmu/glotlid-corpus"
     }
   },
   {
@@ -1283,13 +1242,15 @@
       "persian"
     ],
     "areas": [
+      "classification",
       "language-identification"
     ],
     "url": "https://aclanthology.org/2023.findings-acl.834",
-    "abstract": "GlotLID is a language identification model covering 1,600+ languages with high recall on Iranian minority and endangered varieties.",
+    "abstract": "TL;DR: The repository introduces GlotLID, an open-source language identification (LID) model with support for more than 2000 labels.",
     "links": {
       "paper": "https://aclanthology.org/2023.findings-acl.834",
-      "huggingface": "https://huggingface.co/datasets/cis-lmu/glotlid-corpus"
+      "huggingface": "https://huggingface.co/datasets/cis-lmu/glotlid-corpus",
+      "arxiv": "https://arxiv.org/abs/2310.16248"
     }
   },
   {
@@ -1453,13 +1414,16 @@
       "persian"
     ],
     "areas": [
+      "dataset",
+      "emotion-detection",
       "sentiment-analysis"
     ],
     "url": "https://aclanthology.org/2021.ranlp-srw.23/",
-    "abstract": "دیتاست فارسی 30 هزارتایی توییتر برای تحلیل احساسات\nبرخلاف دیتاست های رایج 6 کلاسه هست و مناسب برای تست مدل های شما",
+    "abstract": "The wide reach of social media platforms, such as Twitter, have enabled many users to share their thoughts, opinions and emotions on various topics online. The ability to detect these emotions automat",
     "links": {
       "paper": "https://aclanthology.org/2021.ranlp-srw.23/",
-      "github": "https://github.com/nazaninsbr/persian-emotion-detection?tab=readme-ov-file"
+      "github": "https://github.com/nazaninsbr/persian-emotion-detection?tab=readme-ov-file",
+      "researchgate": "https://www.researchgate.net/publication/355368053_EmoPars_A_Collection_of_30K_Emotion-Annotated_Persian_Social_Media_Texts"
     }
   },
   {
