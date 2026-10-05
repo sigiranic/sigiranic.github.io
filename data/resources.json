@@ -303,7 +303,7 @@
       "id": "smol",
       "name": "SMOL",
       "task": "machine-translation",
-      "description": "Professionally translated sentences and documents for 115 under-represented languages, from Google.",
+      "description": "Professionally translated sentences (SmolSent) and documents (SmolDoc) for 115 under-represented languages, from Google. Gilaki and Hawrami are in SmolDoc.",
       "languages": [
         {
           "lang": "gilaki",
@@ -320,10 +320,16 @@
         {
           "lang": "gorani",
           "sentences": null,
-          "pairs": []
+          "documents": 863,
+          "pairs": [
+            {
+              "lang": "English",
+              "count": 863
+            }
+          ],
+          "source": "Table H.1: en→hac (Hawrami), 0 SmolSent sentence pairs, 863 SmolDoc documents (77k characters)"
         }
       ],
-      "check": "Gilaki is confirmed (Table H.1 of the paper, as documents). Gorani was listed with the same 863 count and is not yet confirmed; check for an en_hac pair in Table H.1.",
       "access": "Public",
       "links": {
         "paper": "https://arxiv.org/abs/2502.12301",
