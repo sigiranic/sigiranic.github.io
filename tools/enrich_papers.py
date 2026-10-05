@@ -5,8 +5,8 @@
     python3 tools/enrich_papers.py --dry-run  # only report what would change
 
 Sources, in order: the arXiv API (arXiv links), the ACL Anthology .bib files (ACL links),
-and Semantic Scholar's title match for everything else. An abstract is only replaced when the
-stored one is empty or a cut-off beginning of the fetched one, so hand-written text is kept;
+and Semantic Scholar's title match for everything else. An abstract is replaced when the stored
+one is empty, ends mid-sentence or is an excerpt of the fetched one; complete hand-written text is kept;
 authors are only added when missing. Runs in GitHub Actions (.github/workflows/papers.yml).
 """
 import argparse, difflib, html, json, re, sys, time, urllib.parse, urllib.request
@@ -136,10 +136,16 @@ def fetch_s2(title):
     return {"title": data.get("title"), "abstract": clean(data.get("abstract")), "authors": [a["name"] for a in data.get("authors") or []], "year": data.get("year")}
 
 
-def truncated(stored, full):
-    """True when the stored abstract is empty or a cut-off beginning of the full one."""
+def cut_off(text):
+    """Empty, or ends mid-sentence: an excerpt, never a finished abstract."""
+    return not text or not re.search(r"[.!?)\"\u201d]\s*$", text)
+
+
+def replaceable(stored, full):
+    """Replace the stored abstract when it is empty, cut off, or an excerpt of the full one.
+    A complete abstract that differs from the source (e.g. written by hand) is kept."""
     s = norm(stored)
-    return not s or (len(norm(full)) > len(s) and norm(full).startswith(s[: max(0, len(s) - 3)]))
+    return not s or cut_off(stored) or s in norm(full)
 
 
 def main():
@@ -147,8 +153,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     papers = json.loads(DATA.read_text())
-    cut = lambda a: not a or not re.search(r"[.!?)\"\u201d]\s*$", a)   # empty or ends mid-sentence
-    todo = [p for p in papers if not p.get("placeholder") and (cut(p.get("abstract")) or not p.get("authors"))]
+    todo = [p for p in papers if not p.get("placeholder") and (cut_off(p.get("abstract")) or not p.get("authors"))]
     print(f"{len(todo)} of {len(papers)} papers need an abstract or authors")
 
     arxiv_ids = {p["id"]: m.group(1) for p in todo for m in [ARXIV_ID.search(p["url"] + " " + " ".join((p.get("links") or {}).values()))] if m}
@@ -173,7 +178,7 @@ def main():
             print(f"  ? title mismatch, skipped: {p['title'][:60]} <> {meta['title'][:60]}")
             missing.append(p["title"])
             continue
-        if meta.get("abstract") and truncated(p.get("abstract"), meta["abstract"]):
+        if meta.get("abstract") and len(meta["abstract"]) > len(p.get("abstract") or "") and replaceable(p.get("abstract"), meta["abstract"]):
             p["abstract"] = meta["abstract"]
             filled_abs += 1
         if not p.get("authors") and meta.get("authors"):
