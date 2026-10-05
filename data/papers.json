@@ -30,8 +30,7 @@
       "kurdish",
       "kurmanji",
       "persian",
-      "sorani",
-      "tati"
+      "sorani"
     ],
     "areas": [
       "text-generation"
@@ -306,7 +305,6 @@
       "low-resource",
       "sanglechi",
       "shughni",
-      "tati",
       "wakhi",
       "yagnobi"
     ],
@@ -364,8 +362,7 @@
     "venue": "ACL 2024",
     "year": 2024,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "other"
@@ -403,8 +400,7 @@
     "venue": "Conf/Journal 2024",
     "year": 2024,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "sentiment-analysis",
@@ -424,8 +420,7 @@
     "venue": "arXiv 2023",
     "year": 2023,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "question-answering",
@@ -545,8 +540,7 @@
     "venue": "arXiv 2024",
     "year": 2024,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "classification",
@@ -812,8 +806,7 @@
     "venue": "arXiv 2024",
     "year": 2024,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "instruction-following",
@@ -834,8 +827,7 @@
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "other",
@@ -875,8 +867,7 @@
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "other",
@@ -896,8 +887,7 @@
     "venue": "arXiv 2024",
     "year": 2024,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "instruction-following",
@@ -1170,8 +1160,7 @@
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "other",
@@ -1370,8 +1359,7 @@
     "venue": "LREC 2022",
     "year": 2022,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "question-answering",
@@ -1473,8 +1461,7 @@
     "venue": "LREC 2020",
     "year": 2020,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "text-generation",
@@ -1532,8 +1519,7 @@
     "venue": "LREC 2020",
     "year": 2020,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "sentiment-analysis",
@@ -1580,8 +1566,7 @@
     "langs": [
       "kurdish",
       "persian",
-      "sorani",
-      "tati"
+      "sorani"
     ],
     "areas": [
       "other",
@@ -1605,8 +1590,7 @@
       "kurdish",
       "luri",
       "persian",
-      "sorani",
-      "tati"
+      "sorani"
     ],
     "areas": [
       "text-generation",
@@ -1672,8 +1656,7 @@
       "kurdish",
       "kurmanji",
       "persian",
-      "sorani",
-      "tati"
+      "sorani"
     ],
     "areas": [
       "machine-translation",
@@ -1757,8 +1740,7 @@
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
-      "persian",
-      "tati"
+      "persian"
     ],
     "areas": [
       "sentiment-analysis",

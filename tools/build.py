@@ -30,9 +30,11 @@ PAGES = {
     "datasets": ("datasets.html", "datasets/index.html", False),
     "toolkit": ("toolkit.html", "toolkit/index.html", False),
     "community": ("community.html", "community/index.html", False),
+    "privacy": ("legal.html", "privacy/index.html", False),
+    "terms": ("legal.html", "terms/index.html", False),
     "notfound": ("404.html", "404.html", False),
 }
-SCRIPT = {"notfound": None}
+SCRIPT = {"notfound": None, "privacy": "legal", "terms": "legal"}
 
 
 def lookup(ctx, key):
@@ -119,7 +121,7 @@ def build(out: Path):
     written = []
     for pid, (tpl, path, needs_map) in PAGES.items():
         p = site["pages"][pid]
-        body = fill((ROOT / "templates" / tpl).read_text(), {"brand": site["brand"], "labels": site["labels"], "page": p})
+        body = fill((ROOT / "templates" / tpl).read_text(), {"brand": site["brand"], "labels": site["labels"], "page": {**p, "doc": pid}})
         ld = [org, {"@context": "https://schema.org", "@type": "WebSite", "name": site["brand"]["name"], "url": site["brand"]["url"]}] if pid == "home" else []
         (out / path).parent.mkdir(parents=True, exist_ok=True)
         (out / path).write_text(page(site, page_id=pid, path=path, title=p["title"], description=p["description"], body=body,

@@ -318,6 +318,12 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: now
 .stack { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--bg-2); margin: 8px 0; }
 .stack i { height: 100%; }
 
+/* legal pages */
+.legal { max-width: 70ch; }
+.legal section { margin-bottom: 30px; }
+.legal h2 { font-size: 1.6rem; }
+.footer-bottom a { color: inherit; }
+
 /* footer */
 .site-footer { margin-top: clamp(40px, 6vw, 80px); border-top: 1px solid var(--border); background: var(--bg-2); padding: 44px 0 30px; font-size: .95rem; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 28px; }

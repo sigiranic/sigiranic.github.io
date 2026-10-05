@@ -181,7 +181,7 @@ const SI = (() => {
           <li><a href="${href(site.brand.github)}"${ext(site.brand.github)}>${esc(LB.github)} ↗</a></li>
           <li><a href="${href(site.brand.huggingface)}"${ext(site.brand.huggingface)}>${esc(LB.huggingface)} ↗</a></li>
           <li><a href="${href('mailto:' + site.brand.email)}">${esc(site.brand.email)}</a></li></ul></div>
-      </div><div class="footer-bottom"><span>© ${new Date().getFullYear()} ${esc(F.copyright)}</span><span>${esc(F.data_note)}</span></div></div>`;
+      </div><div class="footer-bottom"><span>© ${new Date().getFullYear()} ${esc(F.copyright)}${(F.legal_links || []).map(l => ` · <a href="${href(l.href)}">${esc(l.label)}</a>`).join('')}</span><span>${esc(F.data_note)}</span></div></div>`;
     }
     return site;
   }

@@ -1,0 +1,140 @@
+{
+  "updated": "2026-10-05",
+  "updated_label": "Last updated",
+  "privacy": {
+    "kicker": "Legal",
+    "h1": "Privacy Policy",
+    "lead": "This site has no accounts, no cookies, no analytics and no advertising. This page lists everything that does touch your data when you visit.",
+    "sections": [
+      {
+        "h": "What we collect",
+        "p": [
+          "Nothing. SIG Iranic does not run a server, does not set cookies and does not use analytics or tracking scripts."
+        ]
+      },
+      {
+        "h": "Hosting",
+        "p": [
+          "The site is served by GitHub Pages. GitHub receives your IP address and browser details when you load a page and may keep them in server logs for security. See the GitHub Privacy Statement."
+        ],
+        "links": [
+          [
+            "GitHub Privacy Statement",
+            "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          ]
+        ]
+      },
+      {
+        "h": "Fonts",
+        "p": [
+          "Text fonts and the fonts for historical scripts are loaded from Google Fonts. Google receives your IP address and browser details with each font request."
+        ],
+        "links": [
+          [
+            "Google Privacy Policy",
+            "https://policies.google.com/privacy"
+          ]
+        ]
+      },
+      {
+        "h": "Maps",
+        "p": [
+          "Map pages load map images from CARTO, or from the OpenStreetMap tile servers if CARTO is unavailable. These services receive your IP address and the map area you view."
+        ],
+        "links": [
+          [
+            "CARTO Privacy Policy",
+            "https://carto.com/privacy"
+          ],
+          [
+            "OpenStreetMap Foundation Privacy Policy",
+            "https://osmfoundation.org/wiki/Privacy_Policy"
+          ]
+        ]
+      },
+      {
+        "h": "In your browser",
+        "p": [
+          "Your light or dark theme choice is stored in your browser's local storage and never leaves your device. Text you paste into the toolkit is processed entirely in your browser and is not sent anywhere. CSV and BibTeX downloads are created in your browser."
+        ]
+      },
+      {
+        "h": "Links to other sites",
+        "p": [
+          "Papers, datasets and tools link to other websites, which have their own privacy policies."
+        ]
+      },
+      {
+        "h": "Contact",
+        "p": [
+          "Questions about this policy: write to {email}."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "kicker": "Legal",
+    "h1": "Terms of Use",
+    "lead": "The site and its data are open. These terms explain what you may do with them and what we cannot promise.",
+    "sections": [
+      {
+        "h": "Using the site",
+        "p": [
+          "You may browse, search, download and reuse what is published here for research, teaching and any other lawful purpose."
+        ]
+      },
+      {
+        "h": "Licences",
+        "p": [
+          "The website code and the data files in its repository are released under the MIT License.",
+          "Language codes come from ISO 639-3, maintained by SIL International, and Glottolog, published under CC BY 4.0. Please credit them when you reuse those fields.",
+          "Papers, datasets and tools listed here belong to their authors and publishers and keep their own licences. Check each licence before you use a resource."
+        ],
+        "links": [
+          [
+            "MIT License",
+            "{repo}/blob/main/LICENSE"
+          ],
+          [
+            "Glottolog",
+            "https://glottolog.org"
+          ],
+          [
+            "ISO 639-3",
+            "https://iso639-3.sil.org"
+          ]
+        ]
+      },
+      {
+        "h": "Accuracy",
+        "p": [
+          "The information is collected by the community and may be incomplete or wrong, including speaker numbers, classifications and paper details. Toolkit output is rule-based and can contain errors. Everything is provided as is, without warranty of any kind."
+        ]
+      },
+      {
+        "h": "Corrections",
+        "p": [
+          "Found a mistake? Edit the data on GitHub or write to {email}. We welcome corrections."
+        ]
+      },
+      {
+        "h": "Name and logo",
+        "p": [
+          "The SIG Iranic name and the Iranic Languages logo identify this group. Do not use them in a way that suggests we endorse a product, service or publication."
+        ]
+      },
+      {
+        "h": "Links to other sites",
+        "p": [
+          "We link to other websites for convenience and are not responsible for their content or availability."
+        ]
+      },
+      {
+        "h": "Changes",
+        "p": [
+          "We may update these terms. The date at the top shows the latest version."
+        ]
+      }
+    ]
+  }
+}

@@ -128,7 +128,7 @@
       "coverage_title": "Where the resources are",
       "coverage_text": "Papers per language in this index. Most of the family has almost nothing.",
       "numbers_title": "In numbers",
-      "coverage_count": "{n} of {total} languages have at least one paper.",
+      "coverage_count": "{n} of {total} languages are named in at least one paper.",
       "search_all": "All {n} in {group}",
       "search_none": "Nothing found for “{q}”.",
       "h1": "Special Interest Group on Iranian Languages"
@@ -343,6 +343,16 @@
       "description": "This page does not exist.",
       "h1": "Page not found",
       "lead": "This page does not exist. Use the search on the home page or the menu above."
+    },
+    "privacy": {
+      "path": "privacy/",
+      "title": "Privacy Policy · SIG Iranic",
+      "description": "How the SIG Iranic website handles your data: no accounts, cookies or analytics; what GitHub Pages, Google Fonts and the map tile services receive."
+    },
+    "terms": {
+      "path": "terms/",
+      "title": "Terms of Use · SIG Iranic",
+      "description": "Terms of use for the SIG Iranic website: licences for code and data, accuracy, corrections and use of the name and logo."
     }
   },
   "taxonomy": {
@@ -672,7 +682,37 @@
       "badge-lid": "#2b4c8c",
       "badge-data": "#2f7a5a",
       "badge-nlp": "#b5452a"
-    }
+    },
+    "lang_primary": {
+      "persian": "fas",
+      "dari": "prs",
+      "tajik": "tgk",
+      "pashto": "pus",
+      "kurdish": "kur",
+      "kurmanji": "kmr",
+      "sorani": "ckb",
+      "balochi": "bal",
+      "gilaki": "glk",
+      "mazanderani": "mzn",
+      "talysh": "tly",
+      "tat-caucasus": "ttt",
+      "zaza": "zza",
+      "gorani": "hac",
+      "hawrami": "hac",
+      "laki": "lki",
+      "ossetic": "oss",
+      "shughni": "sgh",
+      "wakhi": "wbl",
+      "yazghulami": "yah",
+      "ishkashimi": "isk",
+      "sanglechi": "sgy",
+      "yagnobi": "yai",
+      "middle-persian": "pal",
+      "parthian": "xpr",
+      "old-persian": "peo",
+      "avestan": "ave"
+    },
+    "_lang_primary_note": "Used for coverage counts: each paper tag counts as at most one ISO 639-3 language. Group tags without a single code (tati, luri, pamiri) are not counted."
   },
   "links": {
     "glottolog": "https://glottolog.org/resource/languoid/id/{glottolog}",
@@ -711,7 +751,17 @@
   "footer": {
     "text": "An open research community for computational work on the Iranian language family. All data on this site is open and editable on GitHub.",
     "copyright": "SIG Iranic · Iranic Languages",
-    "data_note": "Language codes: ISO 639-3 (SIL) and Glottolog (CC BY 4.0)."
+    "data_note": "Language codes: ISO 639-3 (SIL) and Glottolog (CC BY 4.0).",
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "privacy/"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "terms/"
+      }
+    ]
   },
   "labels": {
     "home": "Home",
