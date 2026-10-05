@@ -321,7 +321,7 @@
           "pairs": []
         }
       ],
-      "check": "The Gorani entry repeated the Gilaki count (863); please confirm Gorani is in SMOL.",
+      "check": "Not yet verified that SMOL includes Gilaki or Gorani: both were listed with the same count (863 sentences paired with English). Check the language subsets on the Hugging Face page and correct this entry.",
       "access": "Public",
       "links": {
         "paper": "https://arxiv.org/abs/2502.12301",
