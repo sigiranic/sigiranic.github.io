@@ -307,13 +307,15 @@
       "languages": [
         {
           "lang": "gilaki",
-          "sentences": 863,
+          "sentences": null,
+          "documents": 863,
           "pairs": [
             {
               "lang": "English",
               "count": 863
             }
-          ]
+          ],
+          "source": "Table H.1: en→glk, 0 SmolSent sentence pairs, 863 SmolDoc documents (52k characters)"
         },
         {
           "lang": "gorani",
@@ -321,7 +323,7 @@
           "pairs": []
         }
       ],
-      "check": "Not yet verified that SMOL includes Gilaki or Gorani: both were listed with the same count (863 sentences paired with English). Check the language subsets on the Hugging Face page and correct this entry.",
+      "check": "Gilaki is confirmed (Table H.1 of the paper, as documents). Gorani was listed with the same 863 count and is not yet confirmed; check for an en_hac pair in Table H.1.",
       "access": "Public",
       "links": {
         "paper": "https://arxiv.org/abs/2502.12301",

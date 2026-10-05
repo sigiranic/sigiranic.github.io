@@ -21,9 +21,9 @@
     $('#tabs').innerHTML = SI.tabList('rs', tabIds.map(id => ({ id, label: P.tabs[id] }))) + tabIds.map((id, i) => SI.tabPanel('rs', id, `<div id="panel-${id}"></div>`, i === 0)).join('');
     const ctl = SI.tabs($('#tabs'), id => { state.tab = id; SI.setParams({ tab: id === 'datasets' ? '' : id }); });
 
-    const chip = (k, extra = '', cls = 'lang-chip') => { const u = langLink(k); return u ? `<a class="${cls}" href="${u}">${esc(label(k))}${extra}</a>` : `<span class="${cls}">${esc(label(k))}${extra}</span>`; };
+    const chip = (k, extra = '', cls = 'lang-chip', title = '') => { const u = langLink(k), t = title ? ` title="${esc(title)}"` : ''; return u ? `<a class="${cls}" href="${u}"${t}>${esc(label(k))}${extra}</a>` : `<span class="${cls}"${t}>${esc(label(k))}${extra}</span>`; };
     const covers = r => {
-      const main = (r.languages || []).map(l => typeof l === 'string' ? chip(l) : chip(l.lang, l.sentences ? ` <b>${fmt(l.sentences)}</b>` : ''));
+      const main = (r.languages || []).map(l => typeof l === 'string' ? chip(l) : chip(l.lang, l.sentences ? ` <b>${fmt(l.sentences)}</b>` : l.documents ? ` <b>${fmt(l.documents)} ${esc(P.documents_label)}</b>` : '', 'lang-chip', l.source));
       const also = (r.also || []).map(k => chip(k, '', 'lang-chip also'));
       return `<div class="langs"><span class="label">${esc(C.languages)}</span>${main.join('')}</div>${also.length ? `<div class="langs" title="${esc(r.also_note || '')}"><span class="label">${esc(C.also)}</span>${also.join('')}</div>` : ''}`;
     };

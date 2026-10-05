@@ -12,7 +12,7 @@
     const keys = SI.keysForCode(site, code);
     const papers = SI.realPapers(papersAll).filter(p => (p.langs || []).some(k => keys.includes(k))).sort((a, b2) => b2.year - a.year);
     // resources that name one of this language's keys, either directly or under "also covers"
-    const coverage = r => { const hit = (Array.isArray(r.languages) ? r.languages : []).find(x => keys.includes(x.lang)); return hit ? { sentences: hit.sentences } : (r.also || []).concat(r.keys || []).some(k => keys.includes(k)) ? { also: true } : null; };
+    const coverage = r => { const hit = (Array.isArray(r.languages) ? r.languages : []).find(x => keys.includes(x.lang)); return hit ? { sentences: hit.sentences, documents: hit.documents } : (r.also || []).concat(r.keys || []).some(k => keys.includes(k)) ? { also: true } : null; };
     const ds = resources.datasets.map(r => [r, coverage(r)]).filter(([, c]) => c);
     const tools = resources.tools.concat(resources.code_mixed).map(r => [r, coverage(r)]).filter(([, c]) => c);
 
@@ -31,7 +31,7 @@
     ];
     const D = site.pages.datasets.cols;
     const resRow = ([r, c]) => `<li class="card paper"><h3><a href="/datasets/#${tok(r.id || r.name)}">${esc(r.name)}</a></h3>
-      <div class="meta">${c.sentences ? `${fmt(c.sentences)} ${esc(site.pages.datasets.total_label)}` : c.also ? esc(D.also) : ''}${r.programming_language ? ' · ' + esc(r.programming_language) : ''}</div>
+      <div class="meta">${c.sentences ? `${fmt(c.sentences)} ${esc(site.pages.datasets.total_label)}` : c.documents ? `${fmt(c.documents)} ${esc(site.pages.datasets.documents_label)}` : c.also ? esc(D.also) : ''}${r.programming_language ? ' · ' + esc(r.programming_language) : ''}</div>
       <div class="row">${SI.linkButtons(r.links, site)}</div></li>`;
     $('#body').innerHTML = `
       <dl class="facts">${facts.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v}</dd>`).join('')}</dl>

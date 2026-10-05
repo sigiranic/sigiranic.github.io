@@ -264,7 +264,8 @@
       "chart_note": "Largest single resource per language, log scale.",
       "empty": "Nothing listed yet.",
       "check_label": "Needs checking",
-      "total_label": "sentences"
+      "total_label": "sentences",
+      "documents_label": "docs"
     },
     "toolkit": {
       "path": "toolkit/",
