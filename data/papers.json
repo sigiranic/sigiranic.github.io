@@ -2,7 +2,7 @@
   {
     "id": "fineweb2onepipelinetoscalethem",
     "title": "FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language",
-    "authors": "",
+    "authors": "Guilherme Penedo, Hynek Kydlíček, Vinko Sabolčec, Bettina Messmer, Negar Foroutan, Amir Hossein Kargaran, Colin Raffel, Martin Jaggi, Leandro Von Werra, Thomas Wolf",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -23,7 +23,7 @@
   {
     "id": "soranikurdishversuskurmanjikur",
     "title": "Sorani Kurdish versus Kurmanji Kurdish: An Empirical Comparison",
-    "authors": "",
+    "authors": "K. S. Esmaili, Shahin Salavati",
     "venue": "ACL 2013",
     "year": 2013,
     "langs": [
@@ -45,7 +45,7 @@
   {
     "id": "apersianmedicalquestionansweri",
     "title": "A Persian Medical Question Answering System",
-    "authors": "",
+    "authors": "H. Veisi, Hamed Fakour Shandi",
     "venue": "IJAIT 2020",
     "year": 2020,
     "langs": [
@@ -85,7 +85,7 @@
   {
     "id": "parmeparallelcorporaforlowreso",
     "title": "PARME: Parallel Corpora for Low-Resourced Middle Eastern Languages",
-    "authors": "",
+    "authors": "Sina Ahmadi, Rico Sennrich, E. Karami, A. Marani, Parviz Fekrazad, Gholamreza Akbarzadeh Baghban, Hanah Hadi, Semko Heidari, Mahîr Dogan, P. Asadi, D. Bashir, M. Ghodrati, K. Amini, Zeynab Ashourinezhad, Mana Baladi, Farshid Ezzati, Alireza Ghasemifar, Daryoush Hosseinpour, Behrooz Abbaszadeh, A. Hassanpour, Bahaddin Jalal Hamaamin, S. Hama, A. Mousavi, Sarko Nazir Hussein, Isar Nejadgholi, M. Ölmez, Horam Osmanpour, R. Ramezani, Aryani Aziz, Ali Salehi, M. Yadegari, Kewyar Yadegari, Sedighe Zamani Roodsari",
     "venue": "ACL 2025",
     "year": 2025,
     "langs": [
@@ -105,7 +105,7 @@
   {
     "id": "literarytranslationsandsynthet",
     "title": "Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages",
-    "authors": "",
+    "authors": "Sina Ahmadi, Razhan Hameed, Rico Sennrich",
     "venue": "ACL 2025",
     "year": 2025,
     "langs": [
@@ -132,7 +132,7 @@
   {
     "id": "perculastorydrivenculturaleval",
     "title": "PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian",
-    "authors": "",
+    "authors": "Erfan Moosavi Monazzah, Vahid Rahimzadeh, Yadollah Yaghoobzadeh, Azadeh Shakery, Mohammad Taher Pilehvar",
     "venue": "NAACL 2025",
     "year": 2025,
     "langs": [
@@ -144,7 +144,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2025.naacl-long.631/",
-    "abstract": "Large language models predominantly reflect Western cultures, largely due to the dominance of English-centric training data. This imbalance presents a significant challenge, as LLMs are increasingly u",
+    "abstract": "Large language models predominantly reflect Western cultures, largely due to the dominance of English-centric training data. This imbalance presents a significant challenge, as LLMs are increasingly used across diverse contexts without adequate evaluation of their cultural competence in non-English languages, including Persian. To address this gap, we introduce PerCul, a carefully constructed dataset designed to assess the sensitivity of LLMs toward Persian culture. PerCul features story-based, multiple-choice questions that capture culturally nuanced scenarios. Unlike existing benchmarks, PerCul is curated with input from native Persian annotators to ensure authenticity and to prevent the use of translation as a shortcut. We evaluate several state-of-the-art multilingual and Persian-specific LLMs, establishing a foundation for future research in cross-cultural NLP evaluation. Our experiments demonstrate a 11.3% gap between best closed source model and layperson baseline while the gap increases to 21.3% by using the best open-weight model. You can access the dataset from here: https://huggingface.co/datasets/teias-ai/percul",
     "links": {
       "paper": "https://aclanthology.org/2025.naacl-long.631/",
       "huggingface": "https://huggingface.co/datasets/teias-ai/percul"
@@ -153,7 +153,7 @@
   {
     "id": "advancingpersianllmevaluation",
     "title": "Advancing Persian LLM Evaluation",
-    "authors": "",
+    "authors": "Sara Bourbour Hosseinbeigi, Behnam Rohani, Mostafa Masoudi, M. Shamsfard, Zahra Saaberi, Mostafa Karimi Manesh, Mohammad Amin Abbasi",
     "venue": "ACL Findings 2025",
     "year": 2025,
     "langs": [
@@ -175,7 +175,7 @@
   {
     "id": "persianinacourtbenchmarkingvlm",
     "title": "Persian in a Court: Benchmarking VLMs In Persian Multi-Modal Tasks",
-    "authors": "",
+    "authors": "Farhan Farsi, Shahriar Shariati Motlagh, Shayan Bali, Sadra Sabouri, S. Momtazi",
     "venue": "ACL 2025",
     "year": 2025,
     "langs": [
@@ -319,7 +319,7 @@
   {
     "id": "coperaqueryadaptablesemanticsb",
     "title": "COPER: a Query-adaptable Semantics-based Search Engine for Persian COVID-19 Articles",
-    "authors": "",
+    "authors": "Reza Khanmohammadi, Mitra Sadat Mirshafiee, Mehdi Allahyari",
     "venue": "arXiv 2021",
     "year": 2021,
     "langs": [
@@ -338,7 +338,7 @@
   {
     "id": "farsickapersiansemantictextual",
     "title": "FarSick: A Persian Semantic Textual Similarity And Natural Language Inference Dataset",
-    "authors": "",
+    "authors": "Zahra Ghasemi, M. Keyvanrad",
     "venue": "IEEE 2024",
     "year": 2024,
     "langs": [
@@ -358,7 +358,7 @@
   {
     "id": "neuralminingofpersianshortargu",
     "title": "Neural Mining of Persian Short Argumentative Texts",
-    "authors": "",
+    "authors": "Mohammad Yeghaneh Abkenar, M. Stede",
     "venue": "ACL 2024",
     "year": 2024,
     "langs": [
@@ -377,7 +377,7 @@
   {
     "id": "persiantypographicalerrortyped",
     "title": "Persian Typographical Error Type Detection Using Deep Neural Networks on AlgorithmicallyGenerated Misspellings",
-    "authors": "",
+    "authors": "Mohammad Dehghani, Heshaam Faili",
     "venue": "arXiv 2023",
     "year": 2023,
     "langs": [
@@ -387,7 +387,7 @@
       "spell-checking"
     ],
     "url": "https://arxiv.org/pdf/2305.11731",
-    "abstract": "",
+    "abstract": "Spelling correction is a remarkable challenge in the field of natural language processing. The objective of spelling correction tasks is to recognize and rectify spelling errors automatically. The development of applications that can effectually diagnose and correct Persian spelling and grammatical errors has become more important in order to improve the quality of Persian text. The Typographical Error Type Detection in Persian is a relatively understudied area. Therefore, this paper presents a compelling approach for detecting typographical errors in Persian texts. Our work includes the presentation of a publicly available dataset called FarsTypo, which comprises 3.4 million words arranged in chronological order and tagged with their corresponding part-of-speech. These words cover a wide range of topics and linguistic styles. We develop an algorithm designed to apply Persian-specific errors to a scalable portion of these words, resulting in a parallel dataset of correct and incorrect words. By leveraging FarsTypo, we establish a strong foundation and conduct a thorough comparison of various methodologies employing different architectures. Additionally, we introduce a groundbreaking Deep Sequential Neural Network that utilizes both word and character embeddings, along with bidirectional LSTM layers, for token classification aimed at detecting typographical errors across 51 distinct classes. Our approach is contrasted with highly advanced industrial systems that, unlike this study, have been developed using a diverse range of resources. The outcomes of our final method proved to be highly competitive, achieving an accuracy of 97.62%, precision of 98.83%, recall of 98.61%, and surpassing others in terms of speed.",
     "links": {
       "paper": "https://arxiv.org/pdf/2305.11731",
       "github": "https://github.com/mohamad-dehghani/FarsTypo"
@@ -396,7 +396,7 @@
   {
     "id": "leveragingparsbertforcrossdoma",
     "title": "Leveraging ParsBERT for cross-domain polarity sentiment classification of Persian social media comments",
-    "authors": "",
+    "authors": "Mahnaz Panahandeh Nigjeh, Shirin Ghanbari",
     "venue": "Conf/Journal 2024",
     "year": 2024,
     "langs": [
@@ -416,7 +416,7 @@
   {
     "id": "pcoqapersianconversationalques",
     "title": "PCoQA: Persian Conversational Question Answering Dataset",
-    "authors": "",
+    "authors": "Hamed Hematian Hemati, Atousa Toghyani, Atena Souri, Sayed Hesam Alavian, Hossein Sameti, Hamid Beigy",
     "venue": "arXiv 2023",
     "year": 2023,
     "langs": [
@@ -436,7 +436,7 @@
   {
     "id": "peqaamassivepersianquestionans",
     "title": "PeQA: A Massive Persian Question-Answering and Chatbot Dataset",
-    "authors": "",
+    "authors": "Fatemeh Zahra Arshia, M. Keyvanrad, S. S. Sadidpour, S. M. Mohammadi",
     "venue": "IEEE 2024",
     "year": 2024,
     "langs": [
@@ -456,7 +456,7 @@
   {
     "id": "pquadapersianquestionanswering",
     "title": "PQuAD: A Persian question answering dataset",
-    "authors": "",
+    "authors": "Kasra Darvishi, Newsha Shahbodaghkhan, Zahra Abbasiantaeb, S. Momtazi",
     "venue": "Conf/Journal 2024",
     "year": 2024,
     "langs": [
@@ -476,7 +476,7 @@
   {
     "id": "exappcalargescalepersianparaph",
     "title": "ExaPPC: a Large-Scale Persian Paraphrase Detection Corpus",
-    "authors": "",
+    "authors": "Reyhaneh Sadeghi, Hamed Karbasi, Ahmad Akbari",
     "venue": "IEEE 2024",
     "year": 2024,
     "langs": [
@@ -496,7 +496,7 @@
   {
     "id": "personerpersiannamedentityreco",
     "title": "PersoNER: Persian Named-Entity Recognition",
-    "authors": "",
+    "authors": "H. Poostchi, E. Z. Borzeshi, M. Abdous, M. Piccardi",
     "venue": "COLING 2016",
     "year": 2016,
     "langs": [
@@ -536,7 +536,7 @@
   {
     "id": "empoweringpersianllmsforinstru",
     "title": "Empowering Persian LLMs for Instruction Following: A Novel Dataset and Training Approach",
-    "authors": "",
+    "authors": "Hojjat Mokhtarabadi, Ziba Zamani, Abbas Maazallahi, Mohammad Hossein Manshaei",
     "venue": "arXiv 2024",
     "year": 2024,
     "langs": [
@@ -551,7 +551,7 @@
       "text-generation"
     ],
     "url": "https://arxiv.org/abs/2407.11186",
-    "abstract": "Instruction-tuned large language models have demonstrated remarkable capabilities in following human instructions across various domains. However, their proficiency remains notably deficient in many l",
+    "abstract": "Instruction-tuned large language models have demonstrated remarkable capabilities in following human instructions across various domains. However, their proficiency remains notably deficient in many low-resource languages. To address this challenge, we begin by introducing FarsInstruct a comprehensive instruction dataset designed to enhance the instruction following ability of large language models specifically for the Persian language a significant yet underrepresented language globally. FarsInstruct encompasses a wide range of task types and datasets, each containing a mix of straightforward to complex manual written instructions, as well as translations from the Public Pool of Prompts, ensuring a rich linguistic and cultural representation. Furthermore, we introduce Co-CoLA, a framework designed to enhance the multi-task adaptability of LoRA-tuned models. Through extensive experimental analyses, our study showcases the effectiveness of the FarsInstruct dataset coupled with training by the Co-CoLA framework, in improving the performance of large language models within the Persian context. As of the current writing, FarsInstruct comprises 197 templates across 21 distinct datasets, and we intend to update it consistently, thus augmenting its applicability.",
     "links": {
       "paper": "https://arxiv.org/abs/2407.11186",
       "github": "https://github.com/Hojjat-Mokhtarabadi/FarsInstruct"
@@ -579,7 +579,7 @@
   {
     "id": "armanemoapersiandatasetfortext",
     "title": "ArmanEmo: A Persian Dataset for Text-based Emotion Detection",
-    "authors": "",
+    "authors": "Hossein Mirzaee, Javad Peymanfard, Hamid Habibzadeh Moshtaghin, Hossein Zeinali",
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
@@ -599,7 +599,7 @@
   {
     "id": "sentipersasentimentanalysiscor",
     "title": "SentiPers: A Sentiment Analysis Corpus for Persian",
-    "authors": "",
+    "authors": "Pedram Hosseini, Ali Ahmadian Ramaki, Hassan Maleki, Mansoureh Anvari, Seyed Abolghasem Mirroshandel",
     "venue": "arXiv 2018",
     "year": 2018,
     "langs": [
@@ -618,7 +618,7 @@
   {
     "id": "islamicpcqaadatasetforpersianm",
     "title": "IslamicPCQA: A Dataset for Persian Multi-hop Complex Question Answering in Islamic Text Resources",
-    "authors": "",
+    "authors": "Arash Ghafouri, Hasan Naderi, Mohammad Aghajani asl, Mahdi Firouzmandi",
     "venue": "arXiv 2023",
     "year": 2023,
     "langs": [
@@ -638,7 +638,7 @@
   {
     "id": "buildingarichdatasettoempowert",
     "title": "Building a Rich Dataset to Empower the Persian Question Answering Systems",
-    "authors": "",
+    "authors": "Mohsen Yazdinejad, Marjan Kaedi",
     "venue": "Conf/Journal 2024",
     "year": 2024,
     "langs": [
@@ -650,7 +650,7 @@
       "dataset"
     ],
     "url": "https://www.researchgate.net/publication/387539910_Building_a_Rich_Dataset_to_Empower_the_Persian_Question_Answering_Systems",
-    "abstract": "Question answering systems provide short, precise, and specific answers to questions. So far, many robust question answering systems have been developed for English, while some languages with fewer re",
+    "abstract": "Question answering systems provide short, precise, and specific answers to questions. So far, many robust question answering systems have been developed for English, while some languages with fewer resources, like Persian, have few numbers of standard dataset. In this study, a comprehensive open-domain dataset is presented for Persian. This dataset is called NextQuAD and has 7,515 contexts, including 23,918 questions and answers. Then, a BERT-based question answering model has been applied to this dataset using two pre-trained language models, including ParsBERT and XLM-RoBERTa. The results of these two models have been ensembled using mean logits. Evaluation on the development set shows 0.95 Exact Match (EM) and 0.97 Fl_score. Also, to compare the NextQuAD with other Persian datasets, our trained model on the NextQuAD, is evaluated on two other datasets named PersianQA and ParSQuAD. Comparisons show that the proposed model increased EM by 0.39 and 0.14 respectively in PersianQA and ParSQuAD-manual, while a slight EM decline of 0.007 happened in ParSQuAD-automatic.",
     "links": {
       "paper": "https://www.researchgate.net/publication/387539910_Building_a_Rich_Dataset_to_Empower_the_Persian_Question_Answering_Systems",
       "github": "https://github.com/mosiomohsen/NextQuAD"
@@ -659,7 +659,7 @@
   {
     "id": "leveragingonlinedatatoenhancem",
     "title": "Leveraging Online Data to Enhance Medical Knowledge in a Small Persian Language Model",
-    "authors": "",
+    "authors": "Mehrdad Ghassabi, Pedram Rostami, Hamidreza Baradaran Kashani, Amirhossein Poursina, Zahra Kazemi, Milad Tavakoli",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -679,7 +679,7 @@
   {
     "id": "meenapersianmmmumultimodalmult",
     "title": "MEENA (PersianMMMU): Multimodal-Multilingual Educational Exams for N-level Assessment",
-    "authors": "",
+    "authors": "Omid Ghahroodi, Arshia Hemmat, Marzia Nouri, Seyed Mohammad Hadi Hosseini, Doratossadat Dastgheib, Mohammad Vali Sanian, Alireza Sahebi, Reihaneh Zohrabi, Mohammad Hossein Rohban, Ehsaneddin Asgari, Mahdieh Soleymani Baghshah",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -691,7 +691,7 @@
       "dataset"
     ],
     "url": "https://www.arxiv.org/pdf/2508.17290",
-    "abstract": "Recent advancements in large vision-language models (VLMs) have primarily focused on English, with limited attention given to other languages.\nTo address this gap, we introduce MEENA (also known as Pe",
+    "abstract": "Recent advancements in large vision-language models (VLMs) have primarily focused on English, with limited attention given to other languages. To address this gap, we introduce MEENA (also known as PersianMMMU), the first dataset designed to evaluate Persian VLMs across scientific, reasoning, and human-level understanding tasks. Our dataset comprises approximately 7,500 Persian and 3,000 English questions, covering a wide range of topics such as reasoning, mathematics, physics, diagrams, charts, and Persian art and literature. Key features of MEENA include: (1) diverse subject coverage spanning various educational levels, from primary to upper secondary school, (2) rich metadata, including difficulty levels and descriptive answers, (3) original Persian data that preserves cultural nuances, (4) a bilingual structure to assess cross-linguistic performance, and (5) a series of diverse experiments assessing various capabilities, including overall performance, the model's ability to attend to images, and its tendency to generate hallucinations. We hope this benchmark contributes to enhancing VLM capabilities beyond English.",
     "links": {
       "paper": "https://www.arxiv.org/pdf/2508.17290",
       "huggingface": "https://huggingface.co/papers/2508.17290"
@@ -700,7 +700,7 @@
   {
     "id": "jiraakurdishspeechrecognitions",
     "title": "Jira: a Kurdish Speech Recognition System Designing and Building Speech Corpus and Pronunciation Lexicon",
-    "authors": "",
+    "authors": "Hadi Veisi, Hawre Hosseini, Mohammad Mohammadamini, Wirya Fathy, Aso Mahmudi",
     "venue": "arXiv 2021",
     "year": 2021,
     "langs": [
@@ -721,7 +721,7 @@
   {
     "id": "parsvoicealargescalemultispeak",
     "title": "ParsVoice: A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech Synthesis",
-    "authors": "",
+    "authors": "Mohammad Javad Ranjbar Kalahroodi, Heshaam Faili, Azadeh Shakery",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -742,7 +742,7 @@
   {
     "id": "mirastextanautomaticallygenera",
     "title": "MirasText: An Automatically Generated Text Corpus for Persian",
-    "authors": "",
+    "authors": "Behnam Sabeti, Hossein Abedi Firouzjaee, Ali Janalizadeh Choobbasti, S. H. E. Mortazavi Najafabadi, Amir Vaheb",
     "venue": "LREC 2018",
     "year": 2018,
     "langs": [
@@ -762,7 +762,7 @@
   {
     "id": "pecoqadatasetforpersiancomplex",
     "title": "PeCoQ: A Dataset for Persian Complex Question Answering over Knowledge Graph",
-    "authors": "",
+    "authors": "Romina Etezadi, Mehrnoush Shamsfard",
     "venue": "arXiv 2021",
     "year": 2021,
     "langs": [
@@ -782,7 +782,7 @@
   {
     "id": "nolanguageleftbehindscalinghum",
     "title": "No Language Left Behind: Scaling Human-Centered Machine Translation",
-    "authors": "",
+    "authors": "NLLB Team, Marta R. Costa-jussà, James Cross, Onur Çelebi, Maha Elbayad, Kenneth Heafield, Kevin Heffernan, Elahe Kalbassi, Janice Lam, Daniel Licht, Jean Maillard, Anna Sun, Skyler Wang, Guillaume Wenzek, Al Youngblood, Bapi Akula, Loic Barrault, Gabriel Mejia Gonzalez, Prangthip Hansanti, John Hoffman, Semarley Jarrett, Kaushik Ram Sadagopan, Dirk Rowe, Shannon Spruit, Chau Tran, Pierre Andrews, Necip Fazil Ayan, Shruti Bhosale, Sergey Edunov, Angela Fan, Cynthia Gao, Vedanuj Goswami, Francisco Guzmán, Philipp Koehn, Alexandre Mourachko, Christophe Ropers, Safiyyah Saleem, Holger Schwenk, Jeff Wang",
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
@@ -802,7 +802,7 @@
   {
     "id": "murihighqualityinstructiontuni",
     "title": "MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions",
-    "authors": "",
+    "authors": "Abdullatif Köksal, Marion Thaler, Ayyoob Imani, Ahmet Üstün, Anna Korhonen, Hinrich Schütze",
     "venue": "arXiv 2024",
     "year": 2024,
     "langs": [
@@ -814,7 +814,7 @@
       "dataset"
     ],
     "url": "https://arxiv.org/abs/2409.12958",
-    "abstract": "Instruction tuning enhances large language models (LLMs) by aligning them with human preferences across diverse tasks. Traditional approaches to create instruction tuning datasets face serious challen",
+    "abstract": "Instruction tuning enhances large language models (LLMs) by aligning them with human preferences across diverse tasks. Traditional approaches to create instruction tuning datasets face serious challenges for low-resource languages due to their dependence on data annotation. This work introduces a novel method, Multilingual Reverse Instructions (MURI), which generates high-quality instruction tuning datasets for low-resource languages without requiring human annotators or pre-existing multilingual models. Utilizing reverse instructions and a translation pipeline, MURI produces instruction-output pairs from existing human-written texts in low-resource languages. This method ensures cultural relevance and diversity by sourcing texts from different native domains and applying filters to eliminate inappropriate content. Our dataset, MURI-IT, includes more than 2 million instruction-output pairs across 200 languages. Evaluation by native speakers and fine-tuning experiments with mT5 models demonstrate the approach's effectiveness for both NLU and open-ended generation. We publicly release datasets and models at https://github.com/akoksal/muri.",
     "links": {
       "paper": "https://arxiv.org/abs/2409.12958",
       "huggingface": "https://huggingface.co/datasets/akoksal/muri-it"
@@ -823,7 +823,7 @@
   {
     "id": "xtremesevaluatingcrosslinguals",
     "title": "XTREME-S: Evaluating Cross-lingual Speech Representations",
-    "authors": "",
+    "authors": "Alexis Conneau, Ankur Bapna, Yu Zhang, Min Ma, Patrick von Platen, Anton Lozhkov, Colin Cherry, Ye Jia, Clara Rivera, Mihir Kale, Daan Van Esch, Vera Axelrod, Simran Khanuja, Jonathan H. Clark, Orhan Firat, Michael Auli, Sebastian Ruder, Jason Riesa, Melvin Johnson",
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
@@ -843,7 +843,7 @@
   {
     "id": "globalpiqaevaluatingphysicalco",
     "title": "Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures",
-    "authors": "",
+    "authors": "Tyler A. Chang, Catherine Arnett, Abdelrahman Sadallah, Abdelrahman Eldesokey, Abeer Kashar, Abolade Daud, Abosede Grace Olanihun, Adamu Labaran Mohammed, Adeyemi Praise, Adhikarimayum Meerajita Sharma, Aditi Gupta, Adril Putra Merin, Adwoa Bremang, Afitab Iyigun, Afonso Simplício, Ahmed Essouaied, Aicha Chorana, Akhil Eppa, Akintunde Oladipo, Akriti Kuri, Akshay Ramesh, Aleksei Dorkin, Alfred Malengo Kondoro, Alham Fikri Aji, Ali Eren Çetintaş, Allan Hanbury, Alou Dembele, Alp Niksarli, Álvaro Arroyo, Amin Bajand, Amol Khanna, Ana Chkhaidze, Ana Carolina Condez, Anamaria-Roberta Hartl, Andiswa Mkhonto, Andrew Hoblitzell, Andrew Tran, Angelos Poulis, Anirban Majumder, Anjali Chaudhary, Anna Vacalopoulou, Annette Kuuipolani Kanahele Wong, Annika Simonsen, Anton Kovalev, Anupam Nayak, Ashvanth S, Ayodeji Lana, Ayu Purwarianti, Bashar Alhafni, Benedict Busole, Bernard Ghanem, Bharti Nathani, Biljana Stojanovska Đurić, Blessing Ogundipe, Bolaotan Agbonile, Bragi Bergsson, Bruce Torres Fischer, Burak Tutar, Burcu Çınar, Cade Kane, Can Udomcharoenchaikit, Chadi Helwe, Chaithra Reddy Nerella, Chen Cecilia Liu, Chiamaka Nwokolo, Christopher Homan, Clément Sampebgo, Cristina España-Bonet, Cynthia Amol, Daeyoep Lee, Dan Saattrup Smart, Dana Arad, Daniil Dzenhaliou, Dasol Choi, David Liu, David Semedo, David Anugraha, Deborah Popoola, Deividas Mataciunas, Delphine Nyaboke, Dennis Owusu, Dhyuthy Krishna Kumar, Diogo Tavares, Diogo Glória-Silva, Divyanshu Goyal, DongGeon Lee, E. Kelly Buchanan, Ebele Nwamaka Anajemba, Egonu Ngozi Grace, Elena Mickel, Elias Herranen, Eliza Acharya, Eman Nisar, Emile Anand, Emmanuel Habumuremyi, Emuobonuvie Maria Ajiboye, Eryawan Presma Yulianrifat, Esther Adenuga, Ewa Rudnicka, Faith Itiola, Faran Taimoor Butt, Fareeha Fayyaz Sheikh, Fathima Thekkekara, Fatima Haouari, Faustin Nsengiyumva, Fenal Ashokbhai Ilasariya, Filbert Aurelian Tjiaranata, Firas Laakom, Francesca Grasso, Francesco Periti, Francesco Orabona, Gbenga Kayode Solomon, Genta Indra Winata, Gia Nghia Ngo, Gloria Udhedhe-oze, Gonçalo Vinagre, Gopi Naga Sai Ram Challagolla, Gorka Urbizu-Garmendia, Gouthami Vadithya, Guijin Son, Gulnaz Abdykadyrova, Gyan Swaroop Mohapatra, Hafeez Ullah, Hafsteinn Einarsson, Hai Hu, Hamidreza Saffari, Hamza Zaidi, Haopeng Zhang, Harethah Abu Shairah, Harry Vuong, Hele-Andra Kuulmets, Hitesh Laxmichand Patel, Houda Bouamor, Hwanjo Yu, Iben Nyholm Debess, İbrahim Ethem Deveci, Ikhlasul Akmal Hanif, Ikhyun Cho, Inês Vieira, Inês Calvo, Isaac Manzi, Ismael Illa Salifou, Ismail Daud, Ismail Yusuf, Itay Itzhak, Ivan Zhelyazkov, Ivan Belashkin, Ivan Spada, Jacob Brinton, Jafar Isbarov, Jaka Čibej, Jan Kocoń, Jan Cuhel, Jauza Krito, Jebish Purbey, Jennifer Za, Jennifer Mickel, Jenny Kunz, Jessica Ratovondranto, Jeyarajalingam Varsha, Jihae Jeong, Jimena Tena Dávalos, Jinu Lee, João Magalhães, John Seon Keun Yi, Jongin Kim, Joseph Chataignon, Joseph Marvin Imperial, Jubeerathan Thevakumar, Judith Land, Julia Alekseenko, Junchen Jiang, Jungwhan Kim, Kairit Sirts, Kamesh R, Kamesh V, Kanda Tshinu, Kätriin Kukk, Kaustubh Ponkshe, Kavsar Huseynova, Ke He, Kenneth Enevoldsen, Kent Joshua Alvarez, Kerem Zaman, Khalil Mrini, Kian Kyars, Komal Gour, Krishnakumar Lainitha, Krister Kruusmaa, Kunal Mukherjee, Kusum Chouhan, Laura Castro, Laura M. Porrino-Moscoso, Lenny Sivi Za Nzambi, Leshem Choshen, Levent Sencan, Lilja Øvrelid, Lisa Alazraki, Loretta Oma Jones, Lovina Ehimen-Ugbede, Luheerathan Thevakumar, Luxshan Thavarasa, Mahnoor Malik, Mamadou K. Keita, Mansi Jangid, Marco De Santis, Marcos Garcia, Marek Šuppa, Mariam D'Ciofalo, Marii Ojastu, Marium Attaullah, Maryam Sikander, Mausami Narayan, Maximos Skandalis, Mehak Mehak, Mehmet İlteriş Bozkurt, Melaku Bayu, Menan Velayuthan, Mhasilenuo Vizo, Michael Leventhal, Michał Marcińczuk, Mina Almasi, Mirna Potočnjak, Mithil Bangera, Mohammadamin Shafiei, Mohiba Ansari, Mridul Sharma, Mrityunjaya Indoria, Mughees Ur Rehman, Muhammad Ravi Shulthan Habibi, Murat Kolić, Murat Barkın Kınay, Nada Galant, Naina Singh Rathore, Naphat Permpredanun, Narada Maugin, Nathalie Norman, Nicholas Kluge Corrêa, Nikola Ljubešić, Nirmal Thomas, Nisansa de Silva, Nisheeth Joshi, Nitish Ponkshe, Nizar Habash, Nneoma Udeze, Noel Thomas, Noémi Ligeti-Nagy, Nouhoum Coulibaly, Odunayo Ogundepo, Odunayo Kareemat Buliaminu, Oghojafor Godswill Fejiro, Okechukwu God'spraise, Olanrewaju Samuel, Olaoye Deborah Oluwaseun, Olasoji Akindejoye, Olga Snissarenko, Onyinye Anulika Chiemezie, Orkun Kınay, Osman Tursun, Oyelade Oluwafemi Joshua, Oyesanmi Fiyinfoluwa, Pablo Rodríguez, Pablo Gamallo, Palak Arora, Pedro Valente, Peter Rupnik, Philip Oghenesuowho Ekiugbo, Prakhar Agarwal, Pramit Sahoo, Prokopis Prokopidis, Pua Niau-Puhipau, Quadri Yahya, Rachele Mignone, Raghav Singhal, Rahul Raja, Ram Mohan Rao Kadiyala, Raphael Merx, Rasmus Larsen, Ratnavel Rajalakshmi, Rishav Ghosh, Romina Oji, Ron Kekeha Solis, Rui Guerra, Rushikesh Zawar, Sa'ad Nasir Bashir, Saeed Alzaabi, Sahil Sandeep, Sai Pavan Batchu, Sai Sandeep Kantareddy, Saleha Muzammil, Salsabila Zahirah Pranida, Sam Buchanan, Samuel Rutunda, Sander Land, Sarah Sulollari, Sardar Ali, Saroj Sapkota, Sarveswaran Kengatharaiyer, Saulius Tautvaisas, Sayambhu Sen, Sayantani Banerjee, Sebastien Diarra, Segun Afolayan, Senthilnathan M, Sewoong Lee, Shaan Shah, Shankar Venkitachalam, Sharifa Djurabaeva, Sharon Ibejih, Shivanya Shomir Dutta, Siddhant Gupta, Silvia Paniagua Suárez, Sina Ahmadi, Sivasuthan Sukumar, Siyuan Song, Snegha A, Sokratis Sofianopoulos, Sona Elza Simon, Sonja Benčina, Sophie Gvasalia, Sphurti More, Spyros Dragazis, Stefan Milosavljević, Stephan P. Kaufhold, Suba S, Sultan Alrashed, Surangika Ranathunga, Taiga Someya, Taja Kuzman Pungeršek, Tal Haklay, Tasi'u Jibril, Tatsuya Aoyama, Tea Abashidze, Terenz Jomar Dela Cruz, Terra Blevins, Themistoklis Nikas, Theresa Idoko, Thu Mai Do, Tilek Chubakov, Tina Munda, Tobiloba Owoeye, Tommaso Gargiani, Uma Rathore, Uni Johannesen, Uwuma Ugwu, Vallerie Alexandra Putra, Vanya Bannihatti Kumar, Varvara Arzt, Vasily Konovalov, Vasudevan Nedumpozhimana, Viktoria Ondrejova, Viktoryia Horbik, Vishnu Vardhan Reddy Kummitha, Vuk Dinić, Walelign Sewunetie, Winston Wu, Xiaojing Zhao, Yacouba Diarra, Yaniv Nikankin, Yash Mathur, Yash Bagla, Yeshil Bangera, Yixi Chen, Yiyuan Li, Yolanda Xavier, Yonatan Belinkov, Zaid Alyafeai, Zhargal Batozargalova, Zhengyang Shan, Zhi Rui Tam, Zilu Tang, Zuzana Nadova, Baber Abbasi, Stella Biderman, David Stap, Duygu Ataman, Fabian Schmidt, Hila Gonen, Jiayi Wang, David Ifeoluwa Adelani",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -863,7 +863,7 @@
   {
     "id": "fleursfewshotlearningevaluatio",
     "title": "FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech",
-    "authors": "",
+    "authors": "Alexis Conneau, Min Ma, Simran Khanuja, Yu Zhang, Vera Axelrod, Siddharth Dalmia, Jason Riesa, Clara Rivera, Ankur Bapna",
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
@@ -883,7 +883,7 @@
   {
     "id": "ayadatasetanopenaccesscollecti",
     "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
-    "authors": "",
+    "authors": "Shivalika Singh, Freddie Vargus, Daniel Dsouza, Börje F. Karlsson, Abinaya Mahendiran, Wei-Yin Ko, Herumb Shandilya, Jay Patel, Deividas Mataciunas, Laura OMahony, Mike Zhang, Ramith Hettiarachchi, Joseph Wilson, Marina Machado, Luisa Souza Moura, Dominik Krzemiński, Hakimeh Fadaei, Irem Ergün, Ifeoma Okoh, Aisha Alaagib, Oshan Mudannayake, Zaid Alyafeai, Vu Minh Chien, Sebastian Ruder, Surya Guthikonda, Emad A. Alghamdi, Sebastian Gehrmann, Niklas Muennighoff, Max Bartolo, Julia Kreutzer, Ahmet Üstün, Marzieh Fadaee, Sara Hooker",
     "venue": "arXiv 2024",
     "year": 2024,
     "langs": [
@@ -903,7 +903,7 @@
   {
     "id": "crosslingualgeneralizationthro",
     "title": "Crosslingual Generalization through Multitask Finetuning",
-    "authors": "",
+    "authors": "Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng-Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, Alham Fikri Aji, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff, Colin Raffel",
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
@@ -928,7 +928,7 @@
   {
     "id": "arulebasedkurdishtexttranslite",
     "title": "A Rule-based Kurdish Text Transliteration System",
-    "authors": "",
+    "authors": "Sina Ahmadi",
     "venue": "arXiv 2018",
     "year": 2018,
     "langs": [
@@ -949,7 +949,7 @@
   {
     "id": "languageandspeechtechnologyfor",
     "title": "Language and Speech Technology for Central Kurdish Varieties",
-    "authors": "",
+    "authors": "Sina Ahmadi, Daban Q. Jaff, Md Mahfuz Ibn Alam, Antonios Anastasopoulos",
     "venue": "LREC 2024",
     "year": 2024,
     "langs": [
@@ -970,7 +970,7 @@
   {
     "id": "perplexedbyqualityaperplexityb",
     "title": "Perplexed by Quality: A Perplexity-based Method for Adult and Harmful Content Detection in Multilingual Heterogeneous Web Data",
-    "authors": "",
+    "authors": "Tim Jansen, Yangling Tong, Victoria Zevallos, Pedro Ortiz Suarez",
     "venue": "arXiv 2022",
     "year": 2022,
     "langs": [
@@ -992,7 +992,7 @@
   {
     "id": "towardkurdishlanguageprocessin",
     "title": "Toward Kurdish language processing: Experiments in collecting and processing the AsoSoft text corpus",
-    "authors": "",
+    "authors": "H. Veisi, Mohammad MohammadAmini, Hawre Hosseini",
     "venue": "Conf/Journal 2024",
     "year": 2024,
     "langs": [
@@ -1015,7 +1015,7 @@
   {
     "id": "developingafinegrainedcorpusfo",
     "title": "Developing a Fine-grained Corpus for a Less-resourced Language: the case of Kurdish",
-    "authors": "",
+    "authors": "Omer Abdulrahman, Sina Ahmadi",
     "venue": "Workshop 2019",
     "year": 2019,
     "langs": [
@@ -1037,7 +1037,7 @@
   {
     "id": "thewilibenchmarkdatasetforwrit",
     "title": "The WiLI benchmark dataset for written language identification",
-    "authors": "",
+    "authors": "Martin Thoma",
     "venue": "arXiv 2018",
     "year": 2018,
     "langs": [
@@ -1059,7 +1059,7 @@
   {
     "id": "centralkurdishmachinetranslati",
     "title": "CENTRAL KURDISH MACHINE TRANSLATION: FIRST LARGE SCALE PARALLEL CORPUS AND EXPERIMENTS",
-    "authors": "",
+    "authors": "Zhila Amini, Mohammad Mohammadamini, Hawre Hosseini, Mehran Mansouri, Daban Jaff",
     "venue": "arXiv 2021",
     "year": 2021,
     "langs": [
@@ -1081,7 +1081,7 @@
   {
     "id": "melacmassiveevaluationoflargel",
     "title": "MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language",
-    "authors": "",
+    "authors": "Farhan Farsi, Farnaz Aghababaloo, Shahriar Shariati Motlagh, Parsa Ghofrani, MohammadAli SadraeiJavaheri, Shayan Bali, Amirhossein Shabani, Farbod Bijary, Ghazal Zamaninejad, AmirMohammad Salehoof, Saeedeh Momtazi",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -1091,13 +1091,13 @@
       "other"
     ],
     "url": "https://arxiv.org/pdf/2508.00673",
-    "abstract": "",
+    "abstract": "As large language models (LLMs) become increasingly embedded in our daily lives, evaluating their quality and reliability across diverse contexts has become essential. While comprehensive benchmarks exist for assessing LLM performance in English, there remains a significant gap in evaluation resources for other languages. Moreover, because most LLMs are trained primarily on data rooted in European and American cultures, they often lack familiarity with non-Western cultural contexts. To address this limitation, our study focuses on the Persian language and Iranian culture. We introduce 19 new evaluation datasets specifically designed to assess LLMs on topics such as Iranian law, Persian grammar, Persian idioms, and university entrance exams. Using these datasets, we benchmarked 41 prominent LLMs, aiming to bridge the existing cultural and linguistic evaluation gap in the field.",
     "links": {}
   },
   {
     "id": "smolprofessionallytranslatedpa",
     "title": "SMOL: Professionally translated parallel data for 115 under-represented languages",
-    "authors": "",
+    "authors": "Isaac Caswell, Elizabeth Nielsen, Jiaming Luo, Colin Cherry, Geza Kovacs, Hadar Shemtov, Partha Talukdar, Dinesh Tewari, Baba Mamadi Diane, Djibrila Diane, Solo Farabado Cissé, Koulako Moussa Doumbouya, Edoardo Ferrante, Alessandro Guasoni, Christopher Homan, Mamadou K. Keita, Sudhamoy DebBarma, Ali Kuzhuget, David Anugraha, Muhammad Ravi Shulthan Habibi, Genta Indra Winata, Anthony Munthali, Sina Ahmadi, Andrei Chemyshev, Mingfei Lau, Jonathan Eng",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -1109,7 +1109,7 @@
       "machine-translation"
     ],
     "url": "https://arxiv.org/pdf/2502.12301",
-    "abstract": "",
+    "abstract": "We open-source SMOL (Set of Maximal Overall Leverage), a suite of training data to unlock machine translation for low-resource languages. SMOL has been translated into 124 (and growing) under-resourced languages (125 language pairs), including many for which there exist no previous public resources, for a total of 6.1M translated tokens. SMOL comprises two sub-datasets, each carefully chosen for maximum impact given its size: SMOLSENT, a set of sentences chosen for broad unique token coverage, and SMOLDOC, a document-level resource focusing on a broad topic coverage. They join the already released GATITOS for a trifecta of paragraph, sentence, and token-level content. We demonstrate that using SMOL to prompt or fine-tune Large Language Models yields robust chrF improvements. In addition to translation, we provide factuality ratings and rationales for all documents in SMOLDOC, yielding the first factuality datasets for most of these languages.",
     "links": {
       "paper": "https://arxiv.org/pdf/2502.12301",
       "huggingface": "https://huggingface.co/datasets/google/smol"
@@ -1118,7 +1118,7 @@
   {
     "id": "apersianbenchmarkforjointinten",
     "title": "A Persian Benchmark for Joint Intent Detection and Slot Filling",
-    "authors": "",
+    "authors": "Masoud Akbari, Amir Hossein Karimi, Tayyebeh Saeedi, Zeinab Saeidi, Kiana Ghezelbash, Fatemeh Shamsezat, Mohammad Akbari, Ali Mohades",
     "venue": "arXiv 2023",
     "year": 2023,
     "langs": [
@@ -1138,7 +1138,7 @@
   {
     "id": "parsabsaanaspectbasedsentiment",
     "title": "Pars-ABSA: an Aspect-based Sentiment Analysis dataset for Persian",
-    "authors": "",
+    "authors": "Taha Shangipour Ataei, Kamyar Darvishi, Soroush Javdan, Behrouz Minaei-Bidgoli, Sauleh Eetemadi",
     "venue": "arXiv 2019",
     "year": 2019,
     "langs": [
@@ -1157,7 +1157,7 @@
   {
     "id": "psrbacomprehensivebenchmarkfor",
     "title": "PSRB: A Comprehensive Benchmark for Evaluating Persian ASR Systems",
-    "authors": "",
+    "authors": "Nima Sedghiyeh, Sara Sadeghi, Reza Khodadadi, Farzin Kashani, Omid Aghdaei, Somayeh Rahimi, Mohammad Sadegh Safari",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -1177,7 +1177,7 @@
   {
     "id": "benchmarkinglargelanguagemodel",
     "title": "Benchmarking Large Language Models for Persian: A Preliminary Study Focusing on ChatGPT",
-    "authors": "",
+    "authors": "Amirhossein Abaskohi, Sara Baruni, Mostafa Masoudi, Nesa Abbasi, Mohammad Hadi Babalou, Ali Edalat, Sepehr Kamahi, Samin Mahdizadeh Sani, Nikoo Naghavian, Danial Namazifard, Pouya Sadeghi, Yadollah Yaghoobzadeh",
     "venue": "LREC 2024",
     "year": 2024,
     "langs": [
@@ -1191,7 +1191,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2024.lrec-main.197/",
-    "abstract": "This paper explores the efficacy of large language models (LLMs) for Persian. While ChatGPT and consequent LLMs have shown remarkable performance in English, their efficiency for more low-resource lan",
+    "abstract": "This paper explores the efficacy of large language models (LLMs) for Persian. While ChatGPT and consequent LLMs have shown remarkable performance in English, their efficiency for more low-resource languages remains an open question. We present the first comprehensive benchmarking study of LLMs across diverse Persian language tasks. Our primary focus is on GPT-3.5-turbo, but we also include GPT-4 and OpenChat-3.5 to provide a more holistic evaluation. Our assessment encompasses a diverse set of tasks categorized into classic, reasoning, and knowledge-based domains. To enable a thorough comparison, we evaluate LLMs against existing task-specific fine-tuned models. Given the limited availability of Persian datasets for reasoning tasks, we introduce two new benchmarks: one based on elementary school math questions and another derived from the entrance exams for 7th and 10th grades. Our findings reveal that while LLMs, especially GPT-4, excel in tasks requiring reasoning abilities and a broad understanding of general knowledge, they often lag behind smaller pretrained models fine-tuned specifically for particular tasks. Additionally, we observe improved performance when test sets are translated to English before inputting them into GPT-3.5. These results highlight the significant potential for enhancing LLM performance in the Persian language. This is particularly noteworthy due to the unique attributes of Persian, including its distinct alphabet and writing styles. We have made our codes, prompts, and data available here: https://github.com/Ipouyall/Benchmarking_ChatGPT_for_Persian.",
     "links": {
       "paper": "https://aclanthology.org/2024.lrec-main.197/",
       "github": "https://github.com/Ipouyall/Benchmarking_ChatGPT_for_Persian/tree/main/Benchmark"
@@ -1200,7 +1200,7 @@
   {
     "id": "eptbenchmarkevaluationofpersia",
     "title": "EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models",
-    "authors": "",
+    "authors": "Mohammad Reza Mirbagheri, Mohammad Mahdi Mirkamali, Zahra Motoshaker Arani, Ali Javeri, Amir Mahdi Sadeghzadeh, Rasool Jalili",
     "venue": "arXiv 2025",
     "year": 2025,
     "langs": [
@@ -1246,7 +1246,7 @@
   {
     "id": "massivea1mexamplemultilingualn",
     "title": "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages",
-    "authors": "",
+    "authors": "Jack G. M. FitzGerald, C. Hench, Charith Peris, S. Mackie, Kay Rottmann, A. Sánchez, Aaron Nash, Liam Urbach, Vishesh Kakarala, Richa Singh, Swetha Ranganath, Laurie Crist, Misha Britan, Wouter Leeuwis, Gokhan Tur, P. Natarajan",
     "venue": "ACL 2023",
     "year": 2023,
     "langs": [
@@ -1258,7 +1258,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2023.acl-long.235/",
-    "abstract": "We present the MASSIVE dataset--Multilingual Amazon Slu resource package (SLURP) for Slot-filling, Intent classification, and Virtual assistant Evaluation. MASSIVE contains 1M realistic, parallel, lab",
+    "abstract": "We present the MASSIVE dataset–Multilingual Amazon Slu resource package (SLURP) for Slot-filling, Intent classification, and Virtual assistant Evaluation. MASSIVE contains 1M realistic, parallel, labeled virtual assistant utterances spanning 51 languages, 18 domains, 60 intents, and 55 slots. MASSIVE was created by tasking professional translators to localize the English-only SLURP dataset into 50 typologically diverse languages from 29 genera. We also present modeling results on XLM-R and mT5, including exact match accuracy, intent classification accuracy, and slot-filling F1 score. We have released our dataset, modeling code, and models publicly.",
     "links": {
       "paper": "https://aclanthology.org/2023.acl-long.235/",
       "huggingface": "https://huggingface.co/datasets/mteb/amazon_massive_intent"
@@ -1267,7 +1267,7 @@
   {
     "id": "glot500scalingmultilingualcorp",
     "title": "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
-    "authors": "",
+    "authors": "Ayyoob Imani, Peiqin Lin, Amir Hossein Kargaran, Silvia Severini, Masoud Jalili Sabet, Nora Kassner, Chunlan Ma, Helmut Schmid, André F. T. Martins, François Yvon, Hinrich Schütze",
     "venue": "ACL 2023",
     "year": 2023,
     "langs": [
@@ -1288,7 +1288,7 @@
   {
     "id": "palialanguageidentificationben",
     "title": "PALI: A Language Identification Benchmark for Perso-Arabic Scripts",
-    "authors": "",
+    "authors": "Sina Ahmadi, M. Agarwal, Antonios Anastasopoulos",
     "venue": "ACL 2023",
     "year": 2023,
     "langs": [
@@ -1300,7 +1300,7 @@
       "language-identification"
     ],
     "url": "https://aclanthology.org/2023.vardial-1.8/",
-    "abstract": "The Perso-Arabic scripts are a family of scripts that are widely adopted and used by various linguistic communities around the globe. Identifying various languages using such scripts is crucial to lan",
+    "abstract": "The Perso-Arabic scripts are a family of scripts that are widely adopted and used by various linguistic communities around the globe. Identifying various languages using such scripts is crucial to language technologies and challenging in low-resource setups. As such, this paper sheds light on the challenges of detecting languages using Perso-Arabic scripts, especially in bilingual communities where “unconventional” writing is practiced. To address this, we use a set of supervised techniques to classify sentences into their languages. Building on these, we also propose a hierarchical model that targets clusters of languages that are more often confused by the classifiers. Our experiment results indicate the effectiveness of our solutions.",
     "links": {
       "paper": "https://aclanthology.org/2023.vardial-1.8/",
       "github": "https://github.com/sinaahmadi/PersoArabicLID"
@@ -1309,7 +1309,7 @@
   {
     "id": "scriptnormalizationforunconven",
     "title": "Script Normalization for Unconventional Writing of Under-Resourced Languages in Bilingual Communities",
-    "authors": "",
+    "authors": "Sina Ahmadi, Antonios Anastasopoulos",
     "venue": "ACL 2023",
     "year": 2023,
     "langs": [
@@ -1333,7 +1333,7 @@
   {
     "id": "approachestocorpuscreationforl",
     "title": "Approaches to Corpus Creation for Low-Resource Language Technology: the Case of Southern Kurdish and Laki",
-    "authors": "",
+    "authors": "Sina Ahmadi, Tara Azin, Sara Belelli, Antonios Anastasopoulos",
     "venue": "ACL 2023",
     "year": 2023,
     "langs": [
@@ -1356,7 +1356,7 @@
   {
     "id": "percqapersiancommunityquestion",
     "title": "PerCQA: Persian Community Question Answering Dataset",
-    "authors": "",
+    "authors": "Naghme Jamali, Yadollah Yaghoobzadeh, Heshaam Faili",
     "venue": "LREC 2022",
     "year": 2022,
     "langs": [
@@ -1367,7 +1367,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2022.lrec-1.654/",
-    "abstract": "Community Question Answering (CQA) forums provide answers to many real-life questions. These forums are trendy among machine learning researchers due to their large size. Automatic answer selection, a",
+    "abstract": "Community Question Answering (CQA) forums provide answers to many real-life questions. These forums are trendy among machine learning researchers due to their large size. Automatic answer selection, answer ranking, question retrieval, expert finding, and fact-checking are example learning tasks performed using CQA data. This paper presents PerCQA, the first Persian dataset for CQA. This dataset contains the questions and answers crawled from the most well-known Persian forum. After data acquisition, we provide rigorous annotation guidelines in an iterative process and then the annotation of question-answer pairs in SemEvalCQA format. PerCQA contains 989 questions and 21,915 annotated answers. We make PerCQA publicly available to encourage more research in Persian CQA. We also build strong benchmarks for the task of answer selection in PerCQA by using mono- and multi-lingual pre-trained language models.",
     "links": {
       "paper": "https://aclanthology.org/2022.lrec-1.654/",
       "github": "https://github.com/PerCQA/PerCQA-Dataset"
@@ -1376,7 +1376,7 @@
   {
     "id": "parssimpleqathepersiansimplequ",
     "title": "ParsSimpleQA: The Persian Simple Question Answering Dataset and System over Knowledge Graph",
-    "authors": "",
+    "authors": "Hamed Babaei Giglou, Niloufar Beyranvand, R. Moradi, Amir Mohammad Salehoof, S. Bibak",
     "venue": "ACL 2022",
     "year": 2022,
     "langs": [
@@ -1387,7 +1387,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2022.nlp4dh-1.9/",
-    "abstract": "The simple question answering over the knowledge graph concerns answering single-relation questions by querying the facts in the knowledge graph. This task has drawn significant attention in recent ye",
+    "abstract": "The simple question answering over the knowledge graph concerns answering single-relation questions by querying the facts in the knowledge graph. This task has drawn significant attention in recent years. However, there is a demand for a simple question dataset in the Persian language to study open-domain simple question answering. In this paper, we present the first Persian single-relation question answering dataset and a model that uses a knowledge graph as a source of knowledge to answer questions. We create the ParsSimpleQA dataset semi-automatically in two steps. First, we build single-relation question templates. Next, we automatically create simple questions and answers using templates, entities, and relations from Farsbase. To present the reliability of the presented dataset, we proposed a simple question-answering system that receives questions and uses deep learning and information retrieval techniques for answering questions. The experimental results presented in this paper show that the ParsSimpleQA dataset is very promising for the Persian simple question-answering task.",
     "links": {
       "paper": "https://aclanthology.org/2022.nlp4dh-1.9/",
       "github": "https://github.com/partdpai/ParsSimpleQA"
@@ -1396,7 +1396,7 @@
   {
     "id": "emoparsacollectionof30kemotion",
     "title": "EmoPars: A Collection of 30K Emotion-Annotated Persian Social Media Texts",
-    "authors": "",
+    "authors": "Nazanin Sabri, R. Akhavan, B. Bahrak",
     "venue": "ACL 2021",
     "year": 2021,
     "langs": [
@@ -1408,7 +1408,7 @@
       "sentiment-analysis"
     ],
     "url": "https://aclanthology.org/2021.ranlp-srw.23/",
-    "abstract": "The wide reach of social media platforms, such as Twitter, have enabled many users to share their thoughts, opinions and emotions on various topics online. The ability to detect these emotions automat",
+    "abstract": "The wide reach of social media platforms, such as Twitter, have enabled many users to share their thoughts, opinions and emotions on various topics online. The ability to detect these emotions automatically would allow social scientists, as well as, businesses to better understand responses from nations and costumers. In this study we introduce a dataset of 30,000 Persian Tweets labeled with Ekman’s six basic emotions (Anger, Fear, Happiness, Sadness, Hatred, and Wonder). This is the first publicly available emotion dataset in the Persian language. In this paper, we explain the data collection and labeling scheme used for the creation of this dataset. We also analyze the created dataset, showing the different features and characteristics of the data. Among other things, we investigate co-occurrence of different emotions in the dataset, and the relationship between sentiment and emotion of textual instances. The dataset is publicly available at https://github.com/nazaninsbr/Persian-Emotion-Detection.",
     "links": {
       "paper": "https://aclanthology.org/2021.ranlp-srw.23/",
       "github": "https://github.com/nazaninsbr/persian-emotion-detection?tab=readme-ov-file",
@@ -1418,7 +1418,7 @@
   {
     "id": "perspelldataanexhaustiveparall",
     "title": "PerSpellData: An Exhaustive Parallel Spell Dataset For Persian",
-    "authors": "",
+    "authors": "Romina Oji, Nasrin Taghizadeh, Heshaam Faili",
     "venue": "ACL 2021",
     "year": 2021,
     "langs": [
@@ -1458,7 +1458,7 @@
   {
     "id": "lscpenhancedlargescalecolloqui",
     "title": "LSCP: Enhanced Large Scale Colloquial Persian Language Understanding",
-    "authors": "",
+    "authors": "Hadi Abdi Khojasteh, Ebrahim Ansari, M. Bohlouli",
     "venue": "LREC 2020",
     "year": 2020,
     "langs": [
@@ -1478,7 +1478,7 @@
   {
     "id": "contentanalysisofpersianfarsit",
     "title": "Content analysis of Persian/Farsi Tweets during COVID-19 pandemic in Iran using NLP",
-    "authors": "",
+    "authors": "Pedram Hosseini, Poorya Hosseini, David A. Broniatowski",
     "venue": "ACL 2020",
     "year": 2020,
     "langs": [
@@ -1497,7 +1497,7 @@
   {
     "id": "ironydetectioninpersianlanguag",
     "title": "Irony Detection in Persian Language: A Transfer Learning Approach Using Emoji Prediction",
-    "authors": "",
+    "authors": "Preni Golazizian, Behnam Sabeti, Seyed Arad Ashrafi Asli, Zahra Majdabadi, Omid Momenzadeh, Reza Fahmi",
     "venue": "LREC 2020",
     "year": 2020,
     "langs": [
@@ -1516,7 +1516,7 @@
   {
     "id": "optimizingannotationeffortusin",
     "title": "Optimizing Annotation Effort Using Active Learning Strategies: A Sentiment Analysis Case Study in Persian",
-    "authors": "",
+    "authors": "Seyed Arad Ashrafi Asli, Behnam Sabeti, Zahra Majdabadi, Preni Golazizian, Reza Fahmi, Omid Momenzadeh",
     "venue": "LREC 2020",
     "year": 2020,
     "langs": [
@@ -1536,7 +1536,7 @@
   {
     "id": "buildingacorpusforthezazagoran",
     "title": "Building a Corpus for the Zaza–Gorani Language Family",
-    "authors": "",
+    "authors": "Sina Ahmadi",
     "venue": "ACL 2020",
     "year": 2020,
     "langs": [
@@ -1561,7 +1561,7 @@
   {
     "id": "towardskurdishtexttosigntransl",
     "title": "Towards Kurdish Text to Sign Translation",
-    "authors": "",
+    "authors": "Zina Kamal, Hossein Hassani",
     "venue": "ACL 2020",
     "year": 2020,
     "langs": [
@@ -1583,7 +1583,7 @@
   {
     "id": "acorpusofthesoranikurdishfolkl",
     "title": "A Corpus of the Sorani Kurdish Folkloric Lyrics",
-    "authors": "",
+    "authors": "Sina Ahmadi, Hossein Hassani, K. Abedi",
     "venue": "ACL 2020",
     "year": 2020,
     "langs": [
@@ -1607,7 +1607,7 @@
   {
     "id": "parsinluasuiteoflanguageunders",
     "title": "ParsiNLU: A Suite of Language Understanding Challenges for Persian",
-    "authors": "",
+    "authors": "Daniel Khashabi, Arman Cohan, Siamak Shakeri, Pedram Hosseini, Pouya Pezeshkpour, Malihe Alikhani, Moin Aminnaseri, Marzieh Bitaab, Faeze Brahman, Sarik Ghazarian, Mozhdeh Gheini, Arman Kabiri, Rabeeh Karimi Mahabadi, Omid Memarrast, Ahmadreza Mosallanezhad, Erfan Noury, Shahab Raji, Mohammad Sadegh Rasooli, Sepideh Sadeghi, Erfan Sadeqi Azer, Niloofar Safi Samghabadi, Mahsa Shafaei, Saber Sheybani, Ali Tazarv, Yadollah Yaghoobzadeh",
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
@@ -1628,7 +1628,7 @@
   {
     "id": "leveragingparsbertandpretraine",
     "title": "Leveraging ParsBERT and Pretrained mT5 for Persian Abstractive Text Summarization",
-    "authors": "",
+    "authors": "Mehrdad Farahani, Mohammad Gharachorloo, Mohammad Manthouri",
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
@@ -1649,7 +1649,7 @@
   {
     "id": "leveragingmultilingualnewswebs",
     "title": "Leveraging Multilingual News Websites for Building a Kurdish Parallel Corpus",
-    "authors": "",
+    "authors": "Sina Ahmadi, Hossein Hassani, Daban Q. Jaff",
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
@@ -1673,7 +1673,7 @@
   {
     "id": "farstailapersiannaturallanguag",
     "title": "FarsTail: A Persian Natural Language Inference Dataset",
-    "authors": "",
+    "authors": "Hossein Amirkhani, Mohammad AzariJafari, Zohreh Pourjafari, Soroush Faridan-Jahromi, Zeinab Kouhkan, Azadeh Amirak",
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
@@ -1694,7 +1694,7 @@
   {
     "id": "thepersiandependencytreebankma",
     "title": "The Persian Dependency Treebank Made Universal",
-    "authors": "",
+    "authors": "Mohammad Sadegh Rasooli, Pegah Safari, Amirsaeid Moloodi, Alireza Nourian",
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
@@ -1713,7 +1713,7 @@
   {
     "id": "parsberttransformerbasedmodelf",
     "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
-    "authors": "",
+    "authors": "Mehrdad Farahani, Mohammad Gharachorloo, Marzieh Farahani, Mohammad Manthouri",
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
@@ -1737,7 +1737,7 @@
   {
     "id": "deepsentipersnoveldeeplearning",
     "title": "DeepSentiPers: Novel Deep Learning Models Trained Over Proposed Augmented Persian Sentiment Corpus",
-    "authors": "",
+    "authors": "Javad PourMostafa Roshan Sharami, Parsa Abbasi Sarabestani, Seyed Abolghasem Mirroshandel",
     "venue": "arXiv 2020",
     "year": 2020,
     "langs": [
