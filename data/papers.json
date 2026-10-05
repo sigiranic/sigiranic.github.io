@@ -185,10 +185,10 @@
       "question-answering",
       "vision-language"
     ],
-    "url": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+    "url": "https://aclanthology.org/2025.evalmg-1.5/",
     "abstract": "",
     "links": {
-      "paper": "https://aclanthology.org/2025.evalmg-1.5.pdf",
+      "paper": "https://aclanthology.org/2025.evalmg-1.5/",
       "huggingface": "https://huggingface.co/datasets/AUT-NLP/Persian-OCR-QA"
     }
   },
@@ -426,10 +426,10 @@
       "question-answering",
       "dataset"
     ],
-    "url": "https://arxiv.org/pdf/2312.04362",
+    "url": "https://arxiv.org/abs/2312.04362",
     "abstract": "Humans seek information regarding a specific topic through performing a conversation containing a series of questions and answers. In the pursuit of conversational question answering research, we introduce the PCoQA, the first Persian Conversational Question Answering dataset, a resource comprising information-seeking dialogs encompassing a total of 9,026 contextually-driven questions. Each dialog involves a questioner, a responder, and a document from the Wikipedia; The questioner asks several inter-connected questions from the text and the responder provides a span of the document as the answer for each question. PCoQA is designed to present novel challenges compared to previous question answering datasets including having more open-ended non-factual answers, longer answers, and fewer lexical overlaps. This paper not only presents the comprehensive PCoQA dataset but also reports the performance of various benchmark models. Our models include baseline models and pre-trained models, which are leveraged to boost the performance of the model. The dataset and benchmarks are available at our Github page.",
     "links": {
-      "paper": "https://arxiv.org/pdf/2312.04362",
+      "paper": "https://arxiv.org/abs/2312.04362",
       "github": "https://github.com/HamedHematian/PCoQA"
     }
   },
@@ -1439,7 +1439,7 @@
     "id": "parsquadpersianquestionansweri",
     "title": "ParSQuAD: Persian Question Answering Dataset based on Machine Translation of SQuAD 2. 0‏",
     "authors": "",
-    "venue": "Conf/Journal 2021",
+    "venue": "International Journal of Web Research 2021",
     "year": 2021,
     "langs": [
       "persian"
@@ -1448,10 +1448,10 @@
       "question-answering",
       "dataset"
     ],
-    "url": "https://scholar.google.com/scholar_lookup?title=Parsquad:+Persian+question+answering+dataset+based+on+machine+translation+of+squad+2.0&author=Abadani,+N.&author=Mozafari,+J.&author=Fatemi,+A.&author=Nematbakhsh,+M.&author=Kazemi,+A.&publication_year=2021&journal=International+Journal+of+Web+Research&volume=4&pages=34%E2%80%9346",
+    "url": "https://ijwr.usc.ac.ir/article_139661.html",
     "abstract": "Persian Question Answering Dataset.based on Machine Translation of SQuAD 2.0",
     "links": {
-      "paper": "https://scholar.google.com/scholar_lookup?title=Parsquad:+Persian+question+answering+dataset+based+on+machine+translation+of+squad+2.0&author=Abadani,+N.&author=Mozafari,+J.&author=Fatemi,+A.&author=Nematbakhsh,+M.&author=Kazemi,+A.&publication_year=2021&journal=International+Journal+of+Web+Research&volume=4&pages=34%E2%80%9346",
+      "paper": "https://ijwr.usc.ac.ir/article_139661.html",
       "github": "https://github.com/BigData-IsfahanUni/ParSQuAD"
     }
   },
