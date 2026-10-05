@@ -1,0 +1,44 @@
+name: Update paper metadata
+
+# Fills in full abstracts and author lists in data/papers.json from arXiv, the ACL Anthology
+# and Semantic Scholar, commits the result as Claude, and redeploys the site.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 1 * *"   # monthly
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: papers
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch abstracts and authors
+        run: python3 tools/enrich_papers.py
+
+      - name: Check the site still builds
+        run: python3 tools/build.py --out _site
+
+      - name: Commit and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data/papers.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add data/papers.json
+          git commit -m "Update paper abstracts and authors from arXiv, ACL Anthology and Semantic Scholar"
+          git push
+          # pushes made with GITHUB_TOKEN do not start other workflows, so start the deploy explicitly
+          gh workflow run pages.yml --ref main

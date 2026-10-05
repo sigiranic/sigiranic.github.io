@@ -792,7 +792,8 @@
     "edit_on_github": "Edit on GitHub",
     "noscript": "This site needs JavaScript to show its data. All data is also available as JSON in the data/ folder on GitHub.",
     "arxiv": "arXiv",
-    "researchgate": "ResearchGate"
+    "researchgate": "ResearchGate",
+    "read_more": "Read the full abstract"
   },
   "link_types": {
     "paper": {
