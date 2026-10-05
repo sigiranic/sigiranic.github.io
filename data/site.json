@@ -1,0 +1,740 @@
+{
+  "brand": {
+    "name": "Iranic Languages",
+    "long": "SIG Iranic",
+    "tagline": "Language technology for the Iranian language family",
+    "logo": "assets/img/logo.svg",
+    "github": "https://github.com/sigiranic",
+    "huggingface": "https://huggingface.co/sigiranic",
+    "email": "amir@cis.lmu.de",
+    "url": "https://sigiranic.github.io/",
+    "logo_alt": "Iranic Languages logo: four petals around a centre, after the star of the Derafsh Kaviani",
+    "repo": "https://github.com/sigiranic/sigiranic.github.io",
+    "codes": [
+      {
+        "label": "ISO 639-5",
+        "value": "ira"
+      },
+      {
+        "label": "Glottolog",
+        "value": "iran1269"
+      }
+    ]
+  },
+  "nav": [
+    {
+      "id": "languages",
+      "label": "Languages",
+      "href": "languages/"
+    },
+    {
+      "id": "family",
+      "label": "Family tree",
+      "href": "family/"
+    },
+    {
+      "id": "scripts",
+      "label": "Scripts",
+      "href": "scripts/"
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "href": "research/"
+    },
+    {
+      "id": "datasets",
+      "label": "Datasets & tools",
+      "href": "datasets/"
+    },
+    {
+      "id": "toolkit",
+      "label": "Toolkit",
+      "href": "toolkit/"
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "href": "community/"
+    }
+  ],
+  "pages": {
+    "home": {
+      "path": "",
+      "title": "SIG Iranic · Language technology for Iranian languages",
+      "description": "Languages, scripts, papers, datasets and text tools for NLP research on the Iranian language family, from Persian and Kurdish to Wakhi, Talysh and Yaghnobi.",
+      "kicker": "Special Interest Group · Iranian Languages",
+      "title_lines": [
+        "Iranian",
+        "languages,",
+        "one place."
+      ],
+      "lead": "A research hub for the Iranian language family: 101 languages from Persian, Kurdish and Pashto to Talysh, Wakhi and Yaghnobi, with the papers, datasets, scripts and tools that exist for each of them.",
+      "search_placeholder": "Search languages, papers, datasets, scripts…",
+      "search_hint": "Try “Gilaki”, “sentiment”, “Sorani” or an ISO code like “glk”.",
+      "stats": [
+        {
+          "key": "languages",
+          "label": "languages with ISO 639-3 codes"
+        },
+        {
+          "key": "papers",
+          "label": "papers indexed"
+        },
+        {
+          "key": "datasets",
+          "label": "datasets and tools"
+        },
+        {
+          "key": "scripts",
+          "label": "writing systems"
+        }
+      ],
+      "explore_title": "Explore",
+      "explore": [
+        {
+          "href": "languages/",
+          "title": "Languages",
+          "text": "Map, filters and a page for every language with its papers, data and links.",
+          "glyph": "ز"
+        },
+        {
+          "href": "family/",
+          "title": "Family tree",
+          "text": "How the branches fit together, from Old Persian and Avestan to today.",
+          "glyph": "🌳"
+        },
+        {
+          "href": "scripts/",
+          "title": "Scripts",
+          "text": "Twelve writing systems across 2,500 years, with samples and Unicode blocks.",
+          "glyph": "𐎠"
+        },
+        {
+          "href": "research/",
+          "title": "Research",
+          "text": "Papers by task, language and year, with BibTeX and CSV export.",
+          "glyph": "§"
+        },
+        {
+          "href": "datasets/",
+          "title": "Datasets & tools",
+          "text": "Parallel corpora, NLP toolkits and code-mixing resources by language.",
+          "glyph": "▤"
+        },
+        {
+          "href": "toolkit/",
+          "title": "Toolkit",
+          "text": "Normalise Persian and Kurdish text, inspect characters, transliterate.",
+          "glyph": "⌘"
+        }
+      ],
+      "latest_title": "Recent papers",
+      "coverage_title": "Where the resources are",
+      "coverage_text": "Papers per language in this index. Most of the family has almost nothing.",
+      "numbers_title": "In numbers",
+      "coverage_count": "{n} of {total} languages have at least one paper."
+    },
+    "languages": {
+      "path": "languages/",
+      "title": "Iranian languages: map and directory",
+      "description": "Map and directory of 101 Iranian languages with ISO 639-3 codes, branches, scripts, speakers and endangerment.",
+      "kicker": "The family",
+      "h1": "Languages",
+      "lead": "All 101 Iranian languages with ISO 639-3 codes. Filter by branch, vitality or script, then open a language for its papers, datasets and links.",
+      "search_placeholder": "Name, ISO code or region…",
+      "color_by": {
+        "branch": "Colour by branch",
+        "status": "Colour by vitality"
+      },
+      "export": "Download CSV",
+      "count": "{n} of {total} languages",
+      "views": {
+        "map": "Map",
+        "table": "Table"
+      },
+      "branches_label": "Branches",
+      "map_label": "Map of Iranian languages"
+    },
+    "language": {
+      "title": "{name} ({code}) · Iranian languages",
+      "description": "{name} ({code}): {branch} Iranian language spoken in {area}. Papers, datasets, script and links.",
+      "facts": {
+        "iso": "ISO 639-3",
+        "glottolog": "Glottolog",
+        "branch": "Branch",
+        "status": "Vitality",
+        "speakers": "Speakers",
+        "area": "Where",
+        "script": "Script"
+      },
+      "papers_title": "Papers",
+      "papers_empty": "No papers in the index mention {name} yet. Know one? Add it on GitHub.",
+      "datasets_title": "Datasets and tools",
+      "datasets_empty": "No datasets listed for {name} yet.",
+      "links_title": "Elsewhere",
+      "nearby_title": "Neighbours on the map",
+      "map_title": "Location"
+    },
+    "family": {
+      "path": "family/",
+      "title": "Iranian language family tree",
+      "description": "Interactive tree of the Iranian language family: Western and Eastern branches, historical languages and the 101 living and extinct languages.",
+      "kicker": "Genealogy",
+      "h1": "Family tree",
+      "lead": "The Iranian languages descend from Proto-Iranian and split into Western and Eastern groups. Click a branch to fold it, or a language to open its page.",
+      "expand": "Expand all",
+      "collapse": "Collapse all",
+      "filter_placeholder": "Highlight a language…",
+      "note": "Grouping follows the branch labels in our data; subgroupings inside branches are still debated."
+    },
+    "scripts": {
+      "path": "scripts/",
+      "title": "Writing systems of the Iranian languages",
+      "description": "Twelve writing systems used for Iranian languages, from Old Persian cuneiform and Avestan to Perso-Arabic, Cyrillic and Latin.",
+      "kicker": "Writing",
+      "h1": "Scripts",
+      "lead": "Iranian languages have been written in at least a dozen scripts over 2,500 years. Many of the oldest are now in Unicode, but few have OCR or keyboards.",
+      "timeline_title": "Timeline",
+      "timeline_note": "Approximate periods of use for Iranian languages.",
+      "languages_label": "Used for",
+      "unicode_label": "Unicode",
+      "period_label": "Period",
+      "direction_label": "Direction",
+      "type_label": "Type",
+      "texts_label": "Notable texts",
+      "present": "present",
+      "all_title": "All scripts",
+      "bce": "BCE",
+      "ce": "CE"
+    },
+    "research": {
+      "path": "research/",
+      "title": "Research on Iranian languages: papers",
+      "description": "Papers on NLP for Iranian languages, searchable by task, language, venue and year, with BibTeX and CSV export.",
+      "kicker": "Research",
+      "h1": "Papers",
+      "lead": "Papers on language technology for Iranian languages, from benchmarks and corpora to models and evaluation. Filter, then export what you need.",
+      "search_placeholder": "Search titles and abstracts…",
+      "all_areas": "All tasks",
+      "all_languages": "All languages",
+      "all_years": "All years",
+      "sort": {
+        "new": "Newest first",
+        "old": "Oldest first",
+        "title": "Title A–Z"
+      },
+      "count": "{n} of {total} papers",
+      "export_bib": "BibTeX",
+      "export_csv": "CSV",
+      "per_year_title": "Papers per year",
+      "per_lang_title": "Papers per language",
+      "projects_title": "Projects",
+      "empty": "No papers match these filters.",
+      "tasks_label": "Tasks"
+    },
+    "datasets": {
+      "path": "datasets/",
+      "title": "Datasets and NLP tools for Iranian languages",
+      "description": "Parallel corpora, NLP toolkits and code-mixing resources for Persian, Kurdish, Gilaki, Mazanderani, Talysh, Luri, Laki, Zaza, Gorani and Balochi.",
+      "kicker": "Resources",
+      "h1": "Datasets & tools",
+      "lead": "What exists, for which language, and where to get it. Sentence counts are as reported by each resource.",
+      "tabs": {
+        "datasets": "Parallel data",
+        "tools": "NLP tools",
+        "code_mixed": "Code-mixing"
+      },
+      "all_languages": "All languages",
+      "search_placeholder": "Search resources…",
+      "cols": {
+        "name": "Resource",
+        "language": "Language",
+        "sentences": "Sentences",
+        "pairs": "Paired with",
+        "access": "Access",
+        "programming_language": "Language",
+        "tasks": "Tasks",
+        "features": "Features",
+        "description": "Description",
+        "reference": "Reference"
+      },
+      "chart_title": "Parallel sentences per language",
+      "chart_note": "Largest single resource per language, log scale.",
+      "empty": "Nothing listed yet."
+    },
+    "toolkit": {
+      "path": "toolkit/",
+      "title": "Text toolkit for Persian and Kurdish",
+      "description": "Free in-browser tools to normalise Persian and Kurdish text, inspect Unicode characters, detect scripts and transliterate Sorani and Persian to Latin.",
+      "kicker": "Toolkit",
+      "h1": "Text toolkit",
+      "lead": "Small tools for everyday research work. Everything runs in your browser; your text never leaves this page.",
+      "tabs": {
+        "normalize": "Normalise",
+        "inspect": "Inspect",
+        "translit": "Transliterate"
+      },
+      "input_label": "Input text",
+      "output_label": "Output",
+      "copy": "Copy",
+      "copied": "Copied",
+      "clear": "Clear",
+      "sample": "Load sample",
+      "normalize_intro": "Fix the characters that most often break Persian and Kurdish NLP pipelines. Pick the rules you want.",
+      "changes": "{n} changes",
+      "inspect_intro": "See every character, its code point and script, with invisible and look-alike characters flagged.",
+      "scripts_found": "Scripts in this text",
+      "flags_found": "Things to check",
+      "no_flags": "Nothing suspicious found.",
+      "translit_intro": "Rule-based transliteration. Sorani Arabic script to Kurdish Latin (Hawar) is nearly one-to-one; Persian to Latin cannot recover unwritten short vowels.",
+      "scheme": "Scheme"
+    },
+    "community": {
+      "path": "community/",
+      "title": "Community · SIG Iranic",
+      "description": "Join SIG Iranic: code and data on GitHub and Hugging Face, how to contribute papers and datasets, and how to reach the team.",
+      "kicker": "Join us",
+      "h1": "Community",
+      "lead": "We welcome researchers, engineers and speakers of Iranian languages. Everything on this site is open data you can improve.",
+      "links": [
+        {
+          "icon": "⌥",
+          "title": "GitHub",
+          "text": "Code, datasets, and pipelines",
+          "url": "https://github.com/sigiranic"
+        },
+        {
+          "icon": "🤗",
+          "title": "Hugging Face",
+          "text": "Models, datasets, demo spaces",
+          "url": "https://huggingface.co/sigiranic"
+        },
+        {
+          "icon": "✉",
+          "title": "Contact",
+          "text": "Reach the team directly",
+          "url": "mailto:amir@cis.lmu.de"
+        }
+      ],
+      "contribute_title": "Contribute",
+      "contribute": [
+        {
+          "title": "Add a paper",
+          "text": "Append an entry to data/papers.json and open a pull request.",
+          "file": "data/papers.json"
+        },
+        {
+          "title": "Add a dataset or tool",
+          "text": "Add it under its language in data/resources.json.",
+          "file": "data/resources.json"
+        },
+        {
+          "title": "Fix a language",
+          "text": "Speakers, regions and scripts live in data/languages.json.",
+          "file": "data/languages.json"
+        }
+      ],
+      "cite_title": "About the data",
+      "cite_text": "Language codes follow ISO 639-3 and Glottolog. Papers and datasets are collected by the community; years were checked against arXiv and ACL Anthology identifiers. Corrections are always welcome.",
+      "links_title": "Find us"
+    },
+    "notfound": {
+      "path": "404.html",
+      "title": "Page not found · SIG Iranic",
+      "description": "This page does not exist.",
+      "h1": "Lost in the desert",
+      "lead": "This page does not exist. Try the search on the home page."
+    }
+  },
+  "taxonomy": {
+    "branches": {
+      "southwestern": {
+        "label": "Southwestern",
+        "color": "#b5452a"
+      },
+      "northwestern": {
+        "label": "Northwestern",
+        "color": "#2b4c8c"
+      },
+      "eastern": {
+        "label": "Eastern",
+        "color": "#2f7a5a"
+      },
+      "ossetic": {
+        "label": "Ossetic",
+        "color": "#5b6b8c"
+      },
+      "extinct": {
+        "label": "Historical",
+        "color": "#a0864f"
+      }
+    },
+    "status": {
+      "major": {
+        "label": "Major",
+        "text": "millions of speakers, official use",
+        "color": "#2f7a5a"
+      },
+      "mid": {
+        "label": "Stable",
+        "text": "regional, widely spoken",
+        "color": "#3d6fb0"
+      },
+      "low": {
+        "label": "Vulnerable",
+        "text": "small or shrinking communities",
+        "color": "#c8962c"
+      },
+      "endangered": {
+        "label": "Endangered",
+        "text": "few speakers, little transmission",
+        "color": "#b5452a"
+      },
+      "historical": {
+        "label": "Historical",
+        "text": "attested in texts only",
+        "color": "#8a8073"
+      }
+    },
+    "areas": {
+      "dataset": "Datasets & resources",
+      "question-answering": "Question answering",
+      "sentiment-analysis": "Sentiment analysis",
+      "classification": "Classification",
+      "emotion-detection": "Emotion detection",
+      "named-entity-recognition": "Named entities",
+      "machine-translation": "Machine translation",
+      "text-generation": "Text generation",
+      "instruction-following": "Instruction following",
+      "language-models": "Language models",
+      "vision-language": "Vision & language",
+      "speech-recognition": "Speech",
+      "language-identification": "Language identification",
+      "spell-checking": "Spell checking",
+      "ocr": "OCR",
+      "parsing": "Parsing",
+      "pos-tagging": "POS tagging",
+      "semantic-similarity": "Semantic similarity",
+      "recommendation": "Recommendation",
+      "survey": "Survey",
+      "other": "Other"
+    },
+    "area_groups": [
+      {
+        "id": "dataset",
+        "label": "Datasets & Resources",
+        "includes": [
+          "dataset"
+        ]
+      },
+      {
+        "id": "question-answering",
+        "label": "Question Answering",
+        "includes": [
+          "question-answering"
+        ]
+      },
+      {
+        "id": "text-understanding",
+        "label": "Text Understanding",
+        "includes": [
+          "sentiment-analysis",
+          "classification",
+          "emotion-detection",
+          "named-entity-recognition"
+        ]
+      },
+      {
+        "id": "machine-translation",
+        "label": "Machine Translation",
+        "includes": [
+          "machine-translation"
+        ]
+      },
+      {
+        "id": "text-generation",
+        "label": "Text Generation",
+        "includes": [
+          "text-generation",
+          "instruction-following"
+        ]
+      },
+      {
+        "id": "language-models",
+        "label": "Language Models",
+        "includes": [
+          "language-models"
+        ]
+      },
+      {
+        "id": "multimodal",
+        "label": "Speech & Vision",
+        "includes": [
+          "vision-language",
+          "speech-recognition"
+        ]
+      },
+      {
+        "id": "other",
+        "label": "Other Tasks",
+        "includes": [
+          "language-identification",
+          "spell-checking",
+          "ocr",
+          "parsing",
+          "other"
+        ]
+      }
+    ],
+    "paper_languages": {
+      "english": "English",
+      "persian": "Persian",
+      "dari": "Dari",
+      "tajik": "Tajik",
+      "pashto": "Pashto",
+      "kurdish": "Kurdish (all varieties)",
+      "kurmanji": "Kurmanji",
+      "sorani": "Sorani",
+      "balochi": "Balochi",
+      "gilaki": "Gilaki",
+      "mazanderani": "Mazanderani",
+      "talysh": "Talysh",
+      "tati": "Tati",
+      "tat-caucasus": "Tat (Caucasus)",
+      "zaza": "Zaza",
+      "gorani": "Gorani",
+      "luri": "Luri",
+      "laki": "Laki",
+      "ossetic": "Ossetian",
+      "shughni": "Shughni",
+      "wakhi": "Wakhi",
+      "yazghulami": "Yazghulami",
+      "ishkashimi": "Ishkashimi",
+      "sanglechi": "Sanglechi",
+      "yagnobi": "Yagnobi",
+      "pamiri": "Pamiri languages",
+      "middle-persian": "Middle Persian",
+      "parthian": "Parthian",
+      "old-persian": "Old Persian",
+      "avestan": "Avestan",
+      "low-resource": "Other Low-resource"
+    },
+    "lang_keys": {
+      "persian": [
+        "fas",
+        "pes"
+      ],
+      "dari": [
+        "prs"
+      ],
+      "tajik": [
+        "tgk"
+      ],
+      "pashto": [
+        "pus",
+        "pbt",
+        "pbu",
+        "pst"
+      ],
+      "kurdish": [
+        "kur",
+        "kmr",
+        "ckb",
+        "sdh"
+      ],
+      "kurmanji": [
+        "kmr"
+      ],
+      "sorani": [
+        "ckb"
+      ],
+      "balochi": [
+        "bal",
+        "bcc",
+        "bgn",
+        "bgp"
+      ],
+      "gilaki": [
+        "glk"
+      ],
+      "mazanderani": [
+        "mzn"
+      ],
+      "talysh": [
+        "tly"
+      ],
+      "tati": [
+        "tks",
+        "esh",
+        "hrz",
+        "xkc",
+        "xkj",
+        "xkp",
+        "tov",
+        "kgn"
+      ],
+      "tat-caucasus": [
+        "ttt",
+        "jdt"
+      ],
+      "zaza": [
+        "zza",
+        "diq",
+        "kiu"
+      ],
+      "gorani": [
+        "hac"
+      ],
+      "hawrami": [
+        "hac"
+      ],
+      "luri": [
+        "lrc",
+        "luz",
+        "bqi"
+      ],
+      "laki": [
+        "lki"
+      ],
+      "ossetic": [
+        "oss",
+        "osd"
+      ],
+      "shughni": [
+        "sgh"
+      ],
+      "wakhi": [
+        "wbl"
+      ],
+      "yazghulami": [
+        "yah"
+      ],
+      "ishkashimi": [
+        "isk",
+        "sgl"
+      ],
+      "sanglechi": [
+        "sgy",
+        "sgl"
+      ],
+      "yagnobi": [
+        "yai"
+      ],
+      "pamiri": [
+        "sgh",
+        "wbl",
+        "yah",
+        "isk",
+        "sgy",
+        "srh",
+        "mnj",
+        "ydg"
+      ],
+      "middle-persian": [
+        "pal"
+      ],
+      "parthian": [
+        "xpr"
+      ],
+      "old-persian": [
+        "peo"
+      ],
+      "avestan": [
+        "ave"
+      ]
+    },
+    "family": {
+      "name": "Proto-Iranian",
+      "groups": [
+        {
+          "label": "Western Iranian",
+          "branches": [
+            "southwestern",
+            "northwestern"
+          ]
+        },
+        {
+          "label": "Eastern Iranian",
+          "branches": [
+            "eastern",
+            "ossetic"
+          ]
+        },
+        {
+          "label": "Historical languages",
+          "branches": [
+            "extinct"
+          ]
+        }
+      ]
+    },
+    "project_badges": {
+      "badge-ocr": "#5b6b8c",
+      "badge-lid": "#2b4c8c",
+      "badge-data": "#2f7a5a",
+      "badge-nlp": "#b5452a"
+    }
+  },
+  "links": {
+    "glottolog": "https://glottolog.org/resource/languoid/id/{glottolog}",
+    "iso": "https://iso639-3.sil.org/code/{code}",
+    "wikipedia": "{wikipedia}",
+    "commonglot": "https://commonglot.github.io/languages/{code}/",
+    "hf_datasets": "https://huggingface.co/datasets?language=language:{code}",
+    "hf_models": "https://huggingface.co/models?language={code}",
+    "olac": "http://www.language-archives.org/language/{code}"
+  },
+  "link_labels": {
+    "glottolog": "Glottolog",
+    "iso": "ISO 639-3 (SIL)",
+    "wikipedia": "Wikipedia",
+    "commonglot": "CommonGlot booklet",
+    "hf_datasets": "Hugging Face datasets",
+    "hf_models": "Hugging Face models",
+    "olac": "OLAC archives"
+  },
+  "map": {
+    "center": [
+      35.5,
+      58
+    ],
+    "zoom": 4,
+    "tiles": {
+      "light": "https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key={key}",
+      "dark": "https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key={key}"
+    },
+    "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+    "fallback": {
+      "tiles": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+    }
+  },
+  "footer": {
+    "text": "An open research community for computational work on the Iranian language family. All data on this site is open and editable on GitHub.",
+    "copyright": "SIG Iranic · Iranic Languages",
+    "data_note": "Language codes: ISO 639-3 (SIL) and Glottolog (CC BY 4.0)."
+  },
+  "labels": {
+    "home": "Home",
+    "languages": "Languages",
+    "menu": "Menu",
+    "theme": "Switch colour theme",
+    "skip": "Skip to content",
+    "open": "Open page",
+    "explore": "Explore",
+    "elsewhere": "Elsewhere",
+    "error": "Could not load the data",
+    "github": "GitHub",
+    "huggingface": "Hugging Face",
+    "paper": "Paper",
+    "copy_bib": "Copy BibTeX",
+    "abstract": "Abstract",
+    "copied": "Copied",
+    "copy_fail": "Press Ctrl+C",
+    "code": "Code",
+    "all": "All",
+    "edit_on_github": "Edit on GitHub",
+    "noscript": "This site needs JavaScript to show its data. All data is also available as JSON in the data/ folder on GitHub."
+  }
+}

@@ -1,0 +1,801 @@
+{
+  "samples": {
+    "normalize": "اين يك متن نمونه است كه با صفحه‌كليد عربي نوشته شده‌ است ؛ اعداد ١٢٣ و ۴۵۶ و 789 ...  مي خواهم آن را درست كنم ؟",
+    "inspect": "سلام‌ دنیا! يك كتاب ‏Kurdî: ئەز کوردم 123",
+    "translit": {
+      "sorani": "زمانی کوردی زمانێکی جوانە",
+      "persian": "زبان‌های ایرانی خانواده‌ای بزرگ هستند"
+    }
+  },
+  "normalize": [
+    {
+      "id": "yeh",
+      "label": "Arabic ي and ى → Persian ی",
+      "default": true,
+      "rules": [
+        [
+          "[يى]",
+          "g",
+          "ی"
+        ]
+      ]
+    },
+    {
+      "id": "kaf",
+      "label": "Arabic ك → Persian ک",
+      "default": true,
+      "rules": [
+        [
+          "ك",
+          "g",
+          "ک"
+        ]
+      ]
+    },
+    {
+      "id": "digits_fa",
+      "label": "Arabic-Indic digits ٠–٩ → Persian ۰–۹",
+      "default": true,
+      "rules": [
+        [
+          "٠",
+          "g",
+          "۰"
+        ],
+        [
+          "١",
+          "g",
+          "۱"
+        ],
+        [
+          "٢",
+          "g",
+          "۲"
+        ],
+        [
+          "٣",
+          "g",
+          "۳"
+        ],
+        [
+          "٤",
+          "g",
+          "۴"
+        ],
+        [
+          "٥",
+          "g",
+          "۵"
+        ],
+        [
+          "٦",
+          "g",
+          "۶"
+        ],
+        [
+          "٧",
+          "g",
+          "۷"
+        ],
+        [
+          "٨",
+          "g",
+          "۸"
+        ],
+        [
+          "٩",
+          "g",
+          "۹"
+        ]
+      ]
+    },
+    {
+      "id": "digits_latin",
+      "label": "All digits → Latin 0–9",
+      "default": false,
+      "rules": [
+        [
+          "[۰٠]",
+          "g",
+          "0"
+        ],
+        [
+          "[۱١]",
+          "g",
+          "1"
+        ],
+        [
+          "[۲٢]",
+          "g",
+          "2"
+        ],
+        [
+          "[۳٣]",
+          "g",
+          "3"
+        ],
+        [
+          "[۴٤]",
+          "g",
+          "4"
+        ],
+        [
+          "[۵٥]",
+          "g",
+          "5"
+        ],
+        [
+          "[۶٦]",
+          "g",
+          "6"
+        ],
+        [
+          "[۷٧]",
+          "g",
+          "7"
+        ],
+        [
+          "[۸٨]",
+          "g",
+          "8"
+        ],
+        [
+          "[۹٩]",
+          "g",
+          "9"
+        ]
+      ]
+    },
+    {
+      "id": "tatweel",
+      "label": "Remove tatweel (kashida) ـ",
+      "default": true,
+      "rules": [
+        [
+          "ـ",
+          "g",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "diacritics",
+      "label": "Remove short-vowel marks (harakat)",
+      "default": false,
+      "rules": [
+        [
+          "[ً-ٰٟ]",
+          "g",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "bidi",
+      "label": "Remove invisible direction marks and BOM",
+      "default": true,
+      "rules": [
+        [
+          "[‎‏‪-‮⁦-⁩﻿­]",
+          "g",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "zwnj",
+      "label": "Tidy ZWNJ (no doubles, none next to spaces)",
+      "default": true,
+      "rules": [
+        [
+          "‌{2,}",
+          "g",
+          "‌"
+        ],
+        [
+          "‌(?=\\s)|(?<=\\s)‌",
+          "g",
+          ""
+        ],
+        [
+          "^‌|‌$",
+          "gm",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "mi",
+      "label": "Join می / نمی prefix with ZWNJ",
+      "default": true,
+      "rules": [
+        [
+          "(^|[\\s‌])(ن?می) (?=[؀-ۿ])",
+          "g",
+          "$1$2‌"
+        ]
+      ]
+    },
+    {
+      "id": "punct",
+      "label": "Persian punctuation ، ؛ ؟ after Persian words",
+      "default": true,
+      "rules": [
+        [
+          "(?<=[؀-ۿ]\\s?),",
+          "g",
+          "،"
+        ],
+        [
+          "(?<=[؀-ۿ]\\s?);",
+          "g",
+          "؛"
+        ],
+        [
+          "(?<=[؀-ۿ]\\s?)\\?",
+          "g",
+          "؟"
+        ]
+      ]
+    },
+    {
+      "id": "spaces",
+      "label": "Fix spaces around punctuation, collapse repeats",
+      "default": true,
+      "rules": [
+        [
+          "[  \t]+",
+          "g",
+          " "
+        ],
+        [
+          " +([،؛؟.!:)\\]])",
+          "g",
+          "$1"
+        ],
+        [
+          "([،؛؟!:])(?=[^\\s\\d])",
+          "g",
+          "$1 "
+        ],
+        [
+          "\\.{3,}",
+          "g",
+          "…"
+        ],
+        [
+          "^ +| +$",
+          "gm",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "sorani_ae",
+      "label": "Sorani: ه + ZWNJ → ە",
+      "default": false,
+      "rules": [
+        [
+          "ه‌",
+          "g",
+          "ە"
+        ]
+      ]
+    }
+  ],
+  "flags": {
+    "064A": {
+      "name": "ARABIC LETTER YEH",
+      "note": "Arabic Yeh. Persian and Kurdish use ی (U+06CC).",
+      "level": "warn"
+    },
+    "0649": {
+      "name": "ARABIC LETTER ALEF MAKSURA",
+      "note": "Often typed for ی (U+06CC) in Persian.",
+      "level": "warn"
+    },
+    "0643": {
+      "name": "ARABIC LETTER KAF",
+      "note": "Arabic Kaf. Persian and Kurdish use ک (U+06A9).",
+      "level": "warn"
+    },
+    "0629": {
+      "name": "ARABIC LETTER TEH MARBUTA",
+      "note": "Correct in Arabic loanwords; check it is intended.",
+      "level": "info"
+    },
+    "0640": {
+      "name": "ARABIC TATWEEL",
+      "note": "Decorative stretching; usually removed for NLP.",
+      "level": "warn"
+    },
+    "200C": {
+      "name": "ZERO WIDTH NON-JOINER",
+      "note": "Half-space. Correct inside words like می‌خواهم; wrong next to a space.",
+      "level": "info"
+    },
+    "200D": {
+      "name": "ZERO WIDTH JOINER",
+      "note": "Rarely needed in Persian or Kurdish text.",
+      "level": "warn"
+    },
+    "200E": {
+      "name": "LEFT-TO-RIGHT MARK",
+      "note": "Invisible direction mark.",
+      "level": "warn"
+    },
+    "200F": {
+      "name": "RIGHT-TO-LEFT MARK",
+      "note": "Invisible direction mark.",
+      "level": "warn"
+    },
+    "202A": {
+      "name": "LEFT-TO-RIGHT EMBEDDING",
+      "note": "Invisible bidi control.",
+      "level": "warn"
+    },
+    "202B": {
+      "name": "RIGHT-TO-LEFT EMBEDDING",
+      "note": "Invisible bidi control.",
+      "level": "warn"
+    },
+    "202C": {
+      "name": "POP DIRECTIONAL FORMATTING",
+      "note": "Invisible bidi control.",
+      "level": "warn"
+    },
+    "202D": {
+      "name": "LEFT-TO-RIGHT OVERRIDE",
+      "note": "Invisible bidi control.",
+      "level": "warn"
+    },
+    "202E": {
+      "name": "RIGHT-TO-LEFT OVERRIDE",
+      "note": "Invisible bidi control; can disguise text.",
+      "level": "warn"
+    },
+    "FEFF": {
+      "name": "BYTE ORDER MARK",
+      "note": "Invisible; often left over from file encodings.",
+      "level": "warn"
+    },
+    "00A0": {
+      "name": "NO-BREAK SPACE",
+      "note": "Looks like a space but is not one.",
+      "level": "info"
+    },
+    "00AD": {
+      "name": "SOFT HYPHEN",
+      "note": "Invisible unless a line breaks.",
+      "level": "warn"
+    },
+    "06C0": {
+      "name": "ARABIC LETTER HEH WITH YEH ABOVE",
+      "note": "Ezafe on final heh; some pipelines expect ه + ٔ instead.",
+      "level": "info"
+    },
+    "0647": {
+      "name": "ARABIC LETTER HEH",
+      "note": "In Sorani, the vowel e is ە (U+06D5) and h is ھ (U+06BE).",
+      "level": "context-sorani"
+    }
+  },
+  "digit_ranges": {
+    "Arabic-Indic digits": [
+      [
+        "0660",
+        "0669"
+      ]
+    ],
+    "Persian digits": [
+      [
+        "06F0",
+        "06F9"
+      ]
+    ]
+  },
+  "scripts": [
+    {
+      "name": "Perso-Arabic",
+      "color": "#b5452a",
+      "ranges": [
+        [
+          "0600",
+          "06FF"
+        ],
+        [
+          "0750",
+          "077F"
+        ],
+        [
+          "08A0",
+          "08FF"
+        ],
+        [
+          "FB50",
+          "FDFF"
+        ],
+        [
+          "FE70",
+          "FEFF"
+        ]
+      ]
+    },
+    {
+      "name": "Latin",
+      "color": "#2b4c8c",
+      "ranges": [
+        [
+          "0041",
+          "005A"
+        ],
+        [
+          "0061",
+          "007A"
+        ],
+        [
+          "00C0",
+          "024F"
+        ],
+        [
+          "1E00",
+          "1EFF"
+        ]
+      ]
+    },
+    {
+      "name": "Cyrillic",
+      "color": "#2f7a5a",
+      "ranges": [
+        [
+          "0400",
+          "04FF"
+        ],
+        [
+          "0500",
+          "052F"
+        ]
+      ]
+    },
+    {
+      "name": "Hebrew",
+      "color": "#5b6b8c",
+      "ranges": [
+        [
+          "0590",
+          "05FF"
+        ]
+      ]
+    },
+    {
+      "name": "Greek",
+      "color": "#3f7f8c",
+      "ranges": [
+        [
+          "0370",
+          "03FF"
+        ]
+      ]
+    },
+    {
+      "name": "Georgian",
+      "color": "#34495e",
+      "ranges": [
+        [
+          "10A0",
+          "10FF"
+        ]
+      ]
+    },
+    {
+      "name": "Armenian",
+      "color": "#8c4a5b",
+      "ranges": [
+        [
+          "0530",
+          "058F"
+        ]
+      ]
+    },
+    {
+      "name": "Devanagari",
+      "color": "#c8962c",
+      "ranges": [
+        [
+          "0900",
+          "097F"
+        ]
+      ]
+    },
+    {
+      "name": "Old Persian",
+      "color": "#8b4513",
+      "ranges": [
+        [
+          "103A0",
+          "103DF"
+        ]
+      ]
+    },
+    {
+      "name": "Avestan",
+      "color": "#a0864f",
+      "ranges": [
+        [
+          "10B00",
+          "10B3F"
+        ]
+      ]
+    },
+    {
+      "name": "Inscriptional Parthian",
+      "color": "#a0864f",
+      "ranges": [
+        [
+          "10B40",
+          "10B5F"
+        ]
+      ]
+    },
+    {
+      "name": "Inscriptional Pahlavi",
+      "color": "#c46a2a",
+      "ranges": [
+        [
+          "10B60",
+          "10B7F"
+        ]
+      ]
+    },
+    {
+      "name": "Psalter Pahlavi",
+      "color": "#c46a2a",
+      "ranges": [
+        [
+          "10B80",
+          "10BAF"
+        ]
+      ]
+    },
+    {
+      "name": "Manichaean",
+      "color": "#6d5a4a",
+      "ranges": [
+        [
+          "10AC0",
+          "10AFF"
+        ]
+      ]
+    },
+    {
+      "name": "Sogdian",
+      "color": "#1f7f6f",
+      "ranges": [
+        [
+          "10F00",
+          "10F2F"
+        ],
+        [
+          "10F30",
+          "10F6F"
+        ]
+      ]
+    },
+    {
+      "name": "Chorasmian",
+      "color": "#7a5c3e",
+      "ranges": [
+        [
+          "10FB0",
+          "10FCF"
+        ]
+      ]
+    },
+    {
+      "name": "Brahmi",
+      "color": "#9a6b2f",
+      "ranges": [
+        [
+          "11000",
+          "1107F"
+        ]
+      ]
+    },
+    {
+      "name": "Digits",
+      "color": "#8a8073",
+      "ranges": [
+        [
+          "0030",
+          "0039"
+        ]
+      ]
+    }
+  ],
+  "translit": [
+    {
+      "id": "sorani",
+      "label": "Sorani Kurdish (Arabic script) → Kurdish Latin (Hawar)",
+      "dir": "rtl",
+      "note": "The short vowel i is not written in Sorani script, so it cannot be restored.",
+      "vowels": "اەۆێ",
+      "semivowels": {
+        "و": {
+          "vowel": "u",
+          "double": "û",
+          "consonant": "w"
+        },
+        "ی": {
+          "vowel": "î",
+          "consonant": "y"
+        },
+        "ي": {
+          "vowel": "î",
+          "consonant": "y"
+        }
+      },
+      "map": {
+        "ئ": "",
+        "ا": "a",
+        "ب": "b",
+        "پ": "p",
+        "ت": "t",
+        "ج": "c",
+        "چ": "ç",
+        "ح": "ḧ",
+        "خ": "x",
+        "د": "d",
+        "ر": "r",
+        "ڕ": "rr",
+        "ز": "z",
+        "ژ": "j",
+        "س": "s",
+        "ش": "ş",
+        "ع": "'",
+        "غ": "ẍ",
+        "ف": "f",
+        "ڤ": "v",
+        "ق": "q",
+        "ک": "k",
+        "ك": "k",
+        "گ": "g",
+        "ل": "l",
+        "ڵ": "ll",
+        "م": "m",
+        "ن": "n",
+        "ھ": "h",
+        "ه": "h",
+        "ە": "e",
+        "ۆ": "o",
+        "ێ": "ê",
+        "‌": "",
+        "،": ",",
+        "؛": ";",
+        "؟": "?",
+        "٠": "0",
+        "١": "1",
+        "٢": "2",
+        "٣": "3",
+        "٤": "4",
+        "٥": "5",
+        "٦": "6",
+        "٧": "7",
+        "٨": "8",
+        "٩": "9",
+        "۰": "0",
+        "۱": "1",
+        "۲": "2",
+        "۳": "3",
+        "۴": "4",
+        "۵": "5",
+        "۶": "6",
+        "۷": "7",
+        "۸": "8",
+        "۹": "9"
+      },
+      "initial_pairs": {}
+    },
+    {
+      "id": "persian",
+      "label": "Persian → Latin (simplified, no diacritics)",
+      "dir": "rtl",
+      "note": "Persian script leaves short vowels unwritten, so a, e, o only appear where harakat are present. Treat the output as a reading aid, not a standard romanisation.",
+      "vowels": "اآ",
+      "initial": {
+        "ا": "a",
+        "آ": "ā"
+      },
+      "final": {
+        "ه": "e"
+      },
+      "semivowels": {
+        "و": {
+          "vowel": "u",
+          "consonant": "v"
+        },
+        "ی": {
+          "vowel": "i",
+          "consonant": "y"
+        },
+        "ي": {
+          "vowel": "i",
+          "consonant": "y"
+        }
+      },
+      "map": {
+        "ا": "ā",
+        "آ": "ā",
+        "أ": "a",
+        "إ": "e",
+        "ء": "'",
+        "ئ": "'",
+        "ؤ": "'",
+        "ب": "b",
+        "پ": "p",
+        "ت": "t",
+        "ث": "s",
+        "ج": "j",
+        "چ": "ch",
+        "ح": "h",
+        "خ": "kh",
+        "د": "d",
+        "ذ": "z",
+        "ر": "r",
+        "ز": "z",
+        "ژ": "zh",
+        "س": "s",
+        "ش": "sh",
+        "ص": "s",
+        "ض": "z",
+        "ط": "t",
+        "ظ": "z",
+        "ع": "'",
+        "غ": "gh",
+        "ف": "f",
+        "ق": "q",
+        "ک": "k",
+        "ك": "k",
+        "گ": "g",
+        "ل": "l",
+        "م": "m",
+        "ن": "n",
+        "ه": "h",
+        "ة": "e",
+        "َ": "a",
+        "ِ": "e",
+        "ُ": "o",
+        "ْ": "",
+        "ّ": "",
+        "‌": "-",
+        "،": ",",
+        "؛": ";",
+        "؟": "?",
+        "۰": "0",
+        "۱": "1",
+        "۲": "2",
+        "۳": "3",
+        "۴": "4",
+        "۵": "5",
+        "۶": "6",
+        "۷": "7",
+        "۸": "8",
+        "۹": "9",
+        "٠": "0",
+        "١": "1",
+        "٢": "2",
+        "٣": "3",
+        "٤": "4",
+        "٥": "5",
+        "٦": "6",
+        "٧": "7",
+        "٨": "8",
+        "٩": "9"
+      },
+      "shadda": "ّ",
+      "initial_pairs": {
+        "ای": "i",
+        "او": "u"
+      }
+    }
+  ]
+}

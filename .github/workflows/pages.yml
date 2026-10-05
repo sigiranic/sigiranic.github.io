@@ -23,20 +23,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Inject CARTO Basemaps key
+      # Builds every page from templates/ and data/, and fails on broken links or unfilled placeholders.
+      - name: Build site
+        run: python3 tools/build.py --out _site
+
+      # The map reads the CARTO key at runtime from data/runtime.json; it never lives in the repository.
+      - name: Add CARTO Basemaps key
         env:
           CARTO_BASEMAPS_KEY: ${{ secrets.CARTO_BASEMAPS_KEY }}
         run: |
           if [ -z "$CARTO_BASEMAPS_KEY" ]; then
-            echo "::warning::CARTO_BASEMAPS_KEY secret is not set; map tiles will show the API-key watermark."
+            echo "::warning::CARTO_BASEMAPS_KEY secret is not set; maps fall back to OpenStreetMap tiles."
           fi
-          sed -i "s|__CARTO_BASEMAPS_KEY__|${CARTO_BASEMAPS_KEY}|g" index.html
+          python3 -c 'import json, os; json.dump({"carto_basemaps_key": os.environ.get("CARTO_BASEMAPS_KEY", "")}, open("_site/data/runtime.json", "w"))'
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - id: deployment
         uses: actions/deploy-pages@v4
