@@ -303,31 +303,29 @@
       "id": "smol",
       "name": "SMOL",
       "task": "machine-translation",
-      "description": "Professionally translated sentences (SmolSent) and documents (SmolDoc) for 115 under-represented languages, from Google. Gilaki and Hawrami are in SmolDoc.",
+      "description": "Professionally translated sentences (SmolSent) and documents (SmolDoc) for 115 under-represented languages, from Google. Gilaki and Hawrami each have 863 SmolSent sentence pairs, translated from English.",
       "languages": [
         {
           "lang": "gilaki",
-          "sentences": null,
-          "documents": 863,
+          "sentences": 863,
           "pairs": [
             {
               "lang": "English",
               "count": 863
             }
           ],
-          "source": "Table H.1: en→glk, 0 SmolSent sentence pairs, 863 SmolDoc documents (52k characters)"
+          "source": "Table H.1: en→glk, 863 SmolSent sentence pairs, 0 SmolDoc documents (52k target characters)"
         },
         {
           "lang": "gorani",
-          "sentences": null,
-          "documents": 863,
+          "sentences": 863,
           "pairs": [
             {
               "lang": "English",
               "count": 863
             }
           ],
-          "source": "Table H.1: en→hac (Hawrami), 0 SmolSent sentence pairs, 863 SmolDoc documents (77k characters)"
+          "source": "Table H.1: en→hac (Hawrami), 863 SmolSent sentence pairs, 0 SmolDoc documents (77k target characters)"
         }
       ],
       "access": "Public",
