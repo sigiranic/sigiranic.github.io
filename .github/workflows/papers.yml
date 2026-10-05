@@ -39,6 +39,8 @@ jobs:
           git config user.email "noreply@anthropic.com"
           git add data/papers.json
           git commit -m "Update paper abstracts and authors from arXiv, ACL Anthology and Semantic Scholar"
+          # main may have moved while the script ran
+          git pull --rebase origin main
           git push
           # pushes made with GITHUB_TOKEN do not start other workflows, so start the deploy explicitly
           gh workflow run pages.yml --ref main
