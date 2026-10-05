@@ -96,7 +96,7 @@
       "machine-translation"
     ],
     "url": "https://aclanthology.org/2025.acl-long.1451.pdf",
-    "abstract": "The Middle East is characterized by remarkable linguistic diversity, with over 500 million inhabitants speaking more than 60 languages across multiple language families. In a first attempt of its kind",
+    "abstract": "The Middle East is characterized by remarkable linguistic diversity, with over 400 million inhabitants speaking more than 60 languages across multiple language families. This study presents a pioneering work in developing the first parallel corpora for eight severely under-resourced varieties in the region–PARME, addressing fundamental challenges in low-resource scenarios including non-standardized writing and dialectal complexity. Through an extensive community-driven initiative, volunteers contributed to the creation of over 36,000 translated sentences, marking a significant milestone in resource development. We evaluate machine translation capabilities through zero-shot approaches and fine-tuning experiments with pretrained machine translation models and provide a comprehensive analysis of limitations. Our findings reveal significant gaps in existing technologies for processing the selected languages, highlighting critical areas for improvement in language technology for Middle Eastern languages.",
     "links": {
       "paper": "https://aclanthology.org/2025.acl-long.1451.pdf",
       "github": "https://github.com/DOLMA-NLP/PARME/tree/main"
@@ -123,7 +123,7 @@
       "machine-translation"
     ],
     "url": "https://aclanthology.org/2025.iwslt-1.10/",
-    "abstract": "This project is a follow-up of PARME where over 36,000 translation pairs are provided for eight low-resourced languages in the Middle East: Luri Bakhtiari (bqi), Gilaki (glk), Hawrami (hac), Laki Kurd",
+    "abstract": "Middle Eastern languages represent a linguistically diverse landscape, yet few have received substantial attention in language and speech technology outside those with official status. Machine translation, a cornerstone application in computational linguistics, remains particularly underexplored for these predominantly non-standardized, spoken varieties. This paper proposes data alignment and augmentation techniques that leverage monolingual corpora and large language models to create high-quality parallel corpora for low-resource Middle Eastern languages. Through systematic fine-tuning of a pretrained machine translation model in a multilingual framework, our results demonstrate that corpus quality consistently outperforms quantity as a determinant of translation accuracy. Furthermore, we provide empirical evidence that strategic data selection significantly enhances cross-lingual transfer in multilingual translation systems. These findings offer valuable insights for developing machine translation solutions in linguistically diverse, resource-constrained environments.",
     "links": {
       "paper": "https://aclanthology.org/2025.iwslt-1.10/",
       "github": "https://github.com/DOLMA-NLP/bitext-mining"
@@ -186,7 +186,7 @@
       "vision-language"
     ],
     "url": "https://aclanthology.org/2025.evalmg-1.5/",
-    "abstract": "",
+    "abstract": "This study introduces a novel framework for evaluating Large Language Models (LLMs) and Vision-Language Models (VLMs) in Persian, a low-resource language. We develop comprehensive datasets to assess reasoning, linguistic understanding, and multimodal capabilities. Our datasets include Persian-OCR-QA for optical character recognition, Persian-VQA for visual question answering, Persian world-image puzzle for multimodal integration, Visual-Abstraction-Reasoning for abstract reasoning, and Iran-places for visual knowledge of Iranian figures and locations. We evaluate models like GPT-4o, Claude 3.5 Sonnet, and Llama 3.2 90B Vision, revealing their strengths and weaknesses in processing Persian. This research contributes to inclusive language processing by addressing the unique challenges of low-resource language evaluation.",
     "links": {
       "paper": "https://aclanthology.org/2025.evalmg-1.5/",
       "huggingface": "https://huggingface.co/datasets/AUT-NLP/Persian-OCR-QA"
@@ -407,7 +407,7 @@
       "dataset"
     ],
     "url": "https://link.springer.com/article/10.1007/s11042-023-16067-5",
-    "abstract": "An implementation of the paper \"Leveraging ParsBERT for cross-domain polarity sentiment classification of Persian social media comments\" along with the dataset Insta-MultiDSenti",
+    "abstract": "Sentiment analysis is the computational study of the emotions, attitudes and opinions of humans through the extraction of meaningful information. Social media platforms that allow consumers to share and publish content, are enriched with opinionating information that many analytical researches are currently, however, limited to a specific domain. This research presents an architecture to analyze a limited resource language, Persian language, and focuses on the analysis of social media, consisting of informal comments across different domains. The proposed model applies a transformer-based model, ParsBERT, to classify the sentiments of social media comments. Since social media comments have different domains, it is necessary for the proposed model to classify sentiments of comments in different domains. ParsBERT has been fine-tuned on a Persian corpus that has been generated for the purpose of this study. The generated corpus has been gathered from 28,710 Instagram comments in different topic domains and have been labeled as either negative or positive comments. The proposed model has been evaluated based on different test data belonging to different time-periods and topic domains and results have been compared with recent methods for the task of sentiment analysis for three different scenarios. Results show that when the training and test data are from different domains an accuracy of 68% is achieved, which is higher than other shallow methodologies and deep learning methods for determining the sentiments of social media comments in different domains.",
     "links": {
       "paper": "https://link.springer.com/article/10.1007/s11042-023-16067-5",
       "github": "https://github.com/mpanahi/BERT-crossDomain-sentiment-classification"
@@ -507,7 +507,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/C16-1319/",
-    "abstract": "This is a manually-annotated named entity recognition dataset with 250,015 tokens and 7,682 sentences. The dataset includes six named entity classes like Person, Organization, Location, and Event, in ",
+    "abstract": "Named-Entity Recognition (NER) is still a challenging task for languages with low digital resources. The main difficulties arise from the scarcity of annotated corpora and the consequent problematic training of an effective NER pipeline. To abridge this gap, in this paper we target the Persian language that is spoken by a population of over a hundred million people world-wide. We first present and provide ArmanPerosNERCorpus, the first manually-annotated Persian NER corpus. Then, we introduce PersoNER, an NER pipeline for Persian that leverages a word embedding and a sequential max-margin classifier. The experimental results show that the proposed approach is capable of achieving interesting MUC7 and CoNNL scores while outperforming two alternatives based on a CRF and a recurrent neural network.",
     "links": {
       "paper": "https://aclanthology.org/C16-1319/",
       "github": "https://github.com/AminMozhgani/Persian_NER"
@@ -560,7 +560,7 @@
   {
     "id": "investigatingshallowanddeeplea",
     "title": "Investigating Shallow and Deep Learning Techniques for Emotion Classification in Short Persian Texts",
-    "authors": "",
+    "authors": "Mahdi Rasouli, Vahid Kiani",
     "venue": "Conf/Journal 2024",
     "year": 2024,
     "langs": [
@@ -570,7 +570,7 @@
       "emotion-detection"
     ],
     "url": "https://jad.shahroodut.ac.ir/article_3030.html",
-    "abstract": "The code and data in this project are related to the following research article, in which firstly ShortPersianEmo a new data set for emotion recognition in Persian short texts is introduced, and secon",
+    "abstract": "The identification of emotions in short texts of low-resource languages poses a significant challenge, requiring specialized frameworks and computational intelligence techniques. This paper presents a comprehensive exploration of shallow and deep learning methods for emotion detection in short Persian texts. Shallow learning methods employ feature extraction and dimension reduction to enhance classification accuracy. On the other hand, deep learning methods utilize transfer learning and word embedding, particularly BERT, to achieve high classification accuracy. A Persian dataset called \"ShortPersianEmo\" is introduced to evaluate the proposed methods, comprising 5472 diverse short Persian texts labeled in five main emotion classes. The evaluation results demonstrate that transfer learning and BERT-based text embedding perform better in accurately classifying short Persian texts than alternative approaches. The dataset of this study ShortPersianEmo will be publicly available online at https://github.com/vkiani/ShortPersianEmo.",
     "links": {
       "paper": "https://jad.shahroodut.ac.ir/article_3030.html",
       "github": "https://github.com/vkiani/ShortPersianEmo?tab=readme-ov-file"
@@ -1028,7 +1028,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/W19-3634/",
-    "abstract": "Kurdish is a less-resourced language consisting of different dialects written in various scripts. Approximately 30 million people in different countries speak the language. The lack of corpora is one ",
+    "abstract": "Kurdish is a less-resourced language consisting of different dialects written in various scripts. Approximately 30 million people in different countries speak the language. The lack of corpora is one of the main obstacles in Kurdish language processing. In this paper, we present KTC-the Kurdish Textbooks Corpus, which is composed of 31 K-12 textbooks in Sorani dialect. The corpus is normalized and categorized into 12 educational subjects containing 693,800 tokens (110,297 types). Our resource is publicly available for non-commercial use under the CC BY-NC-SA 4.0 license.",
     "links": {
       "paper": "https://aclanthology.org/W19-3634/",
       "github": "https://github.com/KurdishBLARK/KTC"
@@ -1527,7 +1527,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2020.lrec-1.348/",
-    "abstract": "MirasOpinion is crawled from the Digikala website, one of the largest e-commerce websites in Iran. 2.5 million comments have been crawled, and after some pre-processing, we reduce its size to one mill",
+    "abstract": "Deep learning models are the current State-of-the-art methodologies towards many real-world problems. However, they need a substantial amount of labeled data to be trained appropriately. Acquiring labeled data can be challenging in some particular domains or less-resourced languages. There are some practical solutions regarding these issues, such as Active Learning and Transfer Learning. Active learning’s idea is simple: let the model choose the samples for annotation instead of labeling the whole dataset. This method leads to a more efficient annotation process. Active Learning models can achieve the baseline performance (the accuracy of the model trained on the whole dataset), with a considerably lower amount of labeled data. Several active learning approaches are tested in this work, and their compatibility with Persian is examined using a brand-new sentiment analysis dataset that is also introduced in this work. MirasOpinion, which to our knowledge is the largest Persian sentiment analysis dataset, is crawled from a Persian e-commerce website and annotated using a crowd-sourcing policy. LDA sampling, which is an efficient Active Learning strategy using Topic Modeling, is proposed in this research. Active Learning Strategies have shown promising results in the Persian language, and LDA sampling showed a competitive performance compared to other approaches.",
     "links": {
       "paper": "https://aclanthology.org/2020.lrec-1.348/",
       "github": "https://github.com/miras-tech/MirasText/tree/master/MirasOpinion"
@@ -1552,7 +1552,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2020.vardial-1.7/",
-    "abstract": "This repository provides a corpus for two endangered languages of the Zaza-Gorani language family: Zazaki and Gorani. These two languages along with Shabaki are the three languages belonging to the Za",
+    "abstract": "Thanks to the growth of local communities and various news websites along with the increasing accessibility of the Web, some of the endangered and less-resourced languages have a chance to revive in the information era. Therefore, the Web is considered a huge resource that can be used to extract language corpora which enable researchers to carry out various studies in linguistics and language technology. The Zaza–Gorani language family is a linguistic subgroup of the Northwestern Iranian languages for which there is no significant corpus available. Motivated to create one, in this paper we present our endeavour to collect a corpus in Zazaki and Gorani languages containing over 1.6M and 194k word tokens, respectively. This corpus is publicly available.",
     "links": {
       "paper": "https://aclanthology.org/2020.vardial-1.7/",
       "github": "https://github.com/sinaahmadi/ZazaGoraniCorpus?tab=readme-ov-file"
@@ -1574,7 +1574,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2020.signlang-1.19/",
-    "abstract": "KurdishSignLanguage\nThis dataset is used in translating Kurdish texts to Kurdish Sign Language (KuSL). Currently, the dataset is useful in making the texts in the Sorani dialect Sign-supported. We aim",
+    "abstract": "The resources and technologies for Sign language processing of resourceful languages are emerging, while the low-resource languages are falling behind. Kurdish is a multi-dialect language, and it is considered a low-resource language. It is spoken by approximately 30 million people in several countries, which denotes that it has a large community with hearing-impairments as well. This paper reports on a project which aims to develop the necessary data and tools to process the Sign language for Sorani as one of the spoken Kurdish dialects. We present the results of developing a dataset in HamNoSys and its corresponding SiGML form for the Kurdish Sign lexicon. We use this dataset to implement a sign-supported Kurdish tool to check the accuracy of the Sign lexicon. We tested the tool by presenting it to hearing-impaired individuals. The experiment showed that 100% of the translated letters were understandable by a hearing-impaired person. The percentages were 65% for isolated words, and approximately 30% for the words in sentences. The data is publicly available at https://github.com/KurdishBLARK/KurdishSignLanguage for non-commercial use under the CC BY-NC-SA 4.0 licence",
     "links": {
       "paper": "https://aclanthology.org/2020.signlang-1.19/",
       "github": "https://github.com/KurdishBLARK/KurdishSignLanguage"
@@ -1598,7 +1598,7 @@
       "dataset"
     ],
     "url": "https://aclanthology.org/2020.sltu-1.46/",
-    "abstract": "Kurdish poetry and prose narratives were historically transmitted orally and less in a written form. Being an essential medium of oral narration and literature, Kurdish lyrics have had a unique attrib",
+    "abstract": "Kurdish poetry and prose narratives were historically transmitted orally and less in a written form. Being an essential medium of oral narration and literature, Kurdish lyrics have had a unique attribute in becoming a vital resource for different types of studies, including Digital Humanities, Computational Folkloristics and Computational Linguistics. As an initial study of its kind for the Kurdish language, this paper presents our efforts in transcribing and collecting Kurdish folk lyrics as a corpus that covers various Kurdish musical genres, in particular Beyt, Gorani, Bend, and Heyran. We believe that this corpus contributes to Kurdish language processing in several ways, such as compensation for the lack of a long history of written text by incorporating oral literature, presenting an unexplored realm in Kurdish language processing, and assisting the initiation of Kurdish computational folkloristics. Our corpus contains 49,582 tokens in the Sorani dialect of Kurdish. The corpus is publicly available in the Text Encoding Initiative (TEI) format for non-commercial use.",
     "links": {
       "paper": "https://aclanthology.org/2020.sltu-1.46/",
       "github": "https://github.com/KurdishBLARK/KurdishLyricsCorpus"
