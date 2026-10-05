@@ -96,7 +96,7 @@ const SI = (() => {
       <div class="meta">${esc(p.venue || '')}${p.authors ? ' · ' + esc(shortAuthors(p.authors)) : ''}</div>
       <div class="row">${langs} ${areas}</div>
       <div class="row">${p.abstract ? `<button class="btn btn--sm" type="button" aria-expanded="false" aria-controls="abs-${tok(p.id)}" data-abs>${esc(site.labels.abstract)}</button>` : ''}${links}<button class="btn btn--sm" type="button" data-bib="${tok(p.id)}">${esc(site.labels.copy_bib)}</button></div>
-      ${p.abstract ? `<p class="abstract" id="abs-${tok(p.id)}" hidden>${esc(p.abstract)}${/[.!?)"\u201d]\s*$/.test(p.abstract) ? '' : `… <a href="${href(p.url)}"${ext(p.url)}>${esc(site.labels.read_more)} ↗</a>`}</p>` : ''}
+      ${p.abstract ? `<p class="abstract" id="abs-${tok(p.id)}" hidden>${esc(p.abstract)}${p.abstract.length > 250 || /[.!?)"\u201d]\s*$/.test(p.abstract) ? '' : `… <a href="${href(p.url)}"${ext(p.url)}>${esc(site.labels.read_more)} ↗</a>`}</p>` : ''}
     </li>`;
   }
   // Link buttons with an icon per type (site.link_types); the same URL is shown once.

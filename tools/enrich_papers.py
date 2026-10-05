@@ -123,8 +123,41 @@ def fetch_acl(aid):
             "year": int(f["year"]) if f.get("year", "").isdigit() else None}
 
 
+# ---------- publisher pages ----------
+def meta_tags(page):
+    """name/property -> list of content values from <meta> tags."""
+    out = {}
+    for tag in re.findall(r"<meta\b[^>]*>", page, flags=re.I):
+        name = re.search(r'(?:name|property)\s*=\s*["\']([^"\']+)', tag, re.I)
+        content = re.search(r'content\s*=\s*"([^"]*)"|content\s*=\s*\'([^\']*)\'', tag, re.I)
+        if name and content:
+            out.setdefault(name.group(1).lower(), []).append(content.group(1) if content.group(1) is not None else content.group(2))
+    return out
+
+
+def fetch_page(url):
+    """Abstract, authors and title from a paper's landing page: the ACL Anthology abstract box,
+    or the citation_* / Dublin Core / Open Graph meta tags most publishers include."""
+    if not url or url.lower().endswith(".pdf") or "scholar.google" in url:
+        return None
+    page = get(url)
+    if not page:
+        return None
+    m = meta_tags(page)
+    first = lambda *keys: next((clean(re.sub(r"<[^>]+>", " ", m[k][0])) for k in keys if m.get(k) and m[k][0].strip()), "")
+    abstract = ""
+    box = re.search(r'class="[^"]*acl-abstract[^"]*".*?<span>(.*?)</span>', page, re.S)
+    if box:
+        abstract = clean(re.sub(r"<[^>]+>", " ", box.group(1)))
+    abstract = abstract or first("citation_abstract", "dc.description", "dcterms.abstract", "description", "og:description")
+    authors = [clean(a) for a in m.get("citation_author", []) if a.strip()]
+    authors = [" ".join(reversed([x.strip() for x in a.split(",", 1)])) if "," in a else a for a in authors]
+    return {"title": first("citation_title", "dc.title", "og:title"), "abstract": abstract, "authors": authors, "year": None}
+
+
 # ---------- Semantic Scholar ----------
 def fetch_s2(title):
+    title = re.sub(r"[\u200b-\u200f\u202a-\u202e]", "", title).replace("2. 0", "2.0").strip()
     q = urllib.parse.urlencode({"query": title, "fields": "title,abstract,authors,year"})
     txt = get(f"https://api.semanticscholar.org/graph/v1/paper/search/match?{q}")
     time.sleep(1.5)
@@ -137,8 +170,9 @@ def fetch_s2(title):
 
 
 def cut_off(text):
-    """Empty, or ends mid-sentence: an excerpt, never a finished abstract."""
-    return not text or not re.search(r"[.!?)\"\u201d]\s*$", text)
+    """Empty, or a short text that stops mid-sentence (the old 200-character excerpts).
+    Long abstracts may legitimately end with a URL, so length matters too."""
+    return not text or (len(text) <= 250 and not re.search(r"[.!?)\"\u201d]\s*$", text))
 
 
 def replaceable(stored, full):
@@ -169,6 +203,15 @@ def main():
             m = ACL_ID.search(p["url"] + " " + " ".join((p.get("links") or {}).values()))
             if m:
                 meta = fetch_acl(m.group(1).rstrip("."))
+        if not meta or not meta.get("abstract"):
+            m = ACL_ID.search(p["url"] + " " + " ".join((p.get("links") or {}).values()))
+            pages = [f"https://aclanthology.org/{m.group(1).rstrip('.')}/"] if m else []
+            pages += [u for u in [p["url"], (p.get("links") or {}).get("paper")] if u and u not in pages]
+            for u in pages:
+                page = fetch_page(u)
+                if page and page.get("abstract") and len(page["abstract"]) > 120:
+                    meta = {**(meta or {}), **{k: v for k, v in page.items() if v}}
+                    break
         if not meta or not meta.get("abstract"):
             meta = fetch_s2(p["title"]) or meta
         if not meta:
