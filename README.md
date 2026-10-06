@@ -23,7 +23,6 @@ Website of SIG Iranic, the special interest group on Iranian languages: <https:/
 | `papers.json` | papers; `langs` use the keys mapped to ISO codes in `site.json` → `taxonomy.lang_keys` |
 | `resources.json` | parallel data, NLP tools and code-mixing resources per language |
 | `writing-systems.json` | scripts, with Unicode blocks, fonts and periods for the timeline |
-| `projects.json` | projects shown on the research page |
 | `text-tools.json` | toolkit rules: normalisation, flagged characters, script ranges, transliteration tables |
 
 `templates/` holds only page structure and `assets/js/` only arranges the data. To add a paper or a dataset, edit the JSON and open a pull request.

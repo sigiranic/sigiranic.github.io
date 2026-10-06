@@ -3,7 +3,7 @@
   try {
     const site = await SI.site;
     const P = site.pages.research, T = site.taxonomy;
-    const [papersAll, projects] = await Promise.all([data('papers'), data('projects')]);
+    const papersAll = await data('papers');
     const papers = SI.realPapers(papersAll);
     const url = SI.params();
     const focusId = url.get('id');
@@ -25,8 +25,6 @@
     $('#per-year-title').textContent = P.per_year_title;
     $('#per-lang-title').textContent = P.per_lang_title;
     $('#export').innerHTML = `<button class="btn btn--sm" type="button" id="bib">${esc(P.export_bib)} ↓</button><button class="btn btn--sm" type="button" id="csv">${esc(P.export_csv)} ↓</button>`;
-    $('#projects-title').textContent = P.projects_title;
-    $('#projects').innerHTML = projects.map(p => SI.projectCard(p, site)).join('');
 
     let rows = [];
     function apply() {

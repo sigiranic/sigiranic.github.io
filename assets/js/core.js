@@ -108,13 +108,7 @@ const SI = (() => {
       return `<a class="btn btn--sm btn--link" href="${href(u)}"${ext(u)}>${icon}${esc(t.label)}</a>`;
     }).join('');
   }
-  function projectCard(p, site) {
-    const col = site.taxonomy.project_badges[p.badge] || 'var(--lapis)';
-    const links = linkButtons({ url: p.url, github: p.github, hf: p.hf, demo: p.demo }, site);
-    return `<article class="card"><span class="badge" style="--c:${color(col)}">${esc(p.badgeLabel)}</span>
-      <h3 style="margin-top:12px">${esc(p.title)}</h3><p class="muted small">${esc(p.desc)}</p>
-      <p class="small muted">${esc(p.venue)} ${esc(p.year)}</p><div class="btn-row">${links}</div></article>`;
-  }
+
   function bibtex(p) {
     const clean = s => String(s || '').replace(/[{}\\]/g, '');
     const fields = [['title', `{${clean(p.title)}}`], p.authors ? ['author', clean(p.authors).split(', ').join(' and ')] : null, ['year', p.year], ['howpublished', `\\url{${clean(p.url)}}`], p.venue ? ['note', clean(p.venue)] : null].filter(Boolean);
@@ -200,5 +194,5 @@ const SI = (() => {
   const site = ready.then(chrome);
 
   return { esc, href, ext, tok, color, fill, data, getJSON, $, $$, fmt, debounce, showError, params, setParams, download, csv, copy, useFont,
-    keyCodes, keysForCode, branch, status, badge, langUrl, realPapers, speakersNum, paperItem, projectCard, linkButtons, bibtex, bindBib, tabs, tabList, tabPanel, bars, currentTheme, site };
+    keyCodes, keysForCode, branch, status, badge, langUrl, realPapers, speakersNum, paperItem, linkButtons, bibtex, bindBib, tabs, tabList, tabPanel, bars, currentTheme, site };
 })();

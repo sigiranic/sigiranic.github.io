@@ -227,7 +227,6 @@
       "export_csv": "CSV",
       "per_year_title": "Papers per year",
       "per_lang_title": "Papers per language",
-      "projects_title": "Projects",
       "empty": "No papers match these filters.",
       "tasks_label": "Tasks"
     },
@@ -683,12 +682,6 @@
           ]
         }
       ]
-    },
-    "project_badges": {
-      "badge-ocr": "#5b6b8c",
-      "badge-lid": "#2b4c8c",
-      "badge-data": "#2f7a5a",
-      "badge-nlp": "#b5452a"
     },
     "lang_primary": {
       "persian": "fas",
